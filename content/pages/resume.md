@@ -11,42 +11,40 @@ date: 2020-11-08T00:39:03Z
 
 [Download Resume PDF](/resume.pdf)
 
-With 20 years of experience in web development, including senior roles, mentoring, and leadership positions, and is well-suited for a Senior Full-Stack Web Developer. Demonstrating proficiency in PHP, Javascript, and frameworks such as React, Angular, and Node.js, with a strong track record of delivering comprehensive solutions across the entire stack. Having successfully launched two software-as-a-service applications as a founder and CTO, expertise includes managing teams of developers and prioritizing feature development in collaboration with stakeholders. His extensive experience, excellent communication skills, strong work ethic, and command of modern development tools and technologies make this professional a valuable asset in a dynamic and fast-paced environment.
+With 20 years of experience in web development, I am well-suited for a Senior Full-Stack Web Developer role. My expertise includes senior positions, mentoring, and leadership roles. I have a proven track record of building and maintaining both backend and frontend systems. As a founder and CTO, I successfully launched two software-as-a-service applications, managing teams of developers and prioritizing feature development in collaboration with stakeholders. My extensive experience, excellent communication skills, strong work ethic, and mastery of modern development tools and technologies make me valuable in any dynamic and fast-paced environment.
 
 ## Technical & Core Skills
 
-PHP | Javascript | Typescript | Node.js | Amazon Web Services (AWS) | MySQL | MongoDB | Linux | React | Angular | Mocha | Chai | Express | Nest.js | Node.js | Testing Frameworks | Jira | Git | Docker | Node.js | PHP | Laravel | Symfony | Elastic Beanstalk | Lambda | SQS | SNS | Firehose | MongoDB | DynamoDB | Technical Advisory | Excels in Communication Skills | Code Review | Hands-on Developer | Software Architecture | Leadership | API Development | Backend Programming | Frontend Programming
+JavaScript | Typescript | Node.js | PHP | Amazon Web Services (AWS) | MySQL | MongoDB | Linux | React | Express | Git | Docker | Elastic Beanstalk | Lambda | SQS | SNS | DynamoDB | Technical Advisory | Code Review | Hands-on Developer | Software Architecture | Leadership | API Development
 
 ## Work History
 
 ### Johnson Health Tech, Cottage Grove, WI
 _Senior Web Engineer, 10/2019 – Present_
 
-* Leads initiatives to improve the codebase and roll out new features, effectively managing significant technical debt.
-* Successfully spearheaded integration testing for legacy applications using Docker, Chai, and Mocha.
-* Develops and documents best practices for git, release planning, and deploying across different environments.
-* Supervises and mentor's junior developers, fostering team growth and overseeing data pipeline system management.
-* Collaborates with other engineering teams to design resilient, fault-tolerant systems.
-* Demonstrates expertise with Javascript, Typescript and uses Node.js as a backend solution.
+* Develop and maintain backend API applications using Node.js, Express, Typescript, and MongoDB.
+* Design and implement API integrations with third-party partners for login and workout assignment services.
+* Review partner documentation and write code to integrate partner services with internal systems.
+* Onboard, mentor, and manage a team of three developers and one QA staff, conducting code reviews and ensuring best practices.
+* Architect automated testing infrastructure with Docker and Mocha to mock third-party APIs, enabling reliable refactoring and validation.
+* Collaborate with internal and external teams to document requirements, design data flows, and ensure resilient and fault-tolerant systems with extensive data validation.
+* Create detailed documentation for data flows, integration steps, and guidelines for reviewing new partner APIs, facilitating efficient onboarding and project execution.
 
 ### Acumium, Madison, WI
 _Web Developer, 11/2017 – 10/2018_
 
-* Developed and implemented training plans to enhance Git competence and standardized development processes.
-* Designed innovative features to meet product user story requirements.
-* Utilized Node.js in backend development for high-scale applications, supporting multiple concurrent requests.
-* Standardized development processes by introducing Git workflow practices.
+* Developed and implemented training plans to enhance git competence and standardized development processes.
+* Utilized Node.js in backend development for business applications, supporting security best practices.
 
 ### Geekity LLC., Madison, WI
 _Founder/Digital Developer,  11/2017 – 10/2018_
 
 * Founded Geekity LLC with the purpose of invoicing client companies for provided services.
-* Established and managed Geekity LLC to efficiently handle the invoicing process.
 * Implemented and developed robust test and deployment systems and processes.
 * Maintained professional relationships with Stryv and Rockwell Automation/Aquent.
 
 #### Stryv, Madison, WI
-_Lead Full-Stack Developer, 11/2017 – 10-2018_
+_Lead Full-Stack Developer, 11/2017 – 10/2018_
 
 * Designed and implemented full-stack applications, ensuring seamless integration of front-end and back-end components.
 * Collaborated closely with stakeholder to gather requirements and translate them into technical specifications.
@@ -57,7 +55,7 @@ _Lead Full-Stack Developer, 11/2017 – 10-2018_
 #### Rockwell Automation/Aquent, Milwaukee, WI
 _Freelance React Developer, 08/2018 - 10/2018_
 
-* Developed offline applications using React.js for the frontend.
+* Developed reliable tradeshow kiosk applications using React.
 * Communicated with stakeholders for requirements and feedback.
 
 ### Pinpoint Software, Madison, WI
@@ -73,13 +71,8 @@ _Co-Founder and Chief Technology Officer, 06/2011 – 01/2018_
 ## Education
 
 Herzing College, Madison, WI
-Bachelor of Science – Technology Management
-Associate of Science – Computer Systems
-
-## Talks
-
-  * [How to Develop with Laravel Homestead 6/8/2017](https://youtu.be/OprG0mI0srM)
-  * [Future Proof Your Code 3/8/2016](https://youtu.be/yEc48QfkFcY)
+* Bachelor of Science – Technology Management
+* Associate of Science – Computer InformationSystems
 
 ## Publications
 
