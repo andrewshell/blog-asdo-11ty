@@ -1,6 +1,6 @@
 ---
 title: My Résumé
-date: 2020-11-08T00:39:03Z
+date: 2024-08-16T21:50:17Z
 ---
 
 ## Andrew Shell
@@ -43,7 +43,7 @@ _Founder/Digital Developer,  11/2017 – 10/2018_
 * Implemented and developed robust test and deployment systems and processes.
 * Maintained professional relationships with Stryv and Rockwell Automation/Aquent.
 
-#### Stryv, Madison, WI
+### Stryv, Madison, WI
 _Lead Full-Stack Developer, 11/2017 – 10/2018_
 
 * Designed and implemented full-stack applications, ensuring seamless integration of front-end and back-end components.
@@ -52,7 +52,7 @@ _Lead Full-Stack Developer, 11/2017 – 10/2018_
 * Developed and maintained RESTful APIs, enabling smooth communication between client and server.
 * Implemented best practices to ensure code quality, maintainability, and adherence to coding standards.
 
-#### Rockwell Automation/Aquent, Milwaukee, WI
+### Rockwell Automation/Aquent, Milwaukee, WI
 _Freelance React Developer, 08/2018 - 10/2018_
 
 * Developed reliable tradeshow kiosk applications using React.
