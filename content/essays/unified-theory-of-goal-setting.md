@@ -14,7 +14,7 @@ Today, I had an epiphany. I discovered a concept that ties together every single
 >
 > The differences between systems mostly come down to how broad/specific your level of abstraction is and what criteria you're using for prioritization.
 
-For instance, I'm was describing a series of filters when I talked about having a [Goal Funnel](/you-need-a-goal-funnel/). Start with your life areas, then within each area, identify emotional objectives, etc.
+For instance, I'm was describing a series of filters when I talked about having a [Goal Funnel](/essays/you-need-a-goal-funnel/). Start with your life areas, then within each area, identify emotional objectives, etc.
 
 When you read about the [Eisenhower Matrix](https://www.productplan.com/glossary/eisenhower-matrix/), it's just a way to classify your tasks so you can filter and prioritize them.
 

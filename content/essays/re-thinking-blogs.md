@@ -35,7 +35,7 @@ However, what about my website? There are specific posts on my site that are new
 
 However, the vast majority of posts on my site are evergreen. Or at least until the technology I discuss becomes obsolete. These would benefit from being more like wiki pages.
 
-For instance, Dave links to my page [Updating rssCloud Server](/essays/updating-rsscloud-server) which currently is a post. The information on this page is out of date because I mention as of February 2020:
+For instance, Dave links to my page [Updating rssCloud Server](/essays/updating-rsscloud-server/) which currently is a post. The information on this page is out of date because I mention as of February 2020:
 
 I'm hoping to have 2.0 released in the next couple of weeks.
 

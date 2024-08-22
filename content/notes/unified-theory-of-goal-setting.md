@@ -30,7 +30,7 @@ Different levels of abstraction prevent overwhelm. For example:
 Each level filters down possible tasks, allowing for effective prioritization across multiple goals.
 
 ## Addressing Common Failures in Goal-Setting
-Failures in goal-setting often stem from gaps in the refinement process, such as not breaking down broad goals into specific actions or failing to review and adjust ineffective actions. [Regularly reassess your tasks](essays/validate-your-lead-metrics/) to ensure alignment with broader goals.
+Failures in goal-setting often stem from gaps in the refinement process, such as not breaking down broad goals into specific actions or failing to review and adjust ineffective actions. [Regularly reassess your tasks](/essays/validate-your-lead-metrics/) to ensure alignment with broader goals.
 
 ## Time Management
 Feeling overwhelmed by daily tasks necessitates a review of your activities to ensure they support your broader goals. Eliminate or streamline tasks that do not contribute to your objectives.

@@ -15,5 +15,5 @@ What my app does is you sign in with Twitter and from there you can generate OPM
 
 After running this app for two years it stopped working when [Twitter retired their v1 API](https://blog.x.com/developer/en_us/a/2013/api-v1-is-retired). In theory, I probably could have figured out a way to keep it working, but I decided it was time to shut it down. Overall I think it was a success although what I didn't expect was the amount of noise that came through when the feeds were not filtered for @replies.
 
-One interesting thing to come of it was being mentioned in the [World Outline Podcast #7](/essays/world-outline-podcast-7) where [Adam Curry](http://en.wikipedia.org/wiki/Adam_Curry) mentioned how much he likes and uses TwitOPML.
+One interesting thing to come of it was being mentioned in the [World Outline Podcast #7](/essays/world-outline-podcast-7/) where [Adam Curry](http://en.wikipedia.org/wiki/Adam_Curry) mentioned how much he likes and uses TwitOPML.
 

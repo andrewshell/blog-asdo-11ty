@@ -16,4 +16,4 @@ Some articles will be little more than notes I take as I read and experiment. Ot
 
 This page serves as an index for my ActivityPub-related articles.
 
-* [WebFinger for ActivityPub Feed Discovery](/webfinger-for-activitypub-feed-discovery/)
+* [WebFinger for ActivityPub Feed Discovery](/essays/webfinger-for-activitypub-feed-discovery/)

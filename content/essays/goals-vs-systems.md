@@ -16,7 +16,7 @@ One of the most intriguing concepts I've come across is from Scott Adams' book, 
 
 Adams acknowledges that you can reduce the difference between goals and systems to semantics, but it's valuable to think of them as different things. I agree, but it's also worthwhile to consider them the same thing. Hear me out.
 
-In my essay [Unified Theory of Goal-Setting](/essays/unified-theory-of-goal-setting/), I say:
+In my essay [Unified Theory of Goal-Setting](/notes/unified-theory-of-goal-setting/), I say:
 
 > Every single goal-setting and task management system is just a way to filter and prioritize the endless number of things you could be doing and decide on a single thing to do right now.
 >

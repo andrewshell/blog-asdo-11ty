@@ -11,7 +11,7 @@ eleventyNavigation:
 ---
 ## Health Changes
 
-I talk more about this in [Transforming Fitness Goals](/fitness-goals/) but to summarize, after hitting 300 lbs this year, I'm once again trying to lose weight. This time, I'm focusing on walking and intermittent fasting to build healthy habits that will hopefully lead to sustainable weight loss.
+I talk more about this in [Transforming Fitness Goals](/essays/fitness-goals/) but to summarize, after hitting 300 lbs this year, I'm once again trying to lose weight. This time, I'm focusing on walking and intermittent fasting to build healthy habits that will hopefully lead to sustainable weight loss.
 
 ## Mom's Autobiography
 
