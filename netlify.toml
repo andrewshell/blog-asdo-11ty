@@ -3,16 +3,6 @@
 	command = "npm run build"
 
 [[plugins]]
-	package = "@netlify/plugin-lighthouse"
-  [plugins.inputs]
-    output_path = "reports/lighthouse/index.html"
-  	[plugins.inputs.thresholds]
-  		performance = 0.95
-  		accessibility = 1.0
-  		best-practices = 1.0
-  		seo = 0.9
-
-[[plugins]]
   package = "netlify-plugin-webmentions"
 	[plugins.inputs]
 		baseUrl = "https://blog.andrewshell.org"
