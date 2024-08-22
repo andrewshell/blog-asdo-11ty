@@ -5,7 +5,7 @@ updated: 2010-08-23T06:00:00.000Z
 published: true
 ---
 
-Here's an exercise I just came up with as a method to expand and pivot my passions. Start out with something that excites you, something that you're really passionate about. Visualize that this activity or idea is just a lake that's part of a big network of lakes, rivers, streams and oceans of passion. An example for me is running the [Madison PHP Meetup Group](http://www.madisonphp.com).
+Here's an exercise I just came up with as a method to expand and pivot my passions. Start out with something that excites you, something that you're really passionate about. Visualize that this activity or idea is just a lake that's part of a big network of lakes, rivers, streams and oceans of passion. An example for me is running the [Madison PHP Meetup Group](https://www.meetup.com/madisonphp/).
 
 Next start asking yourself questions. Why is this important? What about this jacks you up? Is this a subset of a larger passion of yours? We need to swim into the other bodies of passion that feed into or out of this idea. For my example I love running the PHP group because I enjoy teaching and helping people, solving problems, learning new things and sharing what I know.
 

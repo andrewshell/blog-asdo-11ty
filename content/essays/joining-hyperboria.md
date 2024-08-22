@@ -15,7 +15,7 @@ I'll be honest. As of right now, I haven't found a lot of use from being in Hype
 
 If you try to click on either of those links you probably won't get a website. That's because you have to be connected to Hyperboria in order to access them.
 
-The Hyperboria network is part of an international effort to protect free speech, called [Project Meshnet](https://projectmeshnet.org/).
+The Hyperboria network is part of an international effort to protect free speech, called [Project Meshnet](https://projectmeshnet.github.io/).
 
 It's a fun experiment to visit these websites and be a part of this community. It requires some degree of technical savvy to get on Hyperboria so the community you find in there is very smart and interesting. If you have some time and interest, it's worth trying out.
 

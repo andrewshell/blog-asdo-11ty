@@ -9,29 +9,24 @@ I've been a big of a laggard when it comes around to the latest and greatest in 
 
 ## PHP Example
 
-### class Model {
 
-#### public function __call($name, $args) {
-
-##### if (is_callable($this->$name)) {
-
-return call_user_func_array($this->$name, $args);
-
-}
-
-}
-
+```php
+class Model {
+	public function __call($name, $args) {
+		if (is_callable($this->$name)) {
+			return call_user_func_array($this->$name, $args);
+		}
+	}
 }
 
 $m = new Model();
 
-### $m->hello = function ($name) {
-
-echo "Hello, {$name}";
-
+$m->hello = function ($name) {
+	echo "Hello, {$name}";
 };
 
 $m->hello('Andrew');
+```
 
 What this example does is allow me to assign an anonymous function to any public parameter on my object. Then the `__call` magic method checks to see if that parameter is callable and if so calls it. I could see all sorts of interesting ways of leveraging this functionality. We could create special ways to allow for input and output filters on every one of these parameter functions pretty easily.
 

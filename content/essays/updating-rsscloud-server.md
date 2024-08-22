@@ -5,7 +5,7 @@ updated: 2020-02-18T03:29:18.000Z
 published: true
 ---
 
-I've been slowly but surely working on version 2.0 of the [rssCloud server](/rebooting-rsscloud/) I built back in 2015.
+I've been slowly but surely working on version 2.0 of the [rssCloud server](/essays/rebooting-rsscloud/) I built back in 2015.
 
 When I originally built it, it was my first real node app, and the node landscape was very different from what it is today.  Now that my full-time job is building node based APIs at Johnson Health Tech, I figured it was time to  bring the project up to my current standards.
 
@@ -21,7 +21,7 @@ Another thing I'm doing, which hopefully Dave won't be upset by, is adding the h
 
 I probably won't do an overhaul of the log viewer in 2.0, but hopefully, that will be the next project. It's difficult to debug things if you're building a service that supports rssCloud. There are a lot of edge cases that can hang you up.
 
-Right now, I'm working on building automated tests. The tests I've written so far have actually helped me find bugs that I don't think I would have caught otherwise. I'm going about testing in a slightly odd way. I'm following a pattern described in the post [API end to end testing with Docker](https://fire.ci/blog/api-end-to-end-testing-with-docker/). I'm running the app in one container, the database in another, and the tests in a third. The tests create a mock API and configure the app to send requests to it. That way, I can script endpoints that return different results and see how the app responds.
+Right now, I'm working on building automated tests. The tests I've written so far have actually helped me find bugs that I don't think I would have caught otherwise. I'm going about testing in a slightly odd way. I'm following a pattern described in the post [API end to end testing with Docker](https://web.archive.org/web/20191112163314/https://fire.ci/blog/api-end-to-end-testing-with-docker/). I'm running the app in one container, the database in another, and the tests in a third. The tests create a mock API and configure the app to send requests to it. That way, I can script endpoints that return different results and see how the app responds.
 
 I'm hoping to have 2.0 released in the next couple of weeks. I thought I'd have it ready already, but some personal issues have delayed me. I'm really excited to get this out the door. It's been a long time coming.
 

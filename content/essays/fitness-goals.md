@@ -12,7 +12,7 @@ imagealt: The shift from traditional weight scales to dynamic footprints, captur
 
 Have you ever felt like no matter what you do, the scale just won’t budge? This might be because you're focusing on the wrong type of metric.
 
-I've previously written about the differences between [lead and lag metrics](/lead-vs-lag-metrics/) and why it's important to differentiate between them when setting goals. This morning, as I was getting home from a walk, I was reminded of this in the context of some changes I've been making in my life recently.
+I've previously written about the differences between [lead and lag metrics](/essays/lead-vs-lag-metrics/) and why it's important to differentiate between them when setting goals. This morning, as I was getting home from a walk, I was reminded of this in the context of some changes I've been making in my life recently.
 
 For those of you who don't know me in person, I'm not thin. I've always been on the heavier side, and my weight has only gotten worse since 2020. I used to stay around 250 lbs easily, but by 2021, I was 280, and by 2024, I was 300. I'm not a spring chicken, having turned 42 in August, and the weight is taking a toll on my body and health.
 

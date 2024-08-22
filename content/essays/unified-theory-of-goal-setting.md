@@ -2,7 +2,7 @@
 title: Unified Theory of Goal-Setting
 date: 2021-12-23T19:31:34.131Z
 updated: 2021-12-23T19:31:34.144Z
-published: true
+published: false
 ---
 I've spent most of my adult life studying personal development, and a big part of personal development is goal setting and task management.
 

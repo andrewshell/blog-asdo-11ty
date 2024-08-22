@@ -31,59 +31,16 @@ At some of my prior jobs these ideals were a low priority.  It was more importan
 
 ### 4. Chemistry
 
-You have to enjoy working with the people you interact with the most.  If you
-
-have to spend every day talking and working with people you can't stand the job
-
-is a dead end.  I can honestly say I'm friends with every single person I work
-
-with.  Most importantly my boss is amazing. When I had to go have heart surgery
-
-he's was great about accommodating my time off and my gradual return to full
-
-time.  He even came over and dropped off a brand new MacBook Pro!  This may not
-
-have been the case if I hadn't consistently over delivered prior to this, but
-
-that's irrelevant because when it came down to it, my family and I didn't have
-
-to worry about my job on top of all of our health worries.  That really makes a
-
-huge difference.
+You have to enjoy working with the people you interact with the most.  If you have to spend every day talking and working with people you can't stand the job is a dead end.  I can honestly say I'm friends with every single person I work with.  Most importantly my boss is amazing. When I had to go have heart surgery he's was great about accommodating my time off and my gradual return to full time.  He even came over and dropped off a brand new MacBook Pro!  This may not have been the case if I hadn't consistently over delivered prior to this, but that's irrelevant because when it came down to it, my family and I didn't have to worry about my job on top of all of our health worries.  That really makes a huge difference.
 
 ### 5. Transparency
 
-This ties in with chemistry a little, but if you feel like people are lying to
-
-you, you can't do a good job.  For me it's really important to know what's going
-
-on in the business.  Some people falsely think that working at a startup is more
-
-risky then working at a big company.  I've worked at a number of startups and I
-
-have to say the only difference is at a startup you typically know what the
-
-risks are and can help mitigate them, at a big company you're surprised when you
-
-show up one day to find out that a third of the company has been laid off. Can
-
-you handle the truth?
+This ties in with chemistry a little, but if you feel like people are lying to you, you can't do a good job.  For me it's really important to know what's going on in the business.  Some people falsely think that working at a startup is more risky then working at a big company.  I've worked at a number of startups and I have to say the only difference is at a startup you typically know what the risks are and can help mitigate them, at a big company you're surprised when you show up one day to find out that a third of the company has been laid off. Can you handle the truth?
 
 ### 6. Money
 
-I said it was important and it is.  If I'm not able to pay my bills or do the
-
-sorts of things I want to do in my free time nothing else really matters.  But
-
-once you reach that threshold the importance of money really drops.
+I said it was important and it is.  If I'm not able to pay my bills or do the sorts of things I want to do in my free time nothing else really matters.  But once you reach that threshold the importance of money really drops.
 
 ## How do you get your perfect job?
 
 I've written more about this in a follow post [Getting the perfect job](/getting-the-perfect-job/)
-
-If you don't want to miss out on the conclusion to this article.  Please [sign
-
-up for my e-mail newsletter](http://eepurl.com/K3PV) and you'll get an e-mail
-
-whenever I publish new content.
-

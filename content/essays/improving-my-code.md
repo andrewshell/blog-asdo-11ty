@@ -13,7 +13,7 @@ But then I hit my stride. I was writing good code and there was no real external
 
 I don't have any external pressure in the form of people telling me I have to get better. It's more like the external pressure of supporting code I wrote 2 years ago and finding all the areas that really need to be improved.
 
-One thing that really illustrated to me that I was not developing code as well as I could be was the video [Architecture the Lost Years by Robert Martin](http://youtu.be/WpkDN78P884) and then reading his book [Clean Code](http://shll.me/cleancode).
+One thing that really illustrated to me that I was not developing code as well as I could be was the video [Architecture the Lost Years by Robert Martin](http://youtu.be/WpkDN78P884) and then reading his book [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/B08X8ZXT15/).
 
 [My app](http://www.datecheckpro.com/) was built on [Kohana 3.1](http://kohanaframework.org/) which is a nice framework but was not really built on a test-driven development methodology. There are a lot of static methods. Take a look at this [database example](https://docs.koseven.ga/guide/database/examples) and see what's typical.
 

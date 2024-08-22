@@ -15,7 +15,5 @@ The way the budgeting/planning section of Quicken 2010 works is once you have yo
 
 Then just now, I noticed a feature that made me so happy because it's the feature I've been missing from these sorts of programs.  Quicken calls it "Rollover Reserve" and basically that means that if you don't spend your allocated amount that month, the remainder goes into the reserve so you can spend it in the future or reallocate it to other categories.  This for me is a killer feature.  If I allocate $200 to entertainment every month I should be able to hold back and not spend the full $200 for a few months in order to save up for bigger purchases like an Xbox 360.
 
-UPDATE: I'm no longer using Quicken to manage my finances.  Instead I found this awesome app that I love and wrote about in
-
-my post [My YNAB Budget](ynab-budget/)
+UPDATE: I'm no longer using Quicken to manage my finances.  Instead I found this awesome app that I love and wrote about in my post [My YNAB Budget](ynab-budget/)
 

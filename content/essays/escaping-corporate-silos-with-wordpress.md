@@ -2,11 +2,11 @@
 title: Escaping Corporate Silos With WordPress
 date: 2011-02-23T06:00:00.000Z
 updated: 2011-02-23T06:00:00.000Z
-published: true
+published: false
 itemtype: https://schema.org/TechArticle
 ---
 
-After my post on Friday about [Giving Up on Web Ownership](/giving-up-on-web-ownership/) a couple people pinged me asking how they would go about publishing to Twitter, without publishing in Twitter.  Dave Winer is working on the problem with his [minimal blogging tool](http://scripting.com/stories/2011/01/05/upcomingTheMinimalBlogging.html) but I was thinking... why can't we do this with WordPress?  So today I'm going to walk you through the steps necessary to create your own WordPress based microblog that publishes to Twitter.
+After my post on Friday about [Giving Up on Web Ownership](/essays/giving-up-on-web-ownership/) a couple people pinged me asking how they would go about publishing to Twitter, without publishing in Twitter.  Dave Winer is working on the problem with his [minimal blogging tool](http://scripting.com/stories/2011/01/05/upcomingTheMinimalBlogging.html) but I was thinking... why can't we do this with WordPress?  So today I'm going to walk you through the steps necessary to create your own WordPress based microblog that publishes to Twitter.
 
 This is going to be a higher level tutorial.  I'm not going to walk you through installing WordPress or how to install a themes and plugins as there are plenty of places that describe this process.  Many hosting companies like [DreamHost](http://www.dreamhost.com/) have a one click install that make the process super simple.  Ping me if you're having trouble.
 

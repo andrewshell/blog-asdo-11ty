@@ -5,7 +5,7 @@ updated: 2011-05-26T06:00:00.000Z
 published: true
 ---
 
-Today I came across a wikipedia page about the [Seven Blunders of the World](http://en.wikipedia.org/wiki/Seven_Blunders_of_the_World) which was a list created by Gandhi.  As I went through them one particularly stuck with me.  That was "Knowledge without Character" particularly because knowledge is something I strive for.  The problem was although I had a sense in my gut about what character was, I wasn't sure specifically.  Furthermore I wasn't sure if I have character.
+Today I came across a wikipedia page about the [Seven Social Sins](https://en.wikipedia.org/wiki/Seven_Social_Sins) which was a list created by Frederick Lewis Donaldson.  As I went through them one particularly stuck with me.  That was "Knowledge without Character" particularly because knowledge is something I strive for.  The problem was although I had a sense in my gut about what character was, I wasn't sure specifically.  Furthermore I wasn't sure if I have character.
 
 Of course that question led me to the page on [Moral Character](http://en.wikipedia.org/wiki/Moral_character) which describe character as:
 
@@ -19,11 +19,11 @@ So now the questions is what does it mean to be moral?  I've always considered m
 
 [Virtue Ethics](http://en.wikipedia.org/wiki/Virtue_ethics) gets a little more tricky because that article leads with the definition:
 
-Virtue ethics describes the character of a moral agent as a driving force for ethical behaviour, rather than rules (deontology) or consequentialism, which derives rightness or wrongness from the outcome of the act itself rather than character.
+> Virtue ethics describes the character of a moral agent as a driving force for ethical behaviour, rather than rules (deontology) or consequentialism, which derives rightness or wrongness from the outcome of the act itself rather than character.
 
 Which leads to the meta answer of "Having character means being moral and being moral means having character" although a later example seems to slightly clarify:
 
-As such, lying would be made in a case-by-case basis that would be based on factors such as personal benefit, group benefit, and intentions (as to whether they are benevolent or malevolent).
+> As such, lying would be made in a case-by-case basis that would be based on factors such as personal benefit, group benefit, and intentions (as to whether they are benevolent or malevolent).
 
 So now I'm not really sure where to go from here.  What are your thoughts on character and morality?
 

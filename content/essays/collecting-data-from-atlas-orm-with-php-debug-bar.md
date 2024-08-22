@@ -6,7 +6,7 @@ published: true
 itemtype: https://schema.org/TechArticle
 ---
 
-In my last article, I talked about how I found [an N+1 bug in Atlas ORM](/complex-database-relationships-with-atlasorm/).
+In my last article, I talked about how I found [an N+1 bug in Atlas ORM](/essays/complex-database-relationships-with-atlasorm/).
 
 I had mentioned how it took a little work to get PHP Debug Bar configured with Atlas but didn't really explain why it was difficult, or how I got them working together.
 

@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+---
+<article class="blog-post" itemscope itemtype="{{ itemtype or 'https://schema.org/Article' }}">
+<header>
+  <h1 itemprop="headline">{{ title }}</h1>
+</header>
+<section itemprop="articleBody">
+{{ content | safe }}
+<p>
+<time class="small" itemprop="datePublished" datetime="{{ date | htmlDateString }}" }>Published {{ date | readableDate('DDD') }}</time>
+{% if isDiffDay(updated, date) %}
+<br><time class="small" itemprop="dateModified" datetime="{{ updated | htmlDateString }}" }>Updated {{ updated | readableDate('DDD') }}</time>
+{% endif %}
+</p>
+</section>
+<hr>
+<footer>
+{% include "bio.njk" %}
+</footer>
+</article>

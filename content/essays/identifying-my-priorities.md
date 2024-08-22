@@ -7,7 +7,7 @@ published: true
 
 Lately I've been overwhelmed.  This is not unusual for me ever since my heart surgery I've been more aware of it.
 
-I've been reading books lately about goal setting, life planning and task management so today I felt I needed to do a brain dump and figure out what are all my commitments are.  Some of these are more broad like Andrea (my wife) or Finances and others are more specific like [Madison PHP](http://www.madisonphp.com/) or a new eStore for [John Kovalic](http://www.dorktower.com/).
+I've been reading books lately about goal setting, life planning and task management so today I felt I needed to do a brain dump and figure out what are all my commitments are.  Some of these are more broad like Andrea (my wife) or Finances and others are more specific like [Madison PHP](https://www.meetup.com/madisonphp/) or a new eStore for [John Kovalic](http://www.dorktower.com/).
 
 ## Note Card Strategy
 

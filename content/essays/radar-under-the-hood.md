@@ -27,7 +27,7 @@ The domain is the core code in your application that actually does the work. The
 
 ### Responder
 
-The responder takes a response from your domain and formats the actual response to the user. This could be done via a template system like [Twig](http://twig.sensiolabs.org/) or JSON encoder.
+The responder takes a response from your domain and formats the actual response to the user. This could be done via a template system like [Twig](https://twig.symfony.com/) or JSON encoder.
 
 ## How Radar does ADR
 
@@ -80,7 +80,4 @@ The whole thing is delivered as [Relay](https://github.com/relayphp/Relay.Relay)
 
 ## What Next?
 
-If you're interested in watching me demo Radar, you can watch my video [FutureProof Your Code](/futureproof-your-code/) where I talk about Clean Architecture and how to use Radar.
-
-I'm also very interested in hearing from you. I will be creating new content over the coming weeks and I want to customize the content for YOU and help you overcome any obstacles you might be experiencing. [Send me a message!](/contact/)
-
+If you're interested in watching me demo Radar, you can watch my video [FutureProof Your Code](/essays/futureproof-your-code/) where I talk about Clean Architecture and how to use Radar.

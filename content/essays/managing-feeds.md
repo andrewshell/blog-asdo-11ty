@@ -2,7 +2,7 @@
 title: Managing Feeds
 date: 2009-10-30T06:00:00.000Z
 updated: 2009-10-30T06:00:00.000Z
-published: true
+published: false
 ---
 
 Today I logged into Google Reader and saw that I had 230 unread items.  This is not unusual, nor it is particularly difficult to get through.  However, that is what's in my "inbox" between when I checked it last night and when I woke up this morning.  I'm not sure how many items I get in a typical work day.  It's probably over 1,000 because I follow 90 RSS feeds.

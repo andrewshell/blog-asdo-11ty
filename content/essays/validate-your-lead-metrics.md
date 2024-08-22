@@ -5,11 +5,11 @@ updated: 2021-10-23T15:09:10.000Z
 published: true
 ---
 
-Yesterday, I talked about the difference between lead and lag metrics and why they are essential parts of your goal-setting funnel.
+Yesterday, I talked about the difference between [lead and lag metrics](/essays/lead-vs-lag-metrics/) and why they are essential parts of your goal-setting funnel.
 
 Today, I will discuss making sure your lead metrics lead to your lag metrics using validated learning.
 
-## Applying Validated Learning to Tour Goal Funnel
+## Applying Validated Learning to Your Goal Funnel
 
 1. Define a goal with a measurable metric (lag metric)
 2. Think of an action you can do regularly that should lead to progress toward your lag metric (lead metric)

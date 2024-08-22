@@ -5,7 +5,7 @@ updated: 2021-10-18T17:02:56.000Z
 published: true
 ---
 
-Yesterday, I discussed how to leverage your subconscious mind (see [5 Ways to Leverage Your Subconscious Mind](/5-ways-to-leverage-your-subconscious-mind/)). Today, I want to give special attention to one aspect of the subconscious.
+Yesterday, I discussed how to leverage your subconscious mind (see [5 Ways to Leverage Your Subconscious Mind](/essays/5-ways-to-leverage-your-subconscious-mind/)). Today, I want to give special attention to one aspect of the subconscious.
 
 I had mentioned how your subconscious uses strong emotion to prioritize work. I also mentioned how your subconscious will alert you to things in your environment that it identifies as important.
 

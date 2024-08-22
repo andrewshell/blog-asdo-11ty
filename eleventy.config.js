@@ -102,16 +102,6 @@ module.exports = function(eleventyConfig) {
 		});
 	});
 
-	eleventyConfig.addCollection("months", function(collectionApi) {
-		let months = new Map();
-		for (let item of collectionApi.getFilteredByTag('essays')) {
-			let slug = DateTime.fromJSDate(item.date, "utc").toFormat("y-LL");
-			let title = DateTime.fromJSDate(item.date, "utc").toFormat("LLLL yyyy");
-			months.set(slug, { slug, title });
-		}
-		return Array.from(months.values());
-	});
-
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
 		mdLib.use(markdownItAnchor, {

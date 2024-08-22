@@ -5,7 +5,7 @@ updated: 2012-12-31T06:00:00.000Z
 published: true
 ---
 
-A number of years ago when I worked for [Brazen Careerist](http://www.brazencareerist.com/) I had an idea for the company. We could create a white label social news site that was a window into a larger network of social news sites. Management didn't see this as a useful direction for the company so it didn't happen.
+A number of years ago when I worked for [Brazen Careerist](https://techcrunch.com/2009/08/24/brazen-careerist-a-professional-network-that-realizes-youre-more-than-just-a-resume/) I had an idea for the company. We could create a white label social news site that was a window into a larger network of social news sites. Management didn't see this as a useful direction for the company so it didn't happen.
 
 Lately, I've been thinking of the concept again. I've been seeing some people working on [decentralized social networks](https://web.archive.org/web/20190405122017/https://tent.io/), but to be honest I'm less interested in a decentralized Twitter and more of a decentralized [Hacker News](http://news.ycombinator.com/). I'm also fond of the Unix philosophy of small parts loosely coupled.
 

@@ -4,7 +4,7 @@ date: 2021-11-05T20:38:49.889Z
 updated: 2021-11-05T20:38:49.906Z
 published: true
 ---
-Previously, I discussed reducing friction by using the simplest system that will get the job done (see [Small Pieces, Loosely Joined](https://blog.andrewshell.org/small-pieces-loosely-joined/)). I briefly described (at the end) that I used a weekly checklist to get through my week.
+Previously, I discussed reducing friction by using the simplest system that will get the job done (see [Small Pieces, Loosely Joined](/essays/small-pieces-loosely-joined/)). I briefly described (at the end) that I used a weekly checklist to get through my week.
 
 Folks on Twitter were interested in learning more about how I use this checklist.
 
@@ -12,7 +12,7 @@ Folks on Twitter were interested in learning more about how I use this checklist
 
 ### 1. Print Checklist
 
-I print out a [blank checklist](https://blog.andrewshell.org/uploads/2021/10/Weekly.pdf) and fill out the "Week of" date as well as each day of the week.
+I print out a [blank checklist](/uploads/2021/10/Weekly.pdf) and fill out the "Week of" date as well as each day of the week.
 
 ### 2. Fill Out the Backlog
 
@@ -26,7 +26,7 @@ I go through my backlog and add anything that is missing. I'll pick out 1-3 impo
 
 ### 2. Eat That Frog
 
-As Brian Tracy recommends, start your day by working on your biggest, most important task. It should be the first item on your daily checklist. I use the Pomodoro Technique (see [How To Get Things Done](https://blog.andrewshell.org/how-to-get-things-done/)) and every block I complete I fill in a bubble. If I complete the task, I check it off in both the daily checklist and the backlog.
+As Brian Tracy recommends, start your day by working on your biggest, most important task. It should be the first item on your daily checklist. I use the Pomodoro Technique (see [How To Get Things Done](/essays/how-to-get-things-done/)) and every block I complete I fill in a bubble. If I complete the task, I check it off in both the daily checklist and the backlog.
 
 ### 3. Update as Needed
 

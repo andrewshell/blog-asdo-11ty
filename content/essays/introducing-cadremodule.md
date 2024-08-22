@@ -3,6 +3,7 @@ title: Introducing Cadre.Module
 date: 2016-10-20T15:51:24.000Z
 updated: 2016-10-20T15:51:24.000Z
 published: true
+itemtype: https://schema.org/TechArticle
 ---
 
 Today I published a new component [Cadre.Module](https://github.com/cadrephp/Cadre.Module).
@@ -11,7 +12,7 @@ This component was born out of my side project that's using [Radar](https://gith
 
 ## Stock Radar
 
-Radar is built around [Aura.Di](https://github.com/auraphp/Aura.Di) which is a very nice dependency injection container. If you're interested in learning more about Radar check out [Radar Under the Hood](/radar-under-the-hood/).
+Radar is built around [Aura.Di](https://github.com/auraphp/Aura.Di) which is a very nice dependency injection container. If you're interested in learning more about Radar check out [Radar Under the Hood](/essays/radar-under-the-hood/).
 
 One thing that's great about Aura.Di is the concept of ContainerConfig objects.
 
@@ -29,11 +30,11 @@ $di = $container_builder->newConfiguredInstance([
 ]);
 ```
 
-This is nice because I can package my DI configuration into smaller classes that configure a single thing. An example of this could be one ContainerConfig that configures [Twig](http://twig.sensiolabs.org/) and another that configured [Atlas.Orm](https://github.com/atlasphp/Atlas.Orm).
+This is nice because I can package my DI configuration into smaller classes that configure a single thing. An example of this could be one ContainerConfig that configures [Twig](https://twig.symfony.com/) and another that configured [Atlas.Orm](https://github.com/atlasphp/Atlas.Orm).
 
 The problem I ran into was where to put things if they are related to different areas. Also, there was an issue about how to make things work between dev and production if they needed a different configuration.
 
-The specific use case that prompted the development of this library was configuring [PHP Debug Bar](http://phpdebugbar.com/) which I've been [working with a lot lately](/collecting-data-from-atlas-orm-with-php-debug-bar/).
+The specific use case that prompted the development of this library was configuring [PHP Debug Bar](http://phpdebugbar.com/) which I've been [working with a lot lately](/essays/collecting-data-from-atlas-orm-with-php-debug-bar/).
 
 PHP Debug Bar can collect data from many different sources. I'm using it currently with Twig and Atlas.Orm. When I push my project to production, I will not want to be loading PHP Debug Bar, but it's very useful during development.
 

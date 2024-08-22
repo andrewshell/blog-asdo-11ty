@@ -7,13 +7,13 @@ published: true
 
 I talked to a friend yesterday about all the artifacts I collect and want to collect.
 
-I have a growing collection of [software from Living Videotext](/2020-11/09/my-growing-thinktank-collection/), a complete set of [Mondo 2000](https://en.wikipedia.org/wiki/MONDO_2000) magazines, and I was debating whether or not I wanted to spend $500 on [Origins of Cyberspace](https://www.jnorman.com/pages/books/38301/diana-h-hook-jeremy-m-norman/origins-of-cyberspace).
+I have a growing collection of [software from Living Videotext](/essays/my-growing-thinktank-collection/), a complete set of [Mondo 2000](https://en.wikipedia.org/wiki/MONDO_2000) magazines, and I was debating whether or not I wanted to spend $500 on [Origins of Cyberspace](https://www.jnorman.com/pages/books/38301/diana-h-hook-jeremy-m-norman/origins-of-cyberspace).
 
 He asked, "Does having these things make you feel good?"
 
 After thinking about this more, I've realized that it simultaneously makes me feel good but also incredibly sad. I mean, I guess that's the definition of nostalgia.
 
-I feel like everything is so ephemeral, especially regarding technology. Software from 20 years ago might not run anymore on modern computers. [Douglas Engelbart](/2021-03/27/douglas-engelbart-and-linked-data/) spent his entire life pursuing a mission that was never fully realized. He had so many ideas that people dismissed because they didn't understand or didn't think it would be profitable.
+I feel like everything is so ephemeral, especially regarding technology. Software from 20 years ago might not run anymore on modern computers. [Douglas Engelbart](/essays/douglas-engelbart-and-linked-data/) spent his entire life pursuing a mission that was never fully realized. He had so many ideas that people dismissed because they didn't understand or didn't think it would be profitable.
 
 I'm digging through old videos and documents to piece together what he was thinking, but it's challenging. It would be better if he were still here, and I could ask him questions, show him my demos and ask for feedback.
 

@@ -11,11 +11,13 @@ Idea: Could we include a cloud tag in an OPML headline and have Little Outliner 
 
 It's a good idea, but.. (sorry) -- OPML already has a realtime notification service, it came after rssCloud and is based on web sockets.
 
-## I'm going to think about this more and look under the hood with the web socket implementation. My gut tells me this isn't the solution I'm looking for. Here's my use case:
+I'm going to think about this more and look under the hood with the web socket implementation. My gut tells me this isn't the solution I'm looking for.
+
+## Here's my use case:
 
 I want to blog using little outliner as a CMS.
 
-I want the website to be a [Gatsby](https://www.gatsbyjs.com/) site. (Gatsby is an advanced static site generator.)
+I want the website to be a [Gatsby](https://www.gatsbyjs.com/docs) site. (Gatsby is an advanced static site generator.)
 
 Gatsby can consume data from many places through the use of a [source plugin](https://www.gatsbyjs.com/plugins/?=source).
 

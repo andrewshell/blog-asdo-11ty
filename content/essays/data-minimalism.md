@@ -5,7 +5,7 @@ updated: 2011-03-17T06:00:00.000Z
 published: true
 ---
 
-I previously railed against the trend of digital sharecropping in my post [Giving Up On Web Ownership](/giving-up-on-web-ownership/). The task of taking ownership of your digital identity can be very difficult when you try to replicate the functionality of all the different sites you might use.
+I previously railed against the trend of digital sharecropping in my post [Giving Up On Web Ownership](/essays/giving-up-on-web-ownership/). The task of taking ownership of your digital identity can be very difficult when you try to replicate the functionality of all the different sites you might use.
 
 Trying to create owned versions of Twitter, Facebook, Quora, Delicious, Flickr and all of the other places where you have a presence could easily be a full-time job. Who has the time?
 

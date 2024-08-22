@@ -31,7 +31,7 @@ _Senior Web Engineer, 10/2019 – Present_
 * Create detailed documentation for data flows, integration steps, and guidelines for reviewing new partner APIs, facilitating efficient onboarding and project execution.
 
 ### Acumium, Madison, WI
-_Web Developer, 11/2017 – 10/2018_
+_Web Developer, 10/2018 – 5/2019_
 
 * Developed and implemented training plans to enhance git competence and standardized development processes.
 * Utilized Node.js in backend development for business applications, supporting security best practices.

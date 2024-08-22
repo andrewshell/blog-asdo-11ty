@@ -49,7 +49,7 @@ Likewise, when a note references multiple topics, it can create contextual relat
 
 ## Next Steps
 
-Dorian has sent me some [follow-up links](https://twitter.com/doriantaylor/status/1337156409448775681) to review. By putting my thoughts together in this post, I can share this with him, and he might have more ideas of how I can apply his concepts.
+Dorian has sent me some follow-up links to review. By putting my thoughts together in this post, I can share this with him, and he might have more ideas of how I can apply his concepts.
 
 The first version of my wiki linking will hopefully be live soon. Ideally, leveraging metadata to do something unique.
 

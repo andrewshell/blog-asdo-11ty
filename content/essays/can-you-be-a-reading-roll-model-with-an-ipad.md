@@ -5,7 +5,7 @@ updated: 2013-07-26T06:00:00.000Z
 published: true
 ---
 
-[My wife Andrea](http://www.andrewheartandrea.com/) and I have no immediate plans to have children, but the topic has come up a couple of times. One area that we disagree on is the topic of homeschooling.
+My wife Andrea and I have no immediate plans to have children, but the topic has come up a couple of times. One area that we disagree on is the topic of homeschooling.
 
 I personally feel that with the exception of a few awesome teachers I was mostly let down by the public school system. I turned out okay, but that's mostly because of my rabid desire to learn new things and that was instilled in me by my parents.
 

@@ -8,13 +8,9 @@ published: false
 I got this in my e-mail today:
 
 > Pssst…hey there,
-
 >
-
 > It looks like the iStock credits you purchased are going to expire in 30 days, and we don't want you to lose them.
-
 >
-
 > No one wants to lose something great, right? And while you're very likely exceptional, you're probably not an exception here. So if you need creative content for an upcoming project, make sure you grab it soon.
 
 What the hell?  This makes about as much sense as getting a letter from the post office saying that the stamps I purchased were going to be expiring in 30 days.

@@ -2,10 +2,10 @@
 title: Managing Feeds Part Two
 date: 2009-12-16T06:00:00.000Z
 updated: 2009-12-16T06:00:00.000Z
-published: true
+published: false
 ---
 
-I previously talked about [reordering my Google reader](/managing-feeds/) in order to make my life less overwhelming.  A little over a month has gone by and I thought I'd post an update about how it's worked.
+I previously talked about [reordering my Google reader](/essays/managing-feeds/) in order to make my life less overwhelming.  A little over a month has gone by and I thought I'd post an update about how it's worked.
 
 Things have been a tremendous success.  By simply re-categorizing my feeds into Low Volume, High Value and Low Value I have make my life so much more pleasant.  Here's how it works on a daily basis.
 

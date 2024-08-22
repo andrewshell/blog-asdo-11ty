@@ -22,7 +22,7 @@ It was suffering from the ["N+1 Problem"](https://www.sitepoint.com/silver-bulle
 
 This problem occurs when the code needs to load the children of a parent-child relationship (the "many" in the "one-to-many"). Most ORMs have lazy-loading enabled by default, so queries are issued for the parent record, and then one query for EACH child record. As you can expect, doing N+1 queries instead of a single query will flood your database with queries, which is something we can and should avoid.
 
-Well, it just so happens [Paul M. Jones](http://paul-m-jones.com/) the creator of [Radar](/radar-under-the-hood/) wrote the book ["Solving The N+1 Problem in PHP"](https://leanpub.com/sn1php). Not only that, he is the creator of [AtlasORM](https://github.com/atlasphp/Atlas.Orm) described as:
+Well, it just so happens [Paul M. Jones](http://paul-m-jones.com/) the creator of [Radar](/essays/radar-under-the-hood/) wrote the book ["Solving The N+1 Problem in PHP"](https://leanpub.com/sn1php). Not only that, he is the creator of [AtlasORM](https://github.com/atlasphp/Atlas.Orm) described as:
 
 Atlas is a data mapper implementation for your persistence model (not your domain model).
 

@@ -17,5 +17,5 @@ Today I read this interesting article titled "[How to be polite](https://medium.
 
 > Politeness buys you time. It leaves doors open. I've met so many people whom, if I had trusted my first impressions, I would never have wanted to meet again. And yet - many of them are now great friends. I have only very rarely touched their hair.
 >
-> <cite>[Paul Ford](https://medium.com/message/how-to-be-polite-9bf1e69e888c)</cite>
+> <cite>[Paul Ford](https://ftrain.medium.com/how-to-be-polite-9bf1e69e888c)</cite>
 

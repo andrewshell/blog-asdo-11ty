@@ -9,11 +9,7 @@ published: true
 
 ## Notes
 
-[Slides PDF](/uploads/2021/02/Personal%20Productivity.pdf)
-
-[Bullet Journal](https://bulletjournal.com/)
-
-[TomatoTimer](https://tomato-timer.com/)
-
-[Pomodoro Technique](https://francescocirillo.com/pages/pomodoro-technique)
+* [Bullet Journal](https://bulletjournal.com/)
+* [TomatoTimer](https://tomato-timer.com/)
+* [Pomodoro Technique](https://www.pomodorotechnique.com/)
 

@@ -16,5 +16,5 @@ There are also [Federated Blogs](https://wiki.p2pfoundation.net/Federated_Blog).
 
 I've been following my intuition lately. I come across something interesting and follow the thread, leading me back to where I need to be.
 
-Donnie Darko Tunnels
+![Donnie Darko Tunnels](/uploads/2020/12/donnie-darko.jpg)
 

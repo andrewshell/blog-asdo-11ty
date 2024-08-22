@@ -2,7 +2,7 @@
 title: PSR-7 Objects Could Be Immutable
 date: 2016-12-31T14:58:01.000Z
 updated: 2016-12-31T14:58:01.000Z
-published: true
+published: false
 ---
 
 I've been thinking a lot about immutable objects lately. Yegor Bugayenko claims that [Objects Should Be Immutable](http://www.yegor256.com/2014/06/09/objects-should-be-immutable.html) and [PSR-7: HTTP message interfaces](http://www.php-fig.org/psr/psr-7/) are [designed to be immutable](http://www.php-fig.org/psr/psr-7/meta/#why-value-objects).

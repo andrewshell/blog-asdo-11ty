@@ -2,7 +2,7 @@
 title: Giving Up On Web Ownership?
 date: 2011-02-18T06:00:00.000Z
 updated: 2011-02-18T06:00:00.000Z
-published: true
+published: false
 ---
 
 Last year when I was helping organize BarCamp Madison 2011 I was busy getting the website set up.  I set up a WordPress site and planned on getting modules installed to handle registrations and session tracking.  Before I even got a chance to do anything other members of the group set up an eventbrite event for registrations, a google moderator site set up for session tracking, a google wave set up for organizer communication and there was already a google group for community communication.
@@ -11,7 +11,7 @@ Instead of taking the time to build up value in our web property, they scattered
 
 It's one thing if you're technologically unsavvy and have no other way to piece together the functionality you need, but these were the Madison tech-elite!  Why would they do such a thing?  One person actually said something to the extent of "Do people actually have websites anymore?"
 
-Am I the only person left who thinks it's a good thing to create a strong web presence?  To stake out your own space and build it up?  When we were promoting the event where should someone link to?  Obviously it should be [http://www.barcampmadison.org/](http://www.barcampmadison.org/) but if someone wanted to link to the registration page they would link to EventBrite and we would lose that link.
+Am I the only person left who thinks it's a good thing to create a strong web presence?  To stake out your own space and build it up?  When we were promoting the event where should someone link to?  Obviously it should be barcampmadison.org but if someone wanted to link to the registration page they would link to EventBrite and we would lose that link.
 
 When we have BarCamp this year I hope to be prepared with all the functionality on the BarCamp website.  Otherwise will we be able to reuse the registration link from last year or is that tied to the old event?  Will we be able to easily clear out the ideas on the old Google Moderator site?
 
@@ -21,5 +21,5 @@ On the internet it's important to own your content.  Please don't give away your
 
 Related Posts:
 
-[Escaping Corporate Silos With WordPress](/escaping-corporate-silos-with-wordpress/)
+[Escaping Corporate Silos With WordPress](/essays/escaping-corporate-silos-with-wordpress/)
 

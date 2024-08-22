@@ -2,7 +2,7 @@
 title: What is the best way to handle sessions with ADR?
 date: 2017-05-02T10:00:59.000Z
 updated: 2017-05-02T10:00:59.000Z
-published: true
+published: false
 ---
 
 Right before Christmas, I reached out to [Paul Jones](http://paul-m-jones.com/) asking:
@@ -21,7 +21,7 @@ Needless to say, they have been very useful. Paul has been incredibly generous w
 
 The reason for this package is that as Paul had said: "Anything that touches storage should be considered domain-layer work." so it's ok to read the session cookie in an Input class, and it's ok to write the cookie in a Responder class, but pretty much everything else should be in the Domain layer.
 
-_For more information about Radar see [Radar Under the Hood](/radar-under-the-hood/)._
+_For more information about Radar see [Radar Under the Hood](/essays/radar-under-the-hood/)._
 
 ## What does it do?
 

@@ -2,12 +2,12 @@
 title: GitHub Pages Gotcha
 date: 2013-08-03T06:00:00.000Z
 updated: 2013-08-03T06:00:00.000Z
-published: true
+published: false
 ---
 
 This blog (and a couple other sites) have been hosted via [GitHub Pages](http://pages.github.com/) which has been great.  However I wanted other features that required plugins which are not supported on GitHub Pages for security reasons.
 
-The way around this is to generate your site locally (with plugins) and commit your generated files as the site to GitHub Pages (see [Changing My Jekyll Config](/changing-jekyll-config/).  This is how this blog had been running for the last month or so.  I found this process to be tedious.  In order to publish my site I had to commit my source branch then `push origin source` then go to my master folder which is where the site was generated to.  Commit all the updated files and `push origin master`.  Not the worst work flow in the world, but still a pain in the ass.
+The way around this is to generate your site locally (with plugins) and commit your generated files as the site to GitHub Pages (see [Changing My Jekyll Config](/essays/changing-my-jekyll-config/).  This is how this blog had been running for the last month or so.  I found this process to be tedious.  In order to publish my site I had to commit my source branch then `push origin source` then go to my master folder which is where the site was generated to.  Commit all the updated files and `push origin master`.  Not the worst work flow in the world, but still a pain in the ass.
 
 Yesterday I changed things.  I took my source branch and pushed it to a [new repository](https://github.com/andrewshell/blog.andrewshell.org) updated it so jekyll would build into the `_site` directory.  Then I make a little script publish.sh that would use s3cmd to sync my `_site` folder to Amazon S3.
 

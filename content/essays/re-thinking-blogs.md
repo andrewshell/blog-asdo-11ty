@@ -1,5 +1,5 @@
 ---
-title: Re-Thinking Blogs
+title: Rethinking Blogs
 date: 2020-10-18T15:10:25.000Z
 updated: 2020-10-18T15:10:25.000Z
 published: true
@@ -11,8 +11,6 @@ End of last year, I changed the homepage from a list of posts to a more curated 
 
 Joel Hooks describes his website as a [Digital Garden](https://joelhooks.com/digital-garden):
 
-## [Joel Hooks](https://joelhooks.com/digital-garden)
-
 Seriously, who cares when anything on my site got posted. For the vast majority of things I'm writing it makes absolutely no difference what-so-ever.
 
 Using this newest-first approach makes the site impenetrable and less useful for me and especially for anybody that might be visiting to learn or research.
@@ -22,8 +20,6 @@ In 2008, I moved out to San Mateo, CA, to work for PBWiki (now PBWorks). Wiki's 
 The big difference I see is when you publish a blog post, the idea is it's now published and final. When you update it, it's common to mark it up in a way where you call out what has changed. For instance, if someone was misquoted.
 
 This stems from a problem Dave Winer talked about earlier this year in [I'm re-thinking RSS now](http://scripting.com/2020/01/19/145834.html?title=imRethinkingRssNow):
-
-## [Dave Winer](http://scripting.com/2020/01/19/145834.html?title=imRethinkingRssNow)
 
 Blogging and journalism both thrived in RSS. But at a price.
 
@@ -35,13 +31,11 @@ I know that one of the fundamental ideas of a wiki is that it's edited collabora
 
 A news site needs to be transparent in what they are reporting. You don't want to publish one thing, have many people link to it, and then change what you said. That would seem unethical and misleading.
 
-However, what about my website? There are specific posts on my site that are news articles. A good example is [First PHP Meetup](/first-php-meetup/), where I announced the first meeting of the group I started that still exists today as Full-Stack Madison.
+However, what about my website? There are specific posts on my site that are news articles. A good example is [First PHP Meetup](/essays/first-php-meetup/), where I announced the first meeting of the group I started that still exists today as Full-Stack Madison.
 
 However, the vast majority of posts on my site are evergreen. Or at least until the technology I discuss becomes obsolete. These would benefit from being more like wiki pages.
 
-For instance, Dave links to my page [Updating rssCloud Server](/2020-02/18/updating-rsscloud-server) which currently is a post. The information on this page is out of date because I mention as of February 2020:
-
-## [Andrew Shell](/2020-02/18/updating-rsscloud-server)
+For instance, Dave links to my page [Updating rssCloud Server](/essays/updating-rsscloud-server) which currently is a post. The information on this page is out of date because I mention as of February 2020:
 
 I'm hoping to have 2.0 released in the next couple of weeks.
 
