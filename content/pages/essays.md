@@ -1,11 +1,7 @@
 ---
-layout: layouts/base.njk
-numberOfLatestPostsToShow: 4
+layout: layouts/page.njk
+title: All Essays
 ---
-<header>
-  <h1 itemprop="headline">All Essays</h1>
-</header>
-<main>
 {% set postslist = collections.essays %}
 {% set lastmonth = "" %}
 {% for post in postslist | reverse %}
@@ -21,8 +17,3 @@ numberOfLatestPostsToShow: 4
   </a></li>
 {% endfor %}
 </ol>
-<hr>
-<footer>
-{% include "bio.njk" %}
-</footer>
-</main>

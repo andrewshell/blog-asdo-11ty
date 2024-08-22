@@ -1,9 +1,7 @@
 ---
-layout: layouts/base.njk
-fullHeader: true
+layout: layouts/page.njk
+title: All Notes
 ---
-{% include "bio.njk" %}
-
 - **Personal Development**
   - [Unified Theory of Goal-Setting](/notes/unified-theory-of-goal-setting/)
 - **Programming**
