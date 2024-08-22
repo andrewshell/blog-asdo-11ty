@@ -15,7 +15,7 @@ I'm a web developer. I wish I could say I'm a person who happens to do computer 
 
 In 2011 I Co-Founded [Pinpoint Software](https://pinpointsoftware.com/) and build the flagship product Date Check Pro. I left the company in 2018 to pursue other interests but [Pinpoint was aquired by ADC](https://www.businesswire.com/news/home/20211005005211/en/ADC-Acquires-Pinpoint-Software-Continues-to-Expand-Total-Store-Operations-Platform) (now [Upshop](https://upshop.com/)) in 2021.
 
-I'm big on community. I founded [Madison PHP](http://www.madisonphp.com/) (a group for web nerds like me). I'm also involved in other groups and events in town, which all relate to the internet.
+I'm big on community. I founded [Madison PHP](https://www.meetup.com/madisonphp/) (a group for web nerds like me). I'm also involved in other groups and events in town, which all relate to the internet.
 
 Currently, I work more with Node.js than PHP and manage a few interesting community projects.
 

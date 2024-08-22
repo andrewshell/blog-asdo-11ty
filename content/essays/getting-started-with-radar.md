@@ -5,7 +5,7 @@ updated: 2015-12-17T06:00:00.000Z
 published: true
 ---
 
-I recently needed a quick tool to track and generate invoices for my small random freelance jobs. I thought this would be a good project to try out [Radar](https://github.com/radarphp/Radar.Project), a PSR-7 compliant Action-Domain-Responder (ADR) system created by [Paul M. Jones](http://paul-m-jones.com/posts/label/radar/).
+I recently needed a quick tool to track and generate invoices for my small random freelance jobs. I thought this would be a good project to try out [Radar](https://github.com/radarphp/Radar.Project), a PSR-7 compliant Action-Domain-Responder (ADR) system created by [Paul M. Jones](https://paul-m-jones.com/tag/radar/).
 
 I like Radar and I'd like to document some of the things that I noticed while I built my app. This is not meant to be a replacement of the [official docs](https://github.com/radarphp/Radar.Project/blob/1.x/docs/index.md) which you should read first if you want to build an application using Radar. If you'd like to follow along, my project is [Stupid Simple Invoices](https://github.com/andrewshell/invoice/tree/0.0.1).
 
@@ -37,7 +37,7 @@ Since Paul is also the brains behind [Aura](http://auraphp.com/) a collection of
 
 The two main components used are [Aura.Router](https://github.com/auraphp/Aura.Router/tree/3.x) and [Aura.Di](https://github.com/auraphp/Aura.Di/tree/3.x).
 
-My experience is with [Symfony](https://symfony.com/) and [Silex](http://silex.sensiolabs.org/) and the Aura.Router implementation made perfect sense to me and caused no friction.
+My experience is with [Symfony](https://symfony.com/) and [Silex](https://github.com/silexphp/Silex) and the Aura.Router implementation made perfect sense to me and caused no friction.
 
 Aura.Di (a dependency injection container) on the other hand kind of confused me before it clicked.
 

@@ -2,11 +2,11 @@
 title: Figuring out Silex SecurityServiceProvider
 date: 2013-11-23T06:00:00.000Z
 updated: 2013-11-23T06:00:00.000Z
-published: true
+published: false
 itemtype: https://schema.org/TechArticle
 ---
 
-I'm working on a couple of projects that will be using [Silex](http://silex.sensiolabs.org/) as the underlying framework.
+I'm working on a couple of projects that will be using [Silex](https://github.com/silexphp/Silex) as the underlying framework.
 
 Whenever I try out a new framework, it seems that the first roadblock I always hit is when I try to implement user authentication & authorization. It's no different with Silex.
 
