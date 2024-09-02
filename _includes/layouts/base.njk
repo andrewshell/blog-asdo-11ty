@@ -21,7 +21,9 @@
   <link rel="webmention" href="https://webmention.io/blog.andrewshell.org/webmention" />
   <link rel="alternate" type="application/activity+json" href="https://fed.brid.gy/r/{{ page.url | htmlBaseUrl(metadata.url) | encodeURIComponent}}">
   <link rel=“canonical” href=“{{ absolutePostUrl }}” />
+  {% if metadata.production %}
   <script defer src="https://analytics.us.umami.is/script.js" data-website-id="ad25b1ce-ffdd-4f98-8dc8-cea81b233a1a"></script>
+  {% endif %}
 </head>
 <body>
 <div class="global-wrapper" itemscope itemtype="{{ pagetype or 'https://schema.org/WebPage' }}">
