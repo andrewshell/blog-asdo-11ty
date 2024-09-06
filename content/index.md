@@ -23,7 +23,7 @@ Go to [the search page](/search/) to search for any word or phrase.
 {% set postslist = collections.essays | head(-1 * numberOfLatestPostsToShow) %}
 
 <ul>
-{% for essay in postslist %}
+{% for essay in postslist | reverse %}
   <li><a href="{{ essay.url }}">{{ essay.data.title }}</a></li>
 {% endfor %}
 </ul>
@@ -35,7 +35,7 @@ Go to [the search page](/search/) to search for any word or phrase.
 {% set postslist = collections.notes | head(-1 * numberOfLatestPostsToShow) %}
 
 <ul>
-{% for note in postslist %}
+{% for note in postslist | reverse %}
   <li><a href="{{ note.url }}">{{ note.data.title }}</a></li>
 {% endfor %}
 </ul>
