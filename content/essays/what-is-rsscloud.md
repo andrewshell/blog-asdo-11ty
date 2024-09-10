@@ -1,8 +1,9 @@
 ---
 title: What is rssCloud?
 date: 2015-06-03T06:00:00.000Z
-updated: 2015-06-03T06:00:00.000Z
 published: true
+created: 2015-06-03T06:00:00.000Z
+
 ---
 
 [Jeffrey Kishner](http://jeffreykishner.com/) asks:

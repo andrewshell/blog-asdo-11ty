@@ -1,8 +1,9 @@
 ---
 title: Small Pieces, Loosely Joined
-date: 2021-10-31T14:11:54.364Z
-updated: 2021-10-31T14:11:54.379Z
+date: 2021-10-31T14:11:54.379Z
 published: true
+created: 2021-10-31T14:11:54.364Z
+
 ---
 If you're a software developer, you probably at one point or another have heard of the Unix philosophy of "small pieces, loosely joined." 
 

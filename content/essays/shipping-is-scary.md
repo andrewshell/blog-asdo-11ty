@@ -1,8 +1,9 @@
 ---
 title: Shipping is Scary
 date: 2011-04-22T06:00:00.000Z
-updated: 2011-04-22T06:00:00.000Z
 published: true
+created: 2011-04-22T06:00:00.000Z
+
 ---
 
 Today I shipped a little app of mine called TwitOPML.  I'm now freaked out.  What if a ton of people start using it?  What if nobody uses it?  I shot an e-mail about it to the [EC2 for Poets mailing list](https://groups.google.com/group/ec2-for-poets), so most likely somebody will try it out.  In fact, I pretty much developed the app for the members of that list.

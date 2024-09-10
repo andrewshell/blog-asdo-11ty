@@ -1,5 +1,6 @@
 ---
 title: Goal Setting for Developers
+published: true
 ---
 
 I'll be writing a lot about my personal process for goal setting. Here is an index of those posts and the logical order to read through the exercises.

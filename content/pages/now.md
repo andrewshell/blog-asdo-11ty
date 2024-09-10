@@ -1,7 +1,7 @@
 ---
 title: What I’m doing now
-date: 2020-04-13T16:02:07.504Z
-updated: 2024-05-08T13:07:32.000Z
+date: 2024-05-08T13:07:32.000Z
+created: 2020-04-13T16:02:07.504Z
 published: true
 pagetype: https://schema.org/WebPage
 itemtype: https://schema.org/Article

@@ -1,8 +1,9 @@
 ---
 title: PHP Functions on the Fly
 date: 2012-06-14T06:00:00.000Z
-updated: 2012-06-14T06:00:00.000Z
 published: true
+created: 2012-06-14T06:00:00.000Z
+
 ---
 
 I've been a big of a laggard when it comes around to the latest and greatest in the world of PHP. Only recently have I been using the new functionality of PHP 5.3 even though 5.4 just came out. Today I had an idea for a proof of concept and I thought I'd share it with you today.

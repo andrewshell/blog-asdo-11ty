@@ -1,8 +1,9 @@
 ---
 title: Teaching is an Unfair Advantage
 date: 2021-10-15T17:02:56.000Z
-updated: 2021-10-15T17:02:56.000Z
 published: true
+created: 2021-10-15T17:02:56.000Z
+
 ---
 
 I was very fortunate to stumble into my number one career hack earlier on.

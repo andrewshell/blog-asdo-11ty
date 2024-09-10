@@ -1,8 +1,9 @@
 ---
 title: Are you suffering from News Poisoning?
 date: 2011-02-11T06:00:00.000Z
-updated: 2011-02-11T06:00:00.000Z
 published: false
+created: 2011-02-11T06:00:00.000Z
+
 ---
 
 I had an interesting conversation with my friend [Monica](https://www.booksofm.com/) last night. We talked about information overload and she brought up a term "News Poisoning" which means how you can poison your mind by watching the news.

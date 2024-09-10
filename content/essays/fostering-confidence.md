@@ -1,8 +1,9 @@
 ---
 title: Fostering Confidence
-date: 2021-11-04T21:07:44.331Z
-updated: 2021-11-04T21:07:44.346Z
+date: 2021-11-04T21:07:44.346Z
 published: true
+created: 2021-11-04T21:07:44.331Z
+
 ---
 Today I interviewed for a leadership position at work. During the interview, the interviewer asked what my philosophy was for leading and mentoring people.
 

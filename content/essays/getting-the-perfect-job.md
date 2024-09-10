@@ -1,8 +1,9 @@
 ---
 title: Getting the Perfect Job
 date: 2013-06-21T06:00:00.000Z
-updated: 2013-06-21T06:00:00.000Z
 published: false
+created: 2013-06-21T06:00:00.000Z
+
 ---
 
 In my last article I talked about [how I landed the perfect job](/essays/landing-my-perfect-job/). In this article I'm going to go into some of the strategies I used to get to where I am today.  Keep in mind that this is more of an art then a science and your milage may vary. Some of these strategies will help you get your first job, but in general they are geared towards moving your career forward from job to job until you land your perfect job.

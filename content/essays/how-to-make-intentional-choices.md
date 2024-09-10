@@ -1,8 +1,9 @@
 ---
 title: How to Make Intentional Choices
-date: 2021-10-27T18:50:51.237Z
-updated: 2021-10-27T18:50:51.251Z
+date: 2021-10-27T18:50:51.251Z
 published: true
+created: 2021-10-27T18:50:51.237Z
+
 ---
 When you're trying to change your behavior, it's easy to fall into old habits. You've practiced these bad habits for a long time and it's foolish to think you can just decide to change and make it happen.
 

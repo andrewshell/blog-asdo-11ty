@@ -1,8 +1,9 @@
 ---
-title: "Voting with dollars "
+title: 'Voting with dollars '
 date: 2021-01-03T01:11:03.000Z
-updated: 2021-01-03T01:11:03.000Z
 published: false
+created: 2021-01-03T01:11:03.000Z
+
 ---
 
 I recently saw a post on Nextdoor called [Wealth shown to scale](https://mkorostoff.github.io/1-pixel-wealth/). The gist is to show the scale of just how much Jeff Bezos is worth ($200 Billion). It compares this to things like average household salary in the US and how much Tim Cook of Apple is worth. It literally at one point says, "No single human needs or deserves this much wealth."

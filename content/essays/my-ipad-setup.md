@@ -1,8 +1,9 @@
 ---
 title: My iPad Setup
 date: 2021-05-30T14:01:33.000Z
-updated: 2021-05-30T14:01:33.000Z
 published: true
+created: 2021-05-30T14:01:33.000Z
+
 ---
 
 This morning I read [Peter Akkies Newsletter](https://peterakkies.net/) and he asks:

@@ -1,9 +1,10 @@
 ---
 title: Following Outside of Twitter
 date: 2011-05-01T06:00:00.000Z
-updated: 2011-05-01T06:00:00.000Z
 published: true
 itemtype: https://schema.org/TechArticle
+created: 2011-05-01T06:00:00.000Z
+
 ---
 
 I've been working as part of the [blork](http://scripting.com/stories/2011/04/05/gettingStartedWithBlork.html) [community](https://groups.google.com/group/ec2-for-poets) lately.  What is a blork?  It's basically a decentralized Twitter like app that runs on [RSS](http://cyber.law.harvard.edu/rss/rss.html#whatIsRss).  You post status updates that get posted to your RSS Feed, then you follow other RSS feeds.  The problem? RSS is not particularly [user friendly](http://techcrunch.com/2010/09/13/rss-is-not-not-not-not-not-dead/).  You have to find the RSS feed, copy the URL and paste it into your RSS aggregator. Some sites make it easier, like with Dave's blork software you just copy a little bookmarklet into your toolbar and when you find a site you want to follow you just click the bookmarklet and it takes you to your blork with the url filled in.

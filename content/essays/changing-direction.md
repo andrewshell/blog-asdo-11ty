@@ -1,8 +1,9 @@
 ---
 title: Changing Direction
-date: 2021-10-24T16:12:21.335Z
-updated: 2021-10-24T16:12:22.495Z
+date: 2021-10-24T16:12:22.495Z
 published: true
+created: 2021-10-24T16:12:21.335Z
+
 ---
 > "You cannot change your destination overnight, but you can change your direction." — Jim Rohn
 

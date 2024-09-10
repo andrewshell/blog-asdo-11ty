@@ -1,8 +1,9 @@
 ---
 title: The 3 Enemies of Shipping
 date: 2021-10-13T17:02:56.000Z
-updated: 2021-10-13T17:02:56.000Z
 published: true
+created: 2021-10-13T17:02:56.000Z
+
 ---
 
 You have things you want to do, but probably not enough time or energy. You can only do one thing at a time (multitasking is a lie), and switching between projects eats time and energy for lunch.

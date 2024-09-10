@@ -1,13 +1,16 @@
 ---
-title: "Bait, Cast, Catch: Fishing Strategies for Life Success"
+title: 'Bait, Cast, Catch: Fishing Strategies for Life Success'
 date: 2024-05-22T11:43:01.000Z
-updated: 2024-05-22T11:43:01.000Z
 published: false
 pagetype: https://schema.org/WebPage
 itemtype: https://schema.org/Article
 image: /uploads/2024/05/fishing.webp
 imagecap: Image created by OpenAI's ChatGPT with DALL-E.
-imagealt: A surreal image representing the metaphorical connections between fishing and life success from your article.
+imagealt: >-
+  A surreal image representing the metaphorical connections between fishing and
+  life success from your article.
+created: 2024-05-22T11:43:01.000Z
+
 ---
 I recently watched a video from Tom Segura about his [11-year-old nephew fishing](https://www.facebook.com/TomSeguraTour/videos/698944505535973/). It must have left an impression on me because this morning, while lying in bed, I realized that although I'm no fisherman, fishing can be a metaphor for success in life. I can't believe I'm writing about fishing.
 

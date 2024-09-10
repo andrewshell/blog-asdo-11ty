@@ -1,13 +1,16 @@
 ---
 title: How To Build A Time Tracking App In React
 date: 2024-05-29T16:58:44.000Z
-updated: 2024-05-29T16:58:44.000Z
 published: true
 pagetype: https://schema.org/WebPage
 itemtype: https://schema.org/Article
 image: /uploads/2024/05/how-to-build-a-time-tracking-app-in-react.webp
 imagecap: Image created by OpenAI's ChatGPT with DALL-E.
-imagealt: A quirky, surreal image representing the blog post about building a time-tracking app in React.
+imagealt: >-
+  A quirky, surreal image representing the blog post about building a
+  time-tracking app in React.
+created: 2024-05-29T16:58:44.000Z
+
 ---
 
 In 2018, I built a time-tracking demo in React for a job I was applying for.

@@ -1,8 +1,9 @@
 ---
 title: Nofollow Links
 date: 2011-03-29T06:00:00.000Z
-updated: 2011-03-29T06:00:00.000Z
 published: false
+created: 2011-03-29T06:00:00.000Z
+
 ---
 
 This is a plugin designed to allow you to append nofollow to the rel attribute of selected links in your blogroll.

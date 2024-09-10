@@ -1,8 +1,9 @@
 ---
 title: Symfony Forms and Radar - Part 2
 date: 2016-09-28T05:00:55.000Z
-updated: 2016-09-28T05:00:55.000Z
 published: false
+created: 2016-09-28T05:00:55.000Z
+
 ---
 
 In [Part 1](/symfony-forms-radar/) I talked about the difficulties in getting Symfony Forms to play nicely with Aura.Di and Radars ADR model.

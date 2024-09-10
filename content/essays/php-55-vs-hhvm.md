@@ -1,8 +1,9 @@
 ---
 title: PHP 5.5 vs HHVM
 date: 2015-02-02T06:00:00.000Z
-updated: 2015-02-02T06:00:00.000Z
 published: false
+created: 2015-02-02T06:00:00.000Z
+
 ---
 
 At my job at [Pinpoint Software](http://www.pinpointsoftware.co), I've been working on our primary product Taskle. It's been very successful so far and we're adding a bunch of new companies to our system all the time. Of course that means scaling issues.

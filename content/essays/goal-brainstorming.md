@@ -1,8 +1,9 @@
 ---
 title: Goal Brainstorming
-date: 2021-10-30T16:05:08.905Z
-updated: 2021-10-30T16:05:08.919Z
+date: 2021-10-30T16:05:08.919Z
 published: true
+created: 2021-10-30T16:05:08.905Z
+
 ---
 Goal Funnels (see [You Need a Goal Funnel](/essays/you-need-a-goal-funnel/)) can be overwhelming. So here is another strategy to use to help flesh out your Goal Funnel.
 

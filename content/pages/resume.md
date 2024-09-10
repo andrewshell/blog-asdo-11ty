@@ -1,6 +1,8 @@
 ---
 title: My Résumé
-date: 2024-08-16T21:50:17Z
+date: 2024-08-16T21:50:17.000Z
+created: 2024-08-16T21:50:17.000Z
+published: true
 ---
 
 ## Andrew Shell

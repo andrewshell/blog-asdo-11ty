@@ -1,8 +1,9 @@
 ---
-title: "Introducing DocCloud: Using RSS Cloud for more then just RSS"
+title: 'Introducing DocCloud: Using RSS Cloud for more then just RSS'
 date: 2012-05-28T06:00:00.000Z
-updated: 2012-05-28T06:00:00.000Z
 published: true
+created: 2012-05-28T06:00:00.000Z
+
 ---
 
 Dave Winer discusses in his post [A simple proposal for discussion software makers](http://scripting.com/stories/2012/05/26/simpleProposalToDiscussion.html) an idea where instead of having to only publish content inside of the application (Ex: WordPress, Tumblr, Quora), you could specify a URL for your content and the application would fetch that content and through a process it stays updated with pings from the document source.

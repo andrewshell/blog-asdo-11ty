@@ -1,8 +1,9 @@
 ---
 title: Yahoo and the semantic web
 date: 2008-08-29T06:00:00.000Z
-updated: 2008-08-29T06:00:00.000Z
 published: true
+created: 2008-08-29T06:00:00.000Z
+
 ---
 
 At Netconcepts I've implemented [microformats](http://microformats.org/) in order to optimize content for search engines. An example of this would be the [hCard microformat](http://microformats.org/wiki/hcard) which we're using in the Allen Edmonds store locator. We marked up the content with classes like street-address and region. We're hoping that this will be used for local search.

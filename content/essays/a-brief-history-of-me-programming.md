@@ -1,8 +1,9 @@
 ---
 title: A Brief History of Me Programming
-date: 2007-04-25T06:00:00.000Z
-updated: 2024-08-21T19:34:10.000Z
+date: 2024-08-21T19:34:10.000Z
 published: true
+created: 2007-04-25T06:00:00.000Z
+
 ---
 
 I've been programming in one form or another for as long as I can remember. Since my family got its first computer when I was five, I couldn't have programmed much before that. However, I knew DOS well enough to help teachers with their computers in first and second grade, so I was probably already doing some programming by then. It wasn't sophisticated by any means, just simple code like:

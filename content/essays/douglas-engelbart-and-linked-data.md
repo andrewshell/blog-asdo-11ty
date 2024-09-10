@@ -1,9 +1,10 @@
 ---
 title: Douglas Engelbart and Linked Data
 date: 2021-03-27T11:06:13.000Z
-updated: 2021-03-27T11:06:13.000Z
 published: true
 itemtype: https://schema.org/TechArticle
+created: 2021-03-27T11:06:13.000Z
+
 ---
 
 In this video, Douglas Engelbart [answers a question](https://youtu.be/xQx-tuW9A4Q?t=2197) about issue-based structured argumentation.

@@ -1,8 +1,9 @@
 ---
 title: Will this make me feel better tomorrow?
 date: 2015-05-26T06:00:00.000Z
-updated: 2015-05-26T06:00:00.000Z
 published: false
+created: 2015-05-26T06:00:00.000Z
+
 ---
 
 I came home for lunch today and I feel like crap. I feel stressed and tired most of the time.

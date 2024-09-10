@@ -1,8 +1,9 @@
 ---
 title: Technology delegation vs abdication
 date: 2010-12-15T06:00:00.000Z
-updated: 2010-12-15T06:00:00.000Z
 published: true
+created: 2010-12-15T06:00:00.000Z
+
 ---
 
 This is a reply to [Why Gen Y is Smarter, From a Gen X](http://happyemergency.tumblr.com/post/2326325674/why-gen-y-is-smarter-from-a-gen-x)

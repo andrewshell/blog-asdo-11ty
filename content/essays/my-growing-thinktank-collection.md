@@ -1,8 +1,9 @@
 ---
 title: My Growing ThinkTank Collection
 date: 2020-11-09T02:17:18.000Z
-updated: 2020-11-09T02:17:18.000Z
 published: true
+created: 2020-11-09T02:17:18.000Z
+
 ---
 
 I have a bunch of saved searches on eBay looking for interesting things. One of those things is "Living Videotext". Today my latest addition, a copy of ThinkTank 128 arrived. Still need ThinkTank 512, Ready, and MORE.

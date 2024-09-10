@@ -1,6 +1,9 @@
 ---
 title: Unified Theory of Goal-Setting
 date: 2021-12-23T19:31:34.131Z
+created: 2021-12-23T19:31:34.131Z
+published: true
+
 ---
 Goal-setting and task management are essential components of personal development. At the core of every goal-setting framework and task management system is a fundamental principle:
 

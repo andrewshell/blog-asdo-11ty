@@ -1,8 +1,9 @@
 ---
 title: Don't Ask for Permission
-date: 2021-11-06T14:40:57.664Z
-updated: 2021-11-06T14:40:57.681Z
+date: 2021-11-06T14:40:57.681Z
 published: true
+created: 2021-11-06T14:40:57.664Z
+
 ---
 Early in my career, I worked for an SEO company. I was pretty low on the totem pole but had a lot of chutzpah.
 

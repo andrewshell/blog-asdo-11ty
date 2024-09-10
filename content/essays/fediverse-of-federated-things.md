@@ -1,9 +1,10 @@
 ---
-title: "Fediverse of Federated Things "
+title: 'Fediverse of Federated Things '
 date: 2020-12-06T21:15:03.000Z
-updated: 2020-12-06T21:15:03.000Z
 published: true
 itemtype: https://schema.org/TechArticle
+created: 2020-12-06T21:15:03.000Z
+
 ---
 
 I'm pretty new to the idea of the [Fediverse](https://en.wikipedia.org/wiki/Fediverse) and [Federation](https://en.wikipedia.org/wiki/Federation_(information_technology)) in general. I recently signed up for [Mastodon](https://joinmastodon.org/) to participate in the [Podcast Index Community](https://podcastindex.social/about). 

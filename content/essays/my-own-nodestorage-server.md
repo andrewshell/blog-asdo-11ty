@@ -1,8 +1,9 @@
 ---
 title: My own nodeStorage server
 date: 2020-10-23T14:25:13.000Z
-updated: 2020-10-23T14:25:13.000Z
 published: false
+created: 2020-10-23T14:25:13.000Z
+
 ---
 
 If things worked correctly. This should be saved on my personal nodeStorage server.

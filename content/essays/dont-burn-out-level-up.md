@@ -1,8 +1,9 @@
 ---
 title: Don't Burn Out, Level Up
-date: 2021-10-28T20:57:37.734Z
-updated: 2021-10-28T20:57:37.750Z
+date: 2021-10-28T20:57:37.750Z
 published: true
+created: 2021-10-28T20:57:37.734Z
+
 ---
 When you're driving, you shift into a higher gear so you can continue accelerating. If you continue accelerating at the current gear, you'll wear out your engine and burn up a lot of gas.
 

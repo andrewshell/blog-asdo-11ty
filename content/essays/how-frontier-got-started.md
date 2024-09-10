@@ -1,8 +1,9 @@
 ---
 title: How Frontier got started
 date: 2020-10-31T01:31:08.000Z
-updated: 2020-10-31T01:31:08.000Z
 published: true
+created: 2020-10-31T01:31:08.000Z
+
 ---
 
 Interesting timing. I've been talking to Dave lately about nodeEditor and how things worked in Frontier. Then I opened Instapaper today and was scanning through pages I had bookmarked to read later and came across a <a href="http://this.how/frontier/howFrontierGotStarted.opml">How Frontier got started</a> which had an attached podcast that was super interesting.

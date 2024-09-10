@@ -1,8 +1,9 @@
 ---
 title: Dead Drops 'How to'
 date: 2012-09-12T06:00:00.000Z
-updated: 2012-09-12T06:00:00.000Z
 published: true
+created: 2012-09-12T06:00:00.000Z
+
 ---
 
 I just came across this video and thought it would be great to share. According to the map on [deaddrops.com](https://deaddrops.com/) there aren't any listed in Madison, WI. I might have to change that.

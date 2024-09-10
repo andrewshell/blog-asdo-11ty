@@ -1,8 +1,9 @@
 ---
 title: GitHub Pages Gotcha
 date: 2013-08-03T06:00:00.000Z
-updated: 2013-08-03T06:00:00.000Z
 published: false
+created: 2013-08-03T06:00:00.000Z
+
 ---
 
 This blog (and a couple other sites) have been hosted via [GitHub Pages](http://pages.github.com/) which has been great.  However I wanted other features that required plugins which are not supported on GitHub Pages for security reasons.

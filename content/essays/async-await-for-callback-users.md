@@ -1,9 +1,10 @@
 ---
 title: Async/Await for callback users
 date: 2021-02-09T17:25:18.000Z
-updated: 2021-02-09T17:25:18.000Z
 published: true
 itemtype: https://schema.org/TechArticle
+created: 2021-02-09T17:25:18.000Z
+
 ---
 
 I have a friend that writes node.js code with callbacks. There are some cases where I think using promises or async/await syntax might be advantageous. Here, I'm going to try to connect the dots.

@@ -1,6 +1,7 @@
 ---
 title: Filtering user submitted HTML with HTMLPurifier
 itemtype: https://schema.org/TechArticle
+published: true
 ---
 
 _This article was originally published in the [June 2012](http://www.phparch.com/magazine/2012-2/june/) issue of php|architect magazine._

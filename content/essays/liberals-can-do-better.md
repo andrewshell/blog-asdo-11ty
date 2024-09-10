@@ -1,8 +1,9 @@
 ---
 title: Liberals can do better!
 date: 2020-12-29T23:08:05.000Z
-updated: 2020-12-29T23:08:05.000Z
 published: false
+created: 2020-12-29T23:08:05.000Z
+
 ---
 
 I sometimes get myself in trouble. I consider myself liberal, although realistically, I'm pretty middle of the road. In every election so far, I've voted Democratic, although full disclosure, if Ron Paul had gotten through the primaries, I would have voted for him.

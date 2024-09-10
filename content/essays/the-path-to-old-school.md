@@ -1,8 +1,9 @@
 ---
 title: The Path to Old School
 date: 2020-10-26T18:04:48.000Z
-updated: 2020-10-26T18:04:48.000Z
 published: false
+created: 2020-10-26T18:04:48.000Z
+
 ---
 
 Dave has sent me some pointers to look at his blogging platform Old School. I'm excited to try it out.

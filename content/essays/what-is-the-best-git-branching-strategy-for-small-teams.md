@@ -1,8 +1,9 @@
 ---
 title: What is the best git branching strategy for small teams?
 date: 2016-11-04T12:45:59.000Z
-updated: 2016-11-04T12:45:59.000Z
 published: true
+created: 2016-11-04T12:45:59.000Z
+
 ---
 
 In my development, I use Git all the time. It was a little tricky to figure out at first but, I feel like I have a good understanding of how to use it.

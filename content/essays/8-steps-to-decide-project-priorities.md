@@ -1,8 +1,9 @@
 ---
-title: "8 Steps to Decide Project Priorities "
+title: 8 Steps to Decide Project Priorities
 date: 2021-10-12T13:46:48.000Z
-updated: 2021-10-12T13:46:48.000Z
 published: true
+created: 2021-10-12T13:46:48.000Z
+
 ---
 
 ## Does this sound familiar? 

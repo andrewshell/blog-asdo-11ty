@@ -1,8 +1,9 @@
 ---
 title: How do you know what you stand for?
 date: 2009-12-11T06:00:00.000Z
-updated: 2009-12-11T06:00:00.000Z
 published: true
+created: 2009-12-11T06:00:00.000Z
+
 ---
 
 I'm someone that likes to think of himself as pretty driven and goal oriented.  I think this is why it's bothered me so much that lately I've been floundering without any great direction.  Some of it is probably the "Quarterlife Crisis" but it could also be that I've been getting lazy.

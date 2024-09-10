@@ -13,9 +13,12 @@ layout: layouts/base.njk
 </header>
 <section itemprop="articleBody">
 {{ content | safe }}
-{% if updated %}
-<p itemprop="dateModified" content="{{ updated | htmlDateString }}" }><small>Updated {{ updated | readableDate('DDD') }}</small></p>
+<p>
+<time class="small" itemprop="datePublished" datetime="{{ created | htmlDateString }}" }>Published {{ created | readableDate('DDD') }}</time>
+{% if isDiffDay(created, date) %}
+<br><time class="small" itemprop="dateModified" datetime="{{ date | htmlDateString }}" }>Updated {{ date | readableDate('DDD') }}</time>
 {% endif %}
+</p>
 </section>
 <hr>
 <footer>

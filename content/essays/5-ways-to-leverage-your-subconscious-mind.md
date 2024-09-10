@@ -1,8 +1,9 @@
 ---
 title: 5 Ways to Leverage Your Subconscious Mind
 date: 2021-10-17T17:02:56.000Z
-updated: 2021-10-17T17:02:56.000Z
 published: true
+created: 2021-10-17T17:02:56.000Z
+
 ---
 
 Do you ever have a problem that no matter how hard you work at, you just can't figure it out? My inclination has been to power through, trying one thing after another until I figure it out, but usually, that leads to resistance and frustration. I've found another way that more often than not helps me solve my problems quickly and with less resistance.

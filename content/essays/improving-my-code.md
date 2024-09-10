@@ -1,8 +1,9 @@
 ---
 title: Improving My Code
 date: 2013-08-02T06:00:00.000Z
-updated: 2013-08-02T06:00:00.000Z
 published: true
+created: 2013-08-02T06:00:00.000Z
+
 ---
 
 I'll be honest with you. I had kinda stagnated over the last couple years when it came to improving my skills as a developer. When I first started developing professionally I went from not knowing much PHP to being well regarded as a developer in a few years.

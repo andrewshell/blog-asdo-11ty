@@ -1,8 +1,9 @@
 ---
 title: My 3 Favorite Productivity Books
-date: 2021-11-03T21:54:16.617Z
-updated: 2021-11-03T21:54:16.636Z
+date: 2021-11-03T21:54:16.636Z
 published: true
+created: 2021-11-03T21:54:16.617Z
+
 ---
 Here are three of my favorite books about productivity and goal setting.
 

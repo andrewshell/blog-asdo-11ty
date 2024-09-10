@@ -1,8 +1,9 @@
 ---
 title: What is the best way to inject a logger?
 date: 2017-03-06T16:34:00.000Z
-updated: 2017-03-06T16:34:00.000Z
 published: true
+created: 2017-03-06T16:34:00.000Z
+
 ---
 
 I'm working on several projects right now that I'd like to be able to generate logs from.

@@ -4,6 +4,7 @@ pagetype: https://schema.org/ContactPage
 eleventyNavigation:
   key: Contact
   order: 2
+published: true
 ---
 
 I love hearing from people, so please e-mail me at andrew@andrewshell.org and introduce yourself.

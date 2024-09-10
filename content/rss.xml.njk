@@ -26,7 +26,7 @@ eleventyExcludeFromCollections: true
 		<title>{{ post.data.title }}</title>
 		<description>{{ post.content | striptags(true) | transformWithHtmlBase(absolutePostUrl, post.url) | truncate(280) }}</description>
 		<link>{{ absolutePostUrl }}</link>
-		<guid isPermaLink="false">{{ absolutePostUrl }}</guid>
+		<guid isPermaLink="true">{{ absolutePostUrl }}</guid>
 		<pubDate>{{ post.date | dateToRfc822 }}</pubDate>
 		<content:encoded>{{ post.content | transformWithHtmlBase(absolutePostUrl, post.url) }}</content:encoded>
 		<source:markdown>{{ post.template.frontMatter.content }}</source:markdown>

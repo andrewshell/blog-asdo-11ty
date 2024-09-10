@@ -1,9 +1,10 @@
 ---
 title: Collecting Data from Atlas ORM with PHP Debug Bar
 date: 2016-10-14T05:00:09.000Z
-updated: 2016-10-14T05:00:09.000Z
 published: true
 itemtype: https://schema.org/TechArticle
+created: 2016-10-14T05:00:09.000Z
+
 ---
 
 In my last article, I talked about how I found [an N+1 bug in Atlas ORM](/essays/complex-database-relationships-with-atlasorm/).

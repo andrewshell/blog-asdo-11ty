@@ -1,9 +1,10 @@
 ---
 title: Discovering Clean Architecture
 date: 2016-09-23T05:00:34.000Z
-updated: 2016-09-23T05:00:34.000Z
 published: true
 itemtype: https://schema.org/TechArticle
+created: 2016-09-23T05:00:34.000Z
+
 ---
 
 Several years ago I came across the following video. It was a keynote from a Ruby conference by some guy named Robert "Uncle Bob" Martin. It's really worth your time to watch.

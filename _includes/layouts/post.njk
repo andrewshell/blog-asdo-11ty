@@ -8,9 +8,9 @@ layout: layouts/base.njk
 <section itemprop="articleBody">
 {{ content | safe }}
 <p>
-<time class="small" itemprop="datePublished" datetime="{{ date | htmlDateString }}" }>Published {{ date | readableDate('DDD') }}</time>
-{% if isDiffDay(updated, date) %}
-<br><time class="small" itemprop="dateModified" datetime="{{ updated | htmlDateString }}" }>Updated {{ updated | readableDate('DDD') }}</time>
+<time class="small" itemprop="datePublished" datetime="{{ created | htmlDateString }}" }>Published {{ created | readableDate('DDD') }}</time>
+{% if isDiffDay(created, date) %}
+<br><time class="small" itemprop="dateModified" datetime="{{ date | htmlDateString }}" }>Updated {{ date | readableDate('DDD') }}</time>
 {% endif %}
 </p>
 </section>

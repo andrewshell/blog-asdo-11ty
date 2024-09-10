@@ -1,8 +1,9 @@
 ---
 title: Avoiding the Final Death
 date: 2021-03-27T11:34:20.000Z
-updated: 2021-03-27T11:34:20.000Z
 published: true
+created: 2021-03-27T11:34:20.000Z
+
 ---
 
 I talked to a friend yesterday about all the artifacts I collect and want to collect.

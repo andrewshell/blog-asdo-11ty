@@ -1,8 +1,9 @@
 ---
 title: Triggering Safari Reader
 date: 2013-08-07T06:00:00.000Z
-updated: 2013-08-07T06:00:00.000Z
 published: false
+created: 2013-08-07T06:00:00.000Z
+
 ---
 
 I do most of my blog reading on my iPhone so it's really important for me that my blog looks good on the iPhone.

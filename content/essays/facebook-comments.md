@@ -1,8 +1,9 @@
 ---
 title: Facebook Comments
 date: 2015-05-23T06:00:00.000Z
-updated: 2015-05-23T06:00:00.000Z
 published: true
+created: 2015-05-23T06:00:00.000Z
+
 ---
 
 Dave Winer uses Facebook comments on his Liveblog and today I wanted to comment on [his post about liveblogging](http://liveblog.co/users/davewiner/2015/05/22/thePointOfLiveblogging.html). However before I did this I had to check something out.

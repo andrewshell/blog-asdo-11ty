@@ -1,8 +1,9 @@
 ---
 title: Uncertainty about death
 date: 2015-07-07T06:00:00.000Z
-updated: 2015-07-07T06:00:00.000Z
 published: false
+created: 2015-07-07T06:00:00.000Z
+
 ---
 
 I feel like I dodged a bullet today.

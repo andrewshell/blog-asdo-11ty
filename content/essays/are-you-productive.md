@@ -1,8 +1,9 @@
 ---
 title: Are You Productive?
 date: 2021-10-16T17:02:56.000Z
-updated: 2021-10-16T17:02:56.000Z
 published: true
+created: 2021-10-16T17:02:56.000Z
+
 ---
 
 How do you define productivity? For example, if I asked you if you've had a productive week, what criteria would you use?

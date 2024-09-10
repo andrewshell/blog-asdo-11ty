@@ -1,6 +1,7 @@
 ---
 layout: layouts/page.njk
 title: All Notes
+published: true
 ---
 - **Personal Development**
   - [Unified Theory of Goal-Setting](/notes/unified-theory-of-goal-setting/)

@@ -1,8 +1,9 @@
 ---
 title: RSS, FlipBoard and Me
 date: 2010-08-11T06:00:00.000Z
-updated: 2010-08-11T06:00:00.000Z
 published: true
+created: 2010-08-11T06:00:00.000Z
+
 ---
 
 Recently I privately declared RSS bankruptcy. I had managed to tame my feeds in such a way that I could usually get through everything and some days I'd just clear out my low value feeds in order to keep up. Then on June 30th, I attended an online webinar "Escaping the Techno ADD Loop" and as part of it, I asked the question of how to keep up with RSS? Obviously, I don't want to miss out on anything important. Well, first after I explained my organization system they pointed out that I should probably just kill my low-value folder. They also mentioned that if a website is important enough, you'll check it on your own and if you don't, maybe it isn't that important.

@@ -1,8 +1,9 @@
 ---
 title: Why I'm Shipping 30 for 30?
 date: 2021-10-09T16:47:34.000Z
-updated: 2021-10-09T16:47:34.000Z
 published: true
+created: 2021-10-09T16:47:34.000Z
+
 ---
 
 Today marks the first day of the October cohort of Ship 30 for 30. It's a writing challenge to publish an atomic essay (like this) every day for 30 days.

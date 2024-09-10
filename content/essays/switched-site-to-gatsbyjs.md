@@ -1,8 +1,9 @@
 ---
 title: Switched site to GatsbyJS
 date: 2019-11-06T18:31:25.000Z
-updated: 2019-11-06T18:31:25.000Z
 published: false
+created: 2019-11-06T18:31:25.000Z
+
 ---
 
 You may notice that my site is a little different now. I've been playing around with [GatsbyJS](https://www.gatsbyjs.com/) lately, and it seemed like something I'd like to use. It's a static site generator, although it's more of a PWA generator. The output is static HTML and javascript files that can be deployed to S3 or in my case, [Netlify](https://www.netlify.com/).

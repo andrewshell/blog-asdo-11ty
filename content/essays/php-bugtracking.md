@@ -1,8 +1,9 @@
 ---
 title: PHP Bugtracking
 date: 2006-11-05T06:00:00.000Z
-updated: 2006-11-05T06:00:00.000Z
 published: false
+created: 2006-11-05T06:00:00.000Z
+
 ---
 
 So I am currently looking for good bug tracking software. I have a few requirements, some of which I'm sure are unreasonable. First the code needs to be able to run without errors, warnings or notices in PHP 5.2 (using php.ini-recommended) and it's an extra bonus if it works under E_STRICT. It should either use no database or MySql. It should not require funky extensions, python or perl.

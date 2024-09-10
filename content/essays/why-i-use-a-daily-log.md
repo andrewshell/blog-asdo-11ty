@@ -1,8 +1,9 @@
 ---
 title: Why I Use a Daily Log
-date: 2021-10-27T02:04:00.577Z
-updated: 2021-10-27T02:04:00.591Z
+date: 2021-10-27T02:04:00.591Z
 published: true
+created: 2021-10-27T02:04:00.577Z
+
 ---
 How often do you find yourself on autopilot?
 

@@ -1,8 +1,9 @@
 ---
 title: You Need a Goal Funnel
 date: 2021-10-21T17:02:56.000Z
-updated: 2021-10-21T17:02:56.000Z
 published: true
+created: 2021-10-21T17:02:56.000Z
+
 ---
 
 Whether it's on January 1st or some other schedule (I recommend quarterly) it's a good idea to regularly do a deep dive goal planning session.

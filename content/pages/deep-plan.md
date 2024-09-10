@@ -1,7 +1,7 @@
 ---
 title: Deep Stack Planning
 date: 2023-12-04T12:57:00.000Z
-updated: 2023-12-04T12:57:00.000Z
+created: 2023-12-04T12:57:00.000Z
 published: true
 pagetype: https://schema.org/WebPage
 itemtype: https://schema.org/Article

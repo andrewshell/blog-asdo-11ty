@@ -1,8 +1,9 @@
 ---
 title: PHP Works 2006
 date: 2006-09-20T06:00:00.000Z
-updated: 2006-09-20T06:00:00.000Z
 published: true
+created: 2006-09-20T06:00:00.000Z
+
 ---
 
 The conference this year was a lot of fun. I found the talks to be weaker then I remember from previous years. Perhaps I chose poorly. Two of the best talks I attended were "The State of AOP in PHP" by [Sebastian Bergmann](https://sebastian-bergmann.de/) and "[Organizing Your Projects](http://paul-m-jones.com/archives/231)" by [Paul M. Jones](http://paul-m-jones.com/).

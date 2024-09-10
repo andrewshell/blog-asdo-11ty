@@ -1,10 +1,11 @@
 ---
 title: Andrew Shell Headshot 1
-date: 2022-02-06T01:03:49.514Z
-updated: 2022-02-06T01:03:49.531Z
+date: 2022-02-06T01:03:49.531Z
 published: true
 pagetype: https://schema.org/WebPage
 itemtype: https://schema.org/TechArticle
+created: 2022-02-06T01:03:49.514Z
+
 ---
 Today I created [my first NFT](https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/50785849398388566510903729972648362585060473171757419675425038676188286943233/). I'm not really sure how useful it is, but what the heck.
 

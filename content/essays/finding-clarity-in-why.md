@@ -1,8 +1,9 @@
 ---
 title: Finding Clarity in "Why?"
-date: 2021-11-02T01:25:11.514Z
-updated: 2021-11-02T01:25:11.526Z
+date: 2021-11-02T01:25:11.526Z
 published: true
+created: 2021-11-02T01:25:11.514Z
+
 ---
 The number one thing that sabotages me regularly is a lack of clarity.
 

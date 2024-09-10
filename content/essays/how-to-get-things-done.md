@@ -1,8 +1,9 @@
 ---
 title: How To Get Things Done
-date: 2021-11-02T23:55:12.730Z
-updated: 2021-11-02T23:55:12.747Z
+date: 2021-11-02T23:55:12.747Z
 published: true
+created: 2021-11-02T23:55:12.730Z
+
 ---
 Once you have your goals in mind and know what you want to do, the next trick is to get yourself to do it.
 

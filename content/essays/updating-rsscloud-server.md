@@ -1,8 +1,9 @@
 ---
 title: Updating rssCloud Server
 date: 2020-02-18T03:29:18.000Z
-updated: 2020-02-18T03:29:18.000Z
 published: true
+created: 2020-02-18T03:29:18.000Z
+
 ---
 
 I've been slowly but surely working on version 2.0 of the [rssCloud server](/essays/rebooting-rsscloud/) I built back in 2015.

@@ -1,8 +1,9 @@
 ---
 title: Amazon's being reasonable with publishers over Apple ebook pricing
 date: 2010-03-19T06:00:00.000Z
-updated: 2010-03-19T06:00:00.000Z
 published: false
+created: 2010-03-19T06:00:00.000Z
+
 ---
 
 I read an article today on Silicon Alley Insider [Amazon Tells Small Publishers It Will Stop Selling Their Books If They Join Apple](http://www.businessinsider.com/amazon-tells-small-publishers-it-will-stop-selling-their-books-if-they-join-apple-2010-3) which if that was the case would clearly be big news.  However I read the quote and I'm left scratching my head.  It actually doesn't seem from what they print in the article that Amazon is actually threatening to de-list publishers to sell with Apple.  I figure I should do a little more research and follow the links back to the original article from Melville House Publishing [Hysterical Amazon exec calls 911, says accelerator is stuck and he can’t keep from running over publishers](http://mhpbooks.com/mobylives/?p=13605) and it further solidifies my initial impression.  Here's how I'm paraphrasing the conversation between Amazon and the Publisher:

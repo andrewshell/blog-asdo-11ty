@@ -1,8 +1,9 @@
 ---
 title: Developing Better Developers
 date: 2020-11-02T16:32:45.000Z
-updated: 2020-11-02T16:32:45.000Z
 published: true
+created: 2020-11-02T16:32:45.000Z
+
 ---
 
 Just read <a href="http://this.how/phoenix/index.opml">Developing better developers</a> it sounds like a great idea. I think a similar idea could also be bootstrapped outside of universities. Something that combines an open-source project with a meetup group. Senior devs can teach and work with the junior devs for the benefit of the project.

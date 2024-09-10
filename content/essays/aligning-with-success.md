@@ -1,8 +1,9 @@
 ---
 title: Aligning with Success
 date: 2021-10-18T17:02:56.000Z
-updated: 2021-10-18T17:02:56.000Z
 published: true
+created: 2021-10-18T17:02:56.000Z
+
 ---
 
 Yesterday, I discussed how to leverage your subconscious mind (see [5 Ways to Leverage Your Subconscious Mind](/essays/5-ways-to-leverage-your-subconscious-mind/)). Today, I want to give special attention to one aspect of the subconscious.

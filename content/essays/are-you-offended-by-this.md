@@ -1,8 +1,9 @@
 ---
 title: Are you offended by this?
 date: 2013-09-06T06:00:00.000Z
-updated: 2013-09-06T06:00:00.000Z
 published: false
+created: 2013-09-06T06:00:00.000Z
+
 ---
 
 ![Censored](/uploads/2013/09/censored.jpg)

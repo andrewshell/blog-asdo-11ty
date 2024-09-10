@@ -1,8 +1,9 @@
 ---
 title: The future of PHP (and JavaScript)
 date: 2013-08-16T06:00:00.000Z
-updated: 2013-08-16T06:00:00.000Z
 published: true
+created: 2013-08-16T06:00:00.000Z
+
 ---
 
 As a developer, I'm always reevaluating what tools I use to do my work. This can be what language I'm using, but also what frameworks, libraries or editors I'm using.

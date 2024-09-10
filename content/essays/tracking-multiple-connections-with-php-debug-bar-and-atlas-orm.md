@@ -1,8 +1,9 @@
 ---
 title: Tracking Multiple Connections with PHP Debug Bar and Atlas ORM
 date: 2016-10-18T14:14:29.000Z
-updated: 2016-10-18T14:14:29.000Z
 published: true
+created: 2016-10-18T14:14:29.000Z
+
 ---
 
 On Friday I talked about a new library I created that [helps integrate Atlas.ORM with PHP Debug Bar](/essays/collecting-data-from-atlas-orm-with-php-debug-bar/).

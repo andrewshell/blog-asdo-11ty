@@ -1,6 +1,7 @@
 ---
 layout: layouts/page.njk
 title: All Essays
+published: true
 ---
 {% set postslist = collections.essays %}
 {% set lastmonth = "" %}

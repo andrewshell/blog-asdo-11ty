@@ -1,8 +1,9 @@
 ---
 title: Giving Up On Web Ownership?
 date: 2011-02-18T06:00:00.000Z
-updated: 2011-02-18T06:00:00.000Z
 published: false
+created: 2011-02-18T06:00:00.000Z
+
 ---
 
 Last year when I was helping organize BarCamp Madison 2011 I was busy getting the website set up.  I set up a WordPress site and planned on getting modules installed to handle registrations and session tracking.  Before I even got a chance to do anything other members of the group set up an eventbrite event for registrations, a google moderator site set up for session tracking, a google wave set up for organizer communication and there was already a google group for community communication.

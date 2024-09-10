@@ -1,8 +1,9 @@
 ---
 title: Rock-It at Work - Start a Group
 date: 2011-06-29T06:00:00.000Z
-updated: 2011-06-29T06:00:00.000Z
 published: true
+created: 2011-06-29T06:00:00.000Z
+
 ---
 
 _At Brazen Careerist where I work we're having a series of posts by Brazen employees with tips about how they got ahead in their careers.  My post about starting a group was just posted today.  Check it out._

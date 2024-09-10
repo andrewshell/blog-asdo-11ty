@@ -1,8 +1,9 @@
 ---
 title: Margin Helps You Live Life
 date: 2021-10-20T17:02:56.000Z
-updated: 2021-10-20T17:02:56.000Z
 published: true
+created: 2021-10-20T17:02:56.000Z
+
 ---
 
 Today my essay is a little later in the day. There are a lot of things going on right now. I have an accepted offer on a house I'm buying and my daughter is sick with a stomach bug.

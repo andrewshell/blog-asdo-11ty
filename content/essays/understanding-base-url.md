@@ -1,8 +1,9 @@
 ---
 title: Understanding Base URL
 date: 2013-05-03T06:00:00.000Z
-updated: 2013-05-03T06:00:00.000Z
 published: false
+created: 2013-05-03T06:00:00.000Z
+
 ---
 
 I've been using GitHub Pages quite a bit these days.  In fact this blog is running off on GitHub Pages.  I really like it as a platform.

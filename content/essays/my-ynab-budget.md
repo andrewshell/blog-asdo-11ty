@@ -1,8 +1,9 @@
 ---
 title: My YNAB Budget
 date: 2013-07-16T06:00:00.000Z
-updated: 2013-07-16T06:00:00.000Z
 published: false
+created: 2013-07-16T06:00:00.000Z
+
 ---
 
 I don't typically promote products on my site but I really love You Need A Budget or YNAB. I've had a real hard time in the past with managing my money, I've accumulated a bunch of debt and pissed through a bunch of inheritance money. I've tried a number of programs like Microsoft Money, Quicken and Mint none of which worked very well for helping me manage a budget.

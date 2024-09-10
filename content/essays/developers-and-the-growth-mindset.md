@@ -1,8 +1,9 @@
 ---
 title: Developers and the Growth Mindset
 date: 2011-05-09T06:00:00.000Z
-updated: 2011-05-09T06:00:00.000Z
 published: true
+created: 2011-05-09T06:00:00.000Z
+
 ---
 
 Recently I've been reading the book [Mindset: The New Psychology of Success](https://www.amazon.com/Mindset-Psychology-Carol-S-Dweck/dp/0345472322) by Carol Dweck and it's really making me think.

@@ -1,13 +1,16 @@
 ---
-title: "Transforming Fitness Goals: From Lag to Lead Metrics"
+title: 'Transforming Fitness Goals: From Lag to Lead Metrics'
 date: 2024-05-08T13:07:32.000Z
-updated: 2024-05-08T13:07:32.000Z
 published: true
 pagetype: https://schema.org/WebPage
 itemtype: https://schema.org/Article
 image: /uploads/2024/05/fitness-goals.webp
 imagecap: Image created by OpenAI's ChatGPT with DALL-E.
-imagealt: The shift from traditional weight scales to dynamic footprints, capturing the essence of my transition from lag to lead metrics in fitness.
+imagealt: >-
+  The shift from traditional weight scales to dynamic footprints, capturing the
+  essence of my transition from lag to lead metrics in fitness.
+created: 2024-05-08T13:07:32.000Z
+
 ---
 
 Have you ever felt like no matter what you do, the scale just won’t budge? This might be because you're focusing on the wrong type of metric.

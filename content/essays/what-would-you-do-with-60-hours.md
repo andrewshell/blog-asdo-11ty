@@ -1,8 +1,9 @@
 ---
 title: What would you do with 60 hours?
 date: 2010-12-30T06:00:00.000Z
-updated: 2010-12-30T06:00:00.000Z
 published: true
+created: 2010-12-30T06:00:00.000Z
+
 ---
 
 I'm not a huge fan of new years resolutions. I think most people throw out some big vague goal like "lose weight" or "start my own business" then forget about it by the end of January.

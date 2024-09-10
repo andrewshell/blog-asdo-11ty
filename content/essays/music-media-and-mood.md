@@ -1,8 +1,9 @@
 ---
 title: Music, Media, and Mood
 date: 2020-04-07T13:50:19.000Z
-updated: 2020-04-07T13:50:19.000Z
 published: true
+created: 2020-04-07T13:50:19.000Z
+
 ---
 
 When I was in high school and early college, I suffered from depression. Since then, I've relapsed from time to time but overall have been much better.

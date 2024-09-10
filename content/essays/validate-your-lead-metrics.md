@@ -1,8 +1,9 @@
 ---
 title: Validate Your Lead Metrics
 date: 2021-10-23T15:09:10.000Z
-updated: 2021-10-23T15:09:10.000Z
 published: true
+created: 2021-10-23T15:09:10.000Z
+
 ---
 
 Yesterday, I talked about the difference between [lead and lag metrics](/essays/lead-vs-lag-metrics/) and why they are essential parts of your goal-setting funnel.

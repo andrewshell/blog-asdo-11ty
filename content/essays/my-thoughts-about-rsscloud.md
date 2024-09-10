@@ -1,8 +1,9 @@
 ---
 title: My thoughts about rssCloud
 date: 2020-10-22T19:54:12.000Z
-updated: 2020-10-22T19:54:12.000Z
 published: true
+created: 2020-10-22T19:54:12.000Z
+
 ---
 
 One of the reasons I continue to work on the rssCloud server is that I see it has untapped potential.

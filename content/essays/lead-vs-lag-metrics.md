@@ -1,8 +1,9 @@
 ---
 title: Lead vs Lag Metrics
 date: 2021-10-22T20:20:07.000Z
-updated: 2021-10-22T20:20:07.000Z
 published: true
+created: 2021-10-22T20:20:07.000Z
+
 ---
 
 Yesterday, I mentioned (see [You Need a Goal Funnel](/essays/you-need-a-goal-funnel/)) that the 5th stage of your Goal Funnel is Lead Metrics.

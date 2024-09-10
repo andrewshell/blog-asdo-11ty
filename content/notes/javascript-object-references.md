@@ -1,6 +1,9 @@
 ---
 title: Javascript Object References
 date: 2019-11-12T06:00:00.000Z
+created: 2019-11-12T06:00:00.000Z
+published: true
+
 ---
 When dealing with Javascript object references, it's essential to comprehend how variable assignments and function calls interact with objects in memory.
 

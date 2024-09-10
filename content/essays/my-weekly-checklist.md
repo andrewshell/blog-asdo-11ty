@@ -1,8 +1,9 @@
 ---
 title: My Weekly Checklist
-date: 2021-11-05T20:38:49.889Z
-updated: 2021-11-05T20:38:49.906Z
+date: 2021-11-05T20:38:49.906Z
 published: true
+created: 2021-11-05T20:38:49.889Z
+
 ---
 Previously, I discussed reducing friction by using the simplest system that will get the job done (see [Small Pieces, Loosely Joined](/essays/small-pieces-loosely-joined/)). I briefly described (at the end) that I used a weekly checklist to get through my week.
 

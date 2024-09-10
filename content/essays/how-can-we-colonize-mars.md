@@ -1,8 +1,9 @@
 ---
 title: How Can We Colonize Mars?
 date: 2016-12-20T20:46:50.000Z
-updated: 2016-12-20T20:46:50.000Z
 published: false
+created: 2016-12-20T20:46:50.000Z
+
 ---
 
 I periodically read about people wanting to colonize Mars. Elon Musk [seems interested](https://www.wired.com/2016/09/elon-musk-colonize-mars/) in doing so. However, I'm always confused on how we can actually do that, but not in the technical sense.

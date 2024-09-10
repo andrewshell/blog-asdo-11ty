@@ -1,8 +1,9 @@
 ---
 title: Feedback Loops
-date: 2021-10-25T13:38:03.129Z
-updated: 2021-10-25T13:38:03.142Z
+date: 2021-10-25T13:38:03.142Z
 published: true
+created: 2021-10-25T13:38:03.129Z
+
 ---
 The best way to grow is to implement systems that incorporate feedback loops.
 

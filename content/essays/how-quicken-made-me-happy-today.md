@@ -1,8 +1,9 @@
 ---
 title: How Quicken Made Me Happy Today
 date: 2010-01-02T06:00:00.000Z
-updated: 2010-01-02T06:00:00.000Z
 published: false
+created: 2010-01-02T06:00:00.000Z
+
 ---
 
 I've never been very good at managing my finances.  There was a period of time back in college when I lived off my credit cards.  Fortunately over the last few years I've gotten better at living within my means and have been gradually paying off my debt.  Despite this I'm not exactly what you would describe as financially responsible.  I just switched to using my debit card for things and I keep an eye on my available balance on my banks website.  I've known for a while (and to the urging of my financial planner) that I really need to put together a budget and start saving money.

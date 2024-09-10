@@ -1,9 +1,10 @@
 ---
 title: Complex Database Relationships with AtlasORM
 date: 2016-10-10T16:51:58.000Z
-updated: 2016-10-10T16:51:58.000Z
 published: true
 itemtype: https://schema.org/TechArticle
+created: 2016-10-10T16:51:58.000Z
+
 ---
 
 In my [side project](https://github.com/andrewshell/pen-paper-2) I'm working with a very well normalized database with many relationships.

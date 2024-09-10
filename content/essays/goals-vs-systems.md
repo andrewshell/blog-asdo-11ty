@@ -1,13 +1,22 @@
 ---
-title: "First Define, Then Refine: How Goals Shape Successful Systems"
-date: 2023-02-04T14:14:19.973Z
-updated: 2024-04-17T11:07:01.000Z
+title: 'First Define, Then Refine: How Goals Shape Successful Systems'
+date: 2024-04-17T11:07:01.000Z
 published: true
 pagetype: https://schema.org/WebPage
 itemtype: https://schema.org/Article
 image: /uploads/2024/04/goals-vs-systems.webp
 imagecap: Image created by OpenAI's ChatGPT with DALL-E.
-imagealt: An eccentric and whimsical conceptual image representing the interplay of goals and systems for achieving success. The image includes a large, colorful architectural blueprint spread across a table, symbolizing 'goals'. Intertwined with the blueprint are various gears and mechanical parts, now depicted with surreal features like eyes and limbs, representing 'systems', which together form an animated, almost creature-like machine. This quirky setup illustrates how goals and systems creatively support each other. The background shows a vibrant, eclectic office environment with odd decorations.
+imagealt: >-
+  An eccentric and whimsical conceptual image representing the interplay of
+  goals and systems for achieving success. The image includes a large, colorful
+  architectural blueprint spread across a table, symbolizing 'goals'.
+  Intertwined with the blueprint are various gears and mechanical parts, now
+  depicted with surreal features like eyes and limbs, representing 'systems',
+  which together form an animated, almost creature-like machine. This quirky
+  setup illustrates how goals and systems creatively support each other. The
+  background shows a vibrant, eclectic office environment with odd decorations.
+created: 2023-02-04T14:14:19.973Z
+
 ---
 
 Many have told us that to achieve our goals, we should focus more on building effective systems rather than setting specific objectives. But this advice skips a crucial first step: setting goals is essential because it guides how we create those systems. Let's look closer at why starting with clear goals can make all the difference in crafting systems that work for us.

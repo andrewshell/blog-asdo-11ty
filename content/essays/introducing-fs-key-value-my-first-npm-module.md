@@ -1,8 +1,9 @@
 ---
 title: Introducing fs-key-value My First NPM Module
 date: 2013-08-15T06:00:00.000Z
-updated: 2013-08-15T06:00:00.000Z
 published: false
+created: 2013-08-15T06:00:00.000Z
+
 ---
 
 Today I published [fs-key-value](https://npmjs.org/package/fs-key-value) which is my first NPM module.  Earlier this week I talked about creating a little wrapper for LevelUp that was supposed to make it work when I spin up multiple processes using [cluster](https://npmjs.org/package/cluster).  After some further testing I came to the conclusion that my wrapper wasn't actually working and after banging my head against the wall for a while decided I'd best try a different approach.

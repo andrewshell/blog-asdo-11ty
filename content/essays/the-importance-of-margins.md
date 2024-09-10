@@ -1,8 +1,9 @@
 ---
 title: The Importance of Margins
 date: 2021-10-14T17:02:56.000Z
-updated: 2021-10-14T17:02:56.000Z
 published: true
+created: 2021-10-14T17:02:56.000Z
+
 ---
 
 Every weekday morning I either take my daughter to school, or meet her at school (when she’s with her mom.) That way, I can see her, give her a hug, and send her off to first grade.

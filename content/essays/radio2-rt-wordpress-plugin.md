@@ -1,8 +1,9 @@
 ---
 title: Radio2 RT WordPress Plugin
 date: 2012-02-04T06:00:00.000Z
-updated: 2012-02-04T06:00:00.000Z
 published: false
+created: 2012-02-04T06:00:00.000Z
+
 ---
 
 Maps the Radio2 style RT standard onto the Press This URL. (see [A standard for RT'ing?](http://scripting.com/stories/2012/02/03/aStandardForRting.html))

@@ -1,8 +1,9 @@
 ---
 title: Landing My Perfect Job
 date: 2013-06-17T06:00:00.000Z
-updated: 2013-06-17T06:00:00.000Z
 published: false
+created: 2013-06-17T06:00:00.000Z
+
 ---
 
 What some people may not realize is that I'm currently employed at my [perfect job.](http://www.datecheckpro.com/).  Sometimes I wonder how exactly I managed to get to this place in life and I think I've come up with some strategies that I'd like to share with you.

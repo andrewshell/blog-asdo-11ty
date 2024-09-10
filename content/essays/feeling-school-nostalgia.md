@@ -1,8 +1,9 @@
 ---
 title: Feeling School Nostalgia
 date: 2020-01-22T15:15:48.000Z
-updated: 2020-01-22T15:15:48.000Z
 published: true
+created: 2020-01-22T15:15:48.000Z
+
 ---
 
 My daughter started 4K back in September. This school year is her first year going to elementary school. When I'm visiting her classroom for conferences and such, I'm overwhelmed by feelings of nostalgia.

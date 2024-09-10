@@ -1,8 +1,9 @@
 ---
 title: Don't Fight Inertia
-date: 2021-10-30T02:48:06.876Z
-updated: 2021-10-30T02:48:06.893Z
+date: 2021-10-30T02:48:06.893Z
 published: true
+created: 2021-10-30T02:48:06.876Z
+
 ---
 When you focus on the past (positive or negative), you're creating inertia. That's what habits are. They require effort to get started but then require minimal effort to keep them going.
 

@@ -1,8 +1,9 @@
 ---
 title: Laravel UTC Model
 date: 2015-05-01T06:00:00.000Z
-updated: 2015-05-01T06:00:00.000Z
 published: false
+created: 2015-05-01T06:00:00.000Z
+
 ---
 
 I've been playing around with [Laravel](http://laravel.com/) lately and overall I like it.

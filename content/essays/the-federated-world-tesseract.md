@@ -1,8 +1,9 @@
 ---
 title: The Federated World Tesseract
 date: 2021-01-07T17:00:00.000Z
-updated: 2021-01-07T17:00:00.000Z
 published: true
+created: 2021-01-07T17:00:00.000Z
+
 ---
 
 The more I look at [FedWiki](http://fed.wiki/view/welcome-visitors/view/federated-wiki), the more overlap I see with the work [Dave](http://scripting.com/) has been doing with outliners and publishing. Especially with [Trex](http://docs.fargo.io/contentManagement/trex/) and the [World Outline](http://howto.worldoutline.org/).

@@ -1,8 +1,9 @@
 ---
 title: That's All Folks
-date: 2021-11-07T13:18:40.721Z
-updated: 2021-11-07T13:18:40.735Z
+date: 2021-11-07T13:18:40.735Z
 published: true
+created: 2021-11-07T13:18:40.721Z
+
 ---
 Today is the last day of my Ship 30 for 30 cohort.
 

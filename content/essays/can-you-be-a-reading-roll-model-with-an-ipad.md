@@ -1,8 +1,9 @@
 ---
 title: Can You Be a Reading Roll Model With an iPad?
 date: 2013-07-26T06:00:00.000Z
-updated: 2013-07-26T06:00:00.000Z
 published: true
+created: 2013-07-26T06:00:00.000Z
+
 ---
 
 My wife Andrea and I have no immediate plans to have children, but the topic has come up a couple of times. One area that we disagree on is the topic of homeschooling.

@@ -1,8 +1,9 @@
 ---
 title: Letting Go of Toxic Stories
 date: 2021-10-10T16:57:03.000Z
-updated: 2021-10-10T16:57:03.000Z
 published: true
+created: 2021-10-10T16:57:03.000Z
+
 ---
 
 ## What stories are you telling yourself?
