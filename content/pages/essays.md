@@ -1,5 +1,7 @@
 ---
 layout: layouts/page.njk
+date: 2024-08-16T21:50:17.000Z
+created: 2024-08-16T21:50:17.000Z
 title: All Essays
 published: true
 ---

@@ -1,6 +1,6 @@
-module.exports = {
+export default {
 	tags: [
 		"essays"
 	],
-	"layout": "layouts/post.njk",
+	"layout": "layouts/essay.njk",
 };

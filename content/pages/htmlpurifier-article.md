@@ -1,5 +1,7 @@
 ---
 title: Filtering user submitted HTML with HTMLPurifier
+date: 2012-02-01T21:50:17.000Z
+created: 2012-02-01T21:50:17.000Z
 itemtype: https://schema.org/TechArticle
 published: true
 ---

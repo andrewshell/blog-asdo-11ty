@@ -8,7 +8,7 @@ created: 2020-11-09T02:17:18.000Z
 
 I have a bunch of saved searches on eBay looking for interesting things. One of those things is "Living Videotext". Today my latest addition, a copy of ThinkTank 128 arrived. Still need ThinkTank 512, Ready, and MORE.
 
-<figure><img src="/uploads/2020/11/thinktank.png"><figcaption>My ThinkTank Collection</figcaption></figure>
+<figure><img src="/uploads/2020/11/thinktank.png" alt="My ThinkTank Collection"><figcaption>My ThinkTank Collection</figcaption></figure>
 
 ## [Dave Winer](http://scripting.com/stories/2011/11/01/dontRemoveFeaturesFromProd.html#p10685)
 
