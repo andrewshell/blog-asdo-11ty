@@ -19,15 +19,6 @@ export default {
     try {
       const url = new URL(pingUrl);
 
-      let http;
-      if (url.protocol === 'http:') {
-        http = require('http');
-      } else if (url.protocol === 'https:') {
-        http = require('https');
-      } else {
-        throw new Error(`Invalid protocol: ${url.protocol}`);
-      }
-
       const response = await fetch(pingUrl, {
         method: 'POST',
         headers: {
