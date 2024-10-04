@@ -6,7 +6,7 @@
   package = "netlify-plugin-webmentions"
 	[plugins.inputs]
 		baseUrl = "https://blog.andrewshell.org"
-		feedPath = "/rss.xml"
+		feedPath = "rss.xml"
 		limit = 1
 
 [[plugins]]
