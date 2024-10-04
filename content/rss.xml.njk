@@ -1,5 +1,6 @@
 ---
 permalink: /rss.xml
+layout: false
 numberOfLatestPostsToShow: 10
 eleventyExcludeFromCollections: true
 ---
@@ -17,11 +18,11 @@ eleventyExcludeFromCollections: true
 	<source:cloud>https://rpc.rsscloud.io/pleaseNotify</source:cloud>
 	<source:account service="twitter">andrewshell</source:account>
 	<source:account service="github">andrewshell</source:account>
-	{% set postsCount = collections.essays | length %}
-	{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-	{% set postslist = collections.essays | head(-1 * numberOfLatestPostsToShow) %}
-	{%- for post in postslist | reverse %}
-	{% set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.url) }}{% endset %}
+{%- set postsCount = collections.essays | length -%}
+{%- set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) -%}
+{%- set postslist = collections.essays | head(-1 * numberOfLatestPostsToShow) -%}
+{%- for post in postslist | reverse -%}
+	{%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.url) }}{% endset %}
 	<item>
 		<title>{{ post.data.title }}</title>
 		<description>{{ post.content | striptags(true) | transformWithHtmlBase(absolutePostUrl, post.url) | truncate(280) }}</description>
@@ -29,8 +30,8 @@ eleventyExcludeFromCollections: true
 		<guid isPermaLink="true">{{ absolutePostUrl }}</guid>
 		<pubDate>{{ post.date | dateToRfc822 }}</pubDate>
 		<content:encoded>{{ post.content | transformWithHtmlBase(absolutePostUrl, post.url) }}</content:encoded>
-		<source:markdown>{{ post.template.frontMatter.content }}</source:markdown>
+		<source:markdown>{{ post.rawInput }}</source:markdown>
 	</item>
-	{%- endfor %}
+{%- endfor %}
 </channel>
 </rss>

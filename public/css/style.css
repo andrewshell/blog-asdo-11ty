@@ -295,11 +295,11 @@ a:focus {
   margin-right: 20px; /* Space between image and text */
 }
 
-.post-list-item picture {
+/*.post-list-item picture {
 	display: block;
 	height: auto;
 	width: 200px;
-}
+}*/
 
 .post-list-item > section {
   flex: 1; /* Take up remaining space */
@@ -349,12 +349,16 @@ a:focus {
   margin-bottom: var(--spacing-0);
 }
 
-.bio-avatar img  {
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -khtml-border-radius: 50%;
-    vertical-align: middle;
+.bio-avatar picture img {
+	display: block;
+  vertical-align: middle;
+  height: 50px;
+  width: 50px;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -khtml-border-radius: 50%;
 }
 
 .blog-post header h1 {
@@ -366,13 +370,13 @@ a:focus {
   font-family: var(--font-heading);
 }
 
-.blog-post picture {
+/*.blog-post picture {
 	display: block;
 	height: auto;
 	width: 512px;
 	max-width: 100%;
 	margin: auto;
-}
+}*/
 
 .blog-post-nav ul {
   margin: var(--spacing-0);

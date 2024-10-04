@@ -4,7 +4,7 @@ const {
   RSSCLOUD_PING_URL,
 } = process.env;
 
-module.exports = {
+export default {
   async onSuccess({ utils, constants, inputs }) {
     const feedUrl = inputs.feedUrl || RSSCLOUD_FEED_URL;
     const pingUrl = inputs.pingUrl || RSSCLOUD_PING_URL;

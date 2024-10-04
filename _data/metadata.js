@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	title: "Andrew Shell's Weblog",
 	url: "https://blog.andrewshell.org/",
 	language: "en",

@@ -10,7 +10,9 @@ I love [collecting artifacts](/essays/avoiding-the-final-death/), [sharing knowl
 
 I’m always exploring new ways to contribute and grow.
 
-Learn more on [my "about" page](/about/).
+See what I'm up to on [my "now" page](/now/).
+
+Learn more about me on [my "about" page](/about/).
 
 I love meeting new people, and I reply to every email, so [say hello](/contact/).
 

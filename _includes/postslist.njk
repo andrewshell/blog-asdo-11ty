@@ -1,19 +1,9 @@
-<ol class="list-none">
+{%- css %}.postlist { counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }} }{% endcss %}
+<ol reversed class="postlist">
 {% for post in postslist | reverse %}
-  <li>
-    <article class="post-list-item" itemscope itemtype="http://schema.org/Article">
-    <section>
-      <header>
-        <h2>
-        	<a href="{{ post.url }}" itemprop="url">
-        		<span itemprop="headline">{{ post.data.title }}</span>
-        	</a>
-        </h2>
-        <time class="small" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("DDD") }}</time>
-      </header>
-      <p itemprop="description">{{ post.content | striptags | truncate(280) | safe }}</p>
-    </section>
-    </article>
-  </li>
+	<li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+		<a href="{{ post.url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+		<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>
+	</li>
 {% endfor %}
 </ol>
