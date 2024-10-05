@@ -9,7 +9,7 @@ Dave Winer has been working on something interesting. He's [modernized the blogr
 
 Today, I finally had the time and mental energy to investigate and implement one on [my homepage](/).
 
-You'll immediately see that mine looks similar but different from [Dave's](https://scripting.com/). That's because we have different tech stacks, and I wanted to use something other than jQuery. My homepage was also not designed for a sidebar.
+You'll immediately see that mine looks similar but different from [Dave's](http://scripting.com/). That's because we have different tech stacks, and I wanted to use something other than jQuery. My homepage was also not designed for a sidebar.
 
 <figure>
 
