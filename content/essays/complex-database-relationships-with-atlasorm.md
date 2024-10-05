@@ -11,7 +11,7 @@ In my [side project](https://github.com/andrewshell/pen-paper-2) I'm working wit
 
 One of the most complex pages is a `Creator` where it shows info about the creator and all of the works that they have contributed to.
 
-[![creatordiagram](/uploads/2016/10/CreatorDiagram.png)](/uploads/2016/10/CreatorDiagram.png)
+![creatordiagram](img/creator-diagram.png)
 
 This is the database structure for this page.  On the left, we have a Creator which has a one-to-many relationship to seven different join tables. Each of these tables represents this creators credit on that particular type of work.  So if the creator worked on an RPG book there would be a `RpgBookCreator` that shows what credit that creator had in a particular RPG book. A credit could be something like Author or Illustrator.
 

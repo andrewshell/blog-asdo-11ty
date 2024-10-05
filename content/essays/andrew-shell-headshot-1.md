@@ -21,6 +21,6 @@ I've also signed up for the [Blockchain Developer Bootcamp](https://www.dappuniv
 
 <div style="text-align: center;">
 
-[![Andrew Shell's Headshot](/uploads/2022/02/opensea-nft.png)](https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/50785849398388566510903729972648362585060473171757419675425038676188286943233/)
+[![Andrew Shell's Headshot](img/opensea-nft.png)](https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/50785849398388566510903729972648362585060473171757419675425038676188286943233/)
 
 </div>

@@ -18,7 +18,9 @@ In [the documentation](https://github.com/radarphp/Radar.Project/blob/1.x/docs/d
 
 Radar concentrates exclusively the HTTP request/response cycle. This means that, for Radar to be useful, you need to build your Domain outside of, and probably in parallel with, your Radar wrapper around that Domain.
 
-The best illustration of this was in Robert Martin's talk [Architecture the Lost Years](https://www.youtube.com/watch?v=WpkDN78P884) in which he works his way through a [UML diagram I recreated here](/uploads/2015/12/architecture-uml.pdf) for you.
+The best illustration of this was in Robert Martin's talk [Architecture the Lost Years](https://www.youtube.com/watch?v=WpkDN78P884) in which he works his way through a [UML diagram I recreated here](/uploads/2015/12/architecture-uml.pdf) for you:
+
+[![UML Diagram](img/architecture-uml-2x.png)](/uploads/2015/12/architecture-uml.pdf)
 
 Your application's domain code should be framework agnostic and not depend on any logic related to the delivery mechanism or specific implementations (like databases).
 

@@ -6,7 +6,7 @@ created: 2013-09-06T06:00:00.000Z
 
 ---
 
-![Censored](/uploads/2013/09/censored.jpg)
+![Censored](img/censored.jpg)
 
 In the early days of dating my wife, she complained that it was like she was dating a robot.  This wasn't the first time I had been compared to a robot either.
 

@@ -179,8 +179,7 @@ p {
   padding: var(--spacing-0);
 }
 
-ul,
-ol {
+ul, ol {
   margin-left: var(--spacing-4);
   margin-right: var(--spacing-0);
   padding: var(--spacing-0);
@@ -193,6 +192,14 @@ ul li,
 ol li {
   padding-left: var(--spacing-0);
   margin-bottom: var(--spacing-0);
+}
+
+details {
+  margin-left: var(--spacing-4);
+}
+
+details summary {
+  cursor: pointer;
 }
 
 .list-none {

@@ -1,9 +1,8 @@
 ---
-layout: layouts/base.njk
+layout: layouts/home.njk
 numberOfLatestPostsToShow: 4
 fullHeader: true
 ---
-
 I’m a [software developer](/essays/a-brief-history-of-me-programming/), [writer](/ship-30-for-30-october-2021-cohort/), and [community builder](/essays/teaching-is-an-unfair-advantage/) passionate about [open-source technology](/notes/rsscloud-server/) and [collaboration](https://feeds.fedwikiriver.com/).
 
 I love [collecting artifacts](/essays/avoiding-the-final-death/), [sharing knowledge](/notes/), and [empowering others through code](/notes/fedwiki-river/).
@@ -41,3 +40,7 @@ Go to [the search page](/search/) to search for any word or phrase.
   <li><a href="{{ note.url }}">{{ note.data.title }}</a></li>
 {% endfor %}
 </ul>
+
+## Blogroll <small>([See River](https://feedland.com/newsproduct?username=andrewshell))</small>
+
+<blog-roll opmlurl="https://feedland.com/opml?screenname=andrewshell&catname=blogroll"></blog-roll>

@@ -15,7 +15,7 @@ created: 2024-05-29T16:58:44.000Z
 
 In 2018, I built a time-tracking demo in React for a job I was applying for.
 
-![Screenshot of Time Tracking Demo](/uploads/2018/09/Screen-Shot-2018-09-26-at-7.28.39-AM.png)
+![Screenshot of Time Tracking Demo](img/time-tracking.png)
 
 I had spent the years prior working with Angular (via Ionic), but many of the jobs I'd seen asked for React.
 

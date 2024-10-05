@@ -11,7 +11,7 @@
   <link rel="alternate" href="/rss.xml" type="application/rss+xml" title="{{ metadata.title }}">
 
   <meta name="generator" content="{{ eleventy.generator }}">
-  {# favicons 'public/img/gatsby-icon.png', appleIconBgColor='#fff' #}
+  {#- favicons 'public/img/gatsby-icon.png', appleIconBgColor='#fff' -#}
 
   {%- css %}{% include "public/css/normalize.css" %}{% endcss %}
   {%- css %}{% include "public/css/style.css" %}{% endcss %}
@@ -21,6 +21,7 @@
   <link rel="webmention" href="https://webmention.io/blog.andrewshell.org/webmention" />
   <link rel="alternate" type="application/activity+json" href="https://fed.brid.gy/r/{{ page.url | htmlBaseUrl(metadata.url) | encodeURIComponent}}">
   <link rel=“canonical” href=“{{ absolutePostUrl }}” />
+  <script src="/js/blog-roll.js"></script>
   {% if metadata.production %}
   <script defer src="https://analytics.us.umami.is/script.js" data-website-id="ad25b1ce-ffdd-4f98-8dc8-cea81b233a1a"></script>
   {% endif %}
