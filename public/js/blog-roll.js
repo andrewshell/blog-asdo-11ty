@@ -91,19 +91,26 @@ function listItemElement(item) {
   link.setAttribute('href', item.link);
   link.textContent = stripAndTruncate(item.title || item.description, 100);
 
-  const time = document.createTextNode(` - ${timeAgo(item.pubDate)}`);
+  const time = document.createElement('time');
+  time.setAttribute('datetime', item.whenUpdated);
+  time.textContent = timeAgo(item.whenUpdated);
 
   const li = document.createElement('li');
   li.appendChild(link);
+  li.appendChild(document.createTextNode(' - '));
   li.appendChild(time);
 
   return li;
 }
 
 async function detailsElement(feed) {
-  const updated = timeAgo(feed.whenUpdated);
+  const time = document.createElement('time');
+  time.setAttribute('datetime', feed.whenUpdated);
+  time.textContent = timeAgo(feed.whenUpdated);
+
   const summary = document.createElement('summary');
-  summary.innerText = `${feed.title} - ${updated}`;
+  summary.appendChild(document.createTextNode(`${feed.title} - `));
+  summary.appendChild(time);
 
   const details = document.createElement('details');
   details.appendChild(summary);

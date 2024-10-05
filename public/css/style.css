@@ -113,6 +113,10 @@ figcaption {
   text-align: center;
 }
 
+time {
+  white-space: nowrap;
+}
+
 /* Heading */
 
 h1,

@@ -13,7 +13,7 @@ You'll immediately see that mine looks similar but different from [Dave's](http:
 
 <figure>
 
-![Side-by-side comparison of my blogroll and Dave's](img/blogroll.png)
+![Side-by-side comparison of my blogroll and Dave's](/essays/img/blogroll.png)
 
 <figcaption>Side-by-side comparison of my blogroll and Dave's</figcaption>
 </figure>
