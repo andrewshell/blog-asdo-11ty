@@ -26,6 +26,24 @@ function compareDates(key, a, b) {
   return dateB - dateA;
 }
 
+function stripAndTruncate(htmlString, maxLength) {
+  const tempElement = document.createElement('div');
+  tempElement.innerHTML = htmlString;
+  const text = tempElement.textContent || tempElement.innerText || "";
+
+  if (text.length <= maxLength) {
+    return text;
+  }
+
+  const truncated = text.slice(0, maxLength);
+  const lastSpaceIndex = truncated.lastIndexOf(" ");
+
+  // If there's a space to break at, truncate there, otherwise, truncate at maxLength
+  const finalString = lastSpaceIndex !== -1 ? truncated.slice(0, lastSpaceIndex) : truncated;
+
+  return finalString + "…";
+}
+
 async function getFeedListFromOpml(url) {
   try {
     // Fetch the data from the API endpoint
@@ -61,7 +79,7 @@ async function getFeedItems(url, maxItems) {
     const data = await response.json();
 
     // Return the parsed data
-    return data.sort(compareDates.bind(null, 'pubDate'));
+    return data.sort(compareDates.bind(null, 'whenUpdated'));
   } catch (error) {
     console.error('Error fetching feed list from OPML:', error);
     return [];
@@ -71,7 +89,7 @@ async function getFeedItems(url, maxItems) {
 function listItemElement(item) {
   const link = document.createElement('a');
   link.setAttribute('href', item.link);
-  link.textContent = item.title;
+  link.textContent = stripAndTruncate(item.title || item.description, 100);
 
   const time = document.createTextNode(` - ${timeAgo(item.pubDate)}`);
 
