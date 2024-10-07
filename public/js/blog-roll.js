@@ -104,12 +104,15 @@ function listItemElement(item) {
 }
 
 async function detailsElement(feed) {
+  const span = document.createElement('span');
+  span.textContent = `${feed.title} - `;
+
   const time = document.createElement('time');
   time.setAttribute('datetime', feed.whenUpdated);
   time.textContent = timeAgo(feed.whenUpdated);
 
   const summary = document.createElement('summary');
-  summary.appendChild(document.createTextNode(`${feed.title} - `));
+  summary.appendChild(span);
   summary.appendChild(time);
 
   const details = document.createElement('details');
