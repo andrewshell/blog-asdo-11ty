@@ -1,6 +1,6 @@
 ---
 title: What I’m doing now
-date: 2024-10-04T16:57:46.000Z
+date: 2024-11-04T14:42:00.000Z
 created: 2020-04-13T16:02:07.504Z
 published: true
 pagetype: https://schema.org/WebPage
@@ -9,12 +9,22 @@ eleventyNavigation:
   key: Now
   order: 3
 ---
-## Health Challenges
+## Virta Keto Diet
 
-After facing ongoing challenges with my health and energy levels, particularly over the summer, I’ve decided to take a more proactive approach. I’m starting a program called [Virta](https://www.virtahealth.com/), recommended by my doctor, which is designed to help manage weight and blood sugar. From what I understand, it follows a ketogenic (keto) approach but with the added benefit of medical supervision throughout the process. I’ll be meeting with my advisor next week to learn more, and I’m hopeful that this program will provide the support I need to make positive changes.
+I started a medically supervised [Keto](https://www.webmd.com/diet/keto-diet-for-beginners) program called [Virta](https://www.virtahealth.com/) on October 28th.
 
-## Mom's Autobiography
+I waited until Piper returned to school and our schedule settled down. I recently hit an all-time high of 307 lbs and had just been notified that my latest blood test showed I had crossed over into prediabetes. It was time to put in the effort and make some significant changes.
 
-A couple of years ago, for Christmas, I bought my mom a subscription to StoryWorth. It's a service that sent her a question to answer about herself every week for a year. 
+So far, I've been having a lot of success. After one week, I've lost 14 lbs, and my fasting blood glucose is normal.
 
-I've recently finished editing it and published the content on [Bonnie Shell's Life Stories](https://bonnieshell.com/). I still have to get the print book ordered.
+## Rebooting Legacy Site
+
+After having fun at Gamehole Con, I felt motivated to reach out to my friend Matt, who had acquired the Pen & Paper website over a decade ago.
+
+When he acquired it, it was going to be taken down because it was broken, being hacked regularly, and the guy maintaining it was overwhelmed. At the time, we tried fixing it up, but we needed more time and energy for such an overwhelming project. We ended up replacing it with a WordPress site and copied over a few pages that people were asking for.
+
+However, I've always regretted not doing something more.
+
+Fast forward a decade, and I realized there are still many links around the internet that link to broken pages.
+
+I'm now undergoing a project to bring the site back up from the dead, with a strategy to gradually bring content back online so we can review and update it, prioritizing pages that actually have links to from the internet at large.

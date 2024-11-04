@@ -3,7 +3,6 @@ title: 20 Questions for Overcoming Procrastination
 date: 2021-10-11T17:02:56.000Z
 published: true
 created: 2021-10-11T17:02:56.000Z
-
 ---
 
 One area I've studied a lot is the area of personal productivity. If left unchecked I procrastinate like crazy. I focus on what I'm interested in and all those other pesky things that I "need" to get done just don't get done, or at least until the last minute.
