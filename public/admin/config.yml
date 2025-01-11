@@ -30,9 +30,6 @@ collections:
           - { label: "News Article", value: "https://schema.org/NewsArticle"}
           - { label: "Tech Article", value: "https://schema.org/TechArticle"}
         default: ["https://schema.org/BlogPosting"]
-      - { label: "Image", name: "image", widget: "image" }
-      - { label: "Image Caption", name: "imagecap", widget: "string" }
-      - { label: "Image Alt", name: "imagealt", widget: "text" }
     sortable_fields: ['date', 'created', 'title']
   - name: "notes"
     label: "Notes"
@@ -58,9 +55,6 @@ collections:
           - { label: "News Article", value: "https://schema.org/NewsArticle"}
           - { label: "Tech Article", value: "https://schema.org/TechArticle"}
         default: ["https://schema.org/BlogPosting"]
-      - { label: "Image", name: "image", widget: "image" }
-      - { label: "Image Caption", name: "imagecap", widget: "string" }
-      - { label: "Image Alt", name: "imagealt", widget: "text" }
     sortable_fields: ['date', 'created', 'title']
   - name: "pages"
     label: "Pages"
@@ -86,7 +80,4 @@ collections:
           - { label: "News Article", value: "https://schema.org/NewsArticle"}
           - { label: "Tech Article", value: "https://schema.org/TechArticle"}
         default: ["https://schema.org/BlogPosting"]
-      - { label: "Image", name: "image", widget: "image" }
-      - { label: "Image Caption", name: "imagecap", widget: "string" }
-      - { label: "Image Alt", name: "imagealt", widget: "text" }
     sortable_fields: ['date', 'created', 'title']
