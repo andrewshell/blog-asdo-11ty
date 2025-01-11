@@ -21,4 +21,4 @@ That way, instead of a giant list of unfinished projects, you have a list of fin
 
 ## Related
 
-- [Podcast: Rescuing A Project In Progress](https://share.transistor.fm/s/73e5e059)
+- [Podcast: Rescuing A Project In Progress](https://37signals.com/podcast/rescuing-a-project-in-progress/)
