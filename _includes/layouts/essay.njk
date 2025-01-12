@@ -1,16 +1,17 @@
 ---
 layout: layouts/base.njk
 ---
-<article class="blog-post" itemscope itemtype="{{ itemtype or 'https://schema.org/BlogPosting' }}">
+<article class="blog-post h-entry" itemscope itemtype="{{ itemtype or 'https://schema.org/BlogPosting' }}">
 <header>
-	<h1 itemprop="headline">{{ title }}</h1>
+	<h1 class="p-name" itemprop="headline">{{ title }}</h1>
 </header>
-<section itemprop="articleBody">
+<section class="e-content" itemprop="articleBody">
 {{ content | safe }}
 <p>
-<time class="small" itemprop="datePublished" datetime="{{ created | htmlDateString }}" }>Published {{ created | readableDate('DDD') }}</time>
+{%- set absolutePostUrl %}{{ page.url | htmlBaseUrl(metadata.url) }}{% endset %}
+<a href="{{ absolutePostUrl }}" class="u-url" rel="me" itemprop="url"><time class="small dt-published" itemprop="datePublished" datetime="{{ created | htmlDateString }}" }>Published {{ created | readableDate('DDD') }}</time></a>
 {% if isDiffDay(created, date) %}
-<br><time class="small" itemprop="dateModified" datetime="{{ date | htmlDateString }}" }>Updated {{ date | readableDate('DDD') }}</time>
+<br><time class="small dt-updated" itemprop="dateModified" datetime="{{ date | htmlDateString }}" }>Updated {{ date | readableDate('DDD') }}</time>
 {% endif %}
 </p>
 </section>
