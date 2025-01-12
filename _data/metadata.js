@@ -9,7 +9,9 @@ export default {
 		givenName: "Andrew",
 		familyName: "Shell",
 		jobTitle: "Senior Web Engineer",
-		homeLocation: "Madison, WI",
+		locality: "Madison",
+		regionAbbr: "WI",
+		region: "Wisconsin",
 		email: "andrew@andrewshell.org",
 		url: "https://blog.andrewshell.org/about/"
 	}

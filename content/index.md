@@ -3,13 +3,11 @@ layout: layouts/home.njk
 numberOfLatestPostsToShow: 4
 fullHeader: true
 ---
-<div class="bio h-card" itemscope itemtype="https://schema.org/Person">
-	<div class="bio-avatar u-photo" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-		<img src="/img/profile-pic-100.png" width="50" height="50" alt="Profile Picture">
-	</div>
-	<div>
-		<p>Written by <a href="/about/" class="p-name u-url" itemprop="name"><strong><span class="p-given-name" itemprop="givenName">{{ metadata.author.givenName }}</span> <span class="p-family-name" itemprop="familyName">{{ metadata.author.familyName }}</span></strong></a>, a <span class="p-job-title" itemprop="jobTitle">{{ metadata.author.jobTitle }}</span> from <span class="p-locality" itemprop="homeLocation">{{ metadata.author.homeLocation }}</span>.<br /></p>
-	</div>
+<div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;" class="h-card" itemscope itemtype="https://schema.org/Person">
+  <div class="bio-avatar u-photo" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+    <img src="https://blog.andrewshell.org/headshot.jpg" alt="Photo of Andrew Shell" width="50" height="50">
+  </div>
+  <p style="margin: 0;">Hi!, I'm <a class="p-name u-url u-uid" rel="me" href="https://blog.andrewshell.org/" itemprop="name"><span class="p-given-name" itemprop="givenName">{{ metadata.author.givenName }}</span> <span class="p-family-name" itemprop="familyName">{{ metadata.author.familyName }}</span></a> a <span class="p-job-title" itemprop="jobTitle">{{ metadata.author.jobTitle }}</span> from <span class="adr"><span class="p-locality">{{ metadata.author.locality }}</span>, <abbr class="p-region" title="{{ metadata.author.region }}">{{ metadata.author.regionAbbr }}</abbr></span>.</p>
 </div>
 
 I’m a [software developer](/essays/a-brief-history-of-me-programming/), [writer](/ship-30-for-30-october-2021-cohort/), and [community builder](/essays/teaching-is-an-unfair-advantage/) passionate about [open-source technology](/notes/rsscloud-server/) and [collaboration](https://feeds.fedwikiriver.com/).
