@@ -1,10 +1,10 @@
-<div class="bio h-card" itemscope itemtype="https://schema.org/Person">
+<div class="bio h-card" rel="author me itemscope itemtype="https://schema.org/Person">
 	<div class="bio-avatar u-photo" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 		<img src="/img/profile-pic-100.png" width="50" height="50" alt="Profile Picture">
 	</div>
 
 	<div>
-		<p>Written by <a href="{{ metadata.url }}about/" class="p-name u-url" itemprop="name"><strong><span class="p-given-name" itemprop="givenName">{{ metadata.author.givenName }}</span> <span class="p-family-name" itemprop="familyName">{{ metadata.author.familyName }}</span></strong></a>, a <span class="p-job-title" itemprop="jobTitle">{{ metadata.author.jobTitle }}</span> from <span class="p-locality" itemprop="homeLocation">{{ metadata.author.homeLocation }}</span>.<br /></p>
+		<p>Written by <a href="{{ metadata.url }}" class="p-name u-url" itemprop="name"><strong><span class="p-given-name" itemprop="givenName">{{ metadata.author.givenName }}</span> <span class="p-family-name" itemprop="familyName">{{ metadata.author.familyName }}</span></strong></a>, a <span class="p-job-title" itemprop="jobTitle">{{ metadata.author.jobTitle }}</span> from <span class="p-locality" itemprop="homeLocation">{{ metadata.author.homeLocation }}</span>.<br /></p>
 		<ul class="hlist">
 			<li><a href="/about/">About</a></li>
 			<li><a href="/contact/">Contact</a></li>
