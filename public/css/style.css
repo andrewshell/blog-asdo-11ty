@@ -362,10 +362,16 @@ a:focus {
 
 .bio-avatar picture img {
 	display: block;
-  vertical-align: middle;
   height: 50px;
   width: 50px;
 
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -khtml-border-radius: 50%;
+}
+
+.circle {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;

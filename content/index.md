@@ -3,14 +3,21 @@ layout: layouts/home.njk
 numberOfLatestPostsToShow: 4
 fullHeader: true
 ---
-<div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;" class="h-card" itemscope itemtype="https://schema.org/Person">
-  <div class="bio-avatar u-photo" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-    <img src="https://blog.andrewshell.org/headshot.jpg" alt="Photo of Andrew Shell" width="50" height="50">
+<div style="display: flex; align-items: center; gap: var(--spacing-4); margin-bottom: var(--spacing-4);" class="h-card" itemscope itemtype="https://schema.org/Person">
+  <div class="u-photo" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+    <img class="circle" src="{{ metadata.url }}headshot.jpg" alt="Photo of Andrew Shell" width="50" height="50">
   </div>
-  <p style="margin: 0;">Hi!, I'm <a class="p-name u-url u-uid" rel="me" href="https://blog.andrewshell.org/" itemprop="name"><span class="p-given-name" itemprop="givenName">{{ metadata.author.givenName }}</span> <span class="p-family-name" itemprop="familyName">{{ metadata.author.familyName }}</span></a> a <span class="p-job-title" itemprop="jobTitle">{{ metadata.author.jobTitle }}</span> from <span class="adr"><span class="p-locality">{{ metadata.author.locality }}</span>, <abbr class="p-region" title="{{ metadata.author.region }}">{{ metadata.author.regionAbbr }}</abbr></span>.</p>
+  <div>
+    <p>Hi!, I'm <a class="p-name u-url u-uid" rel="me" href="{{ metadata.url }}" itemprop="name"><span class="p-given-name" itemprop="givenName">{{ metadata.author.givenName }}</span> <span class="p-family-name" itemprop="familyName">{{ metadata.author.familyName }}</span></a> a <span class="p-job-title" itemprop="jobTitle">{{ metadata.author.jobTitle }}</span> from <span class="adr"><span class="p-locality">{{ metadata.author.locality }}</span>, <abbr class="p-region" title="{{ metadata.author.region }}">{{ metadata.author.regionAbbr }}</abbr></span>.</p>
+    <p style="margin: 0;" class="p-note">
+        I’m a <a href="{{ metadata.url }}essays/a-brief-history-of-me-programming/">software developer</a>, 
+        <a href="{{ metadata.url }}ship-30-for-30-october-2021-cohort/">writer</a>, and 
+        <a href="{{ metadata.url }}essays/teaching-is-an-unfair-advantage/">community builder</a> passionate about 
+        <a href="{{ metadata.url }}notes/rsscloud-server/">open-source technology</a> and 
+        <a href="https://feeds.fedwikiriver.com/">collaboration</a>.
+    </p>
+  </div>
 </div>
-
-I’m a [software developer](/essays/a-brief-history-of-me-programming/), [writer](/ship-30-for-30-october-2021-cohort/), and [community builder](/essays/teaching-is-an-unfair-advantage/) passionate about [open-source technology](/notes/rsscloud-server/) and [collaboration](https://feeds.fedwikiriver.com/).
 
 I love [collecting artifacts](/essays/avoiding-the-final-death/), [sharing knowledge](/notes/), and [empowering others through code](/notes/fedwiki-river/).
 
@@ -51,9 +58,3 @@ Go to [the search page](/search/) to search for any word or phrase.
 ## Blogroll <small>([See River](https://feedland.com/newsproduct?username=andrewshell))</small>
 
 <blog-roll opmlurl="https://feedland.com/opml?screenname=andrewshell&catname=blogroll"></blog-roll>
-
-<p>
-<a href="https://xn--sr8hvo.ws/previous">←</a>
-An <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a> 🕸💍
-<a href="https://xn--sr8hvo.ws/next">→</a>
-</p>
