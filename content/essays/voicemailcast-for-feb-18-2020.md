@@ -16,5 +16,5 @@ Links
 
 * [Dave's voicemailcast](http://scripting.com/2020/02/16.html#a180941)
 * [My voicemailcast](/uploads/2020/02/voicemailcast-20200218.mp3)
-* [My outline](http://instantoutliner.com/hv)
+<!-- * [My outline](http://instantoutliner.com/hv) -->
 
