@@ -1,5 +1,5 @@
 ---
-title: Deep Stack Planning
+title: Implementing Cal Newport's Deep Life Stack and Multi-Scale Planning
 date: 2023-12-04T12:57:00.000Z
 created: 2023-12-04T12:57:00.000Z
 published: true

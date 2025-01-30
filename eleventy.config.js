@@ -2,6 +2,7 @@ import { IdAttributePlugin, InputPathToUrlTransformPlugin, HtmlBasePlugin } from
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import markdownItFootnote from 'markdown-it-footnote';
 
 import pluginDrafts from "./_config/drafts.js";
 import pluginFilters from "./_config/filters.js";
@@ -27,6 +28,8 @@ export default async function(eleventyConfig) {
 
 	// Run Eleventy when these files change:
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
+
+	eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItFootnote));
 
 	// Watch content images for the image pipeline.
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
