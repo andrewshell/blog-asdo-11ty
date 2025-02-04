@@ -3,7 +3,6 @@ title: FedWiki River
 date: 2024-06-12T14:23:53.000Z
 created: 2024-06-12T14:23:53.000Z
 published: true
-
 ---
 [FedWiki River](https://fedwikiriver.com/) is an [river-of-news aggregator](http://scripting.com/2014/06/02/whatIsARiverOfNewsAggregator.html) of updates across all known [federated wikis](http://fed.wiki.org/view/welcome-visitors/view/about-federated-wiki).
 

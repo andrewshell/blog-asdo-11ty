@@ -1,13 +1,13 @@
 ---
-title: Implementing Cal Newport's Deep Life Stack and Multi-Scale Planning
-date: 2023-12-04T12:57:00.000Z
+title: Cal Newport's Deep Life Stack and Multi-Scale Planning
+date: 2025-02-04T12:42:09.000Z
 created: 2023-12-04T12:57:00.000Z
 published: true
 pagetype: https://schema.org/WebPage
 itemtype: https://schema.org/Article
 ---
 
-> This article is my attempt at synthesizing and combining [Cal Newport's](https://calnewport.com/) Deep Life Stack 2.0 [^2] [^3] and Planning System [^1]. The goal will be to continue tweaking it as I learn more from Cal. Links to his sources will be at the bottom under "[References](#references)."
+> This note is my attempt at synthesizing and combining [Cal Newport's](https://calnewport.com/) Deep Life Stack 2.0 [^2] [^3] and Planning System [^1]. The goal will be to continue tweaking it as I learn more from Cal. Links to his sources will be at the bottom under "[References](#references)."
 
 ## Stage One: Become a Capable Human Being
 
