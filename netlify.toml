@@ -16,9 +16,9 @@
 		pingUrl = "https://rpc.rsscloud.io/ping"
 
 [[headers]]
-  for = "/.well-known/*"
-  [headers.values]
-    Access-Control-Allow-Origin = "*"
   for = "/*"
-  [headers.values]
+  	[headers.values]
     X-Clacks-Overhead = "GNU Terry Pratchett"
+  for = "/.well-known/*"
+  	[headers.values]
+    Access-Control-Allow-Origin = "*"
