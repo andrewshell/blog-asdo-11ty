@@ -17,5 +17,8 @@
 
 [[headers]]
   for = "/.well-known/*"
-    [headers.values]
+  [headers.values]
     Access-Control-Allow-Origin = "*"
+  for = "/*"
+  [headers.values]
+    X-Clacks-Overhead = "GNU Terry Pratchett"
