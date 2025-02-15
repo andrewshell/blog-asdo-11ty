@@ -54,6 +54,9 @@
   --fontSize-5: 1.72rem;
   --fontSize-6: 1.97rem;
   --fontSize-7: 2.25rem;
+  --color-base: rgb(245 243 243);
+  --color-base-2: rgb(247 248 249);
+  --color-base-3: rgb(255, 255, 255);
   --color-body: #fdfcfb;
   --color-primary: #b33900;
   --color-text: #240b00;
@@ -67,6 +70,22 @@
 :after,
 :before {
   box-sizing: border-box;
+}
+
+.bg-base {
+  background-color: var(--color-base);
+}
+
+.bg-base-2 {
+  background-color: var(--color-base-2);
+}
+
+.bg-base-3 {
+  background-color: var(--color-base-3);
+}
+
+.bg-base-grad {
+  background-image: linear-gradient(180deg,var(--base) 20%,var(--base-3) 40%);
 }
 
 html {

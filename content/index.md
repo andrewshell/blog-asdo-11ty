@@ -8,7 +8,7 @@ fullHeader: true
   <div class="e-content">
     <div style="display: flex; align-items: center; gap: var(--spacing-4); margin-bottom: var(--spacing-4);" class="h-card" itemscope itemtype="https://schema.org/Person">
       <div>
-        <img class="circle u-photo" itemprop="image" itemscope itemtype="https://schema.org/ImageObject" src="{{ metadata.url }}headshot.jpg" alt="Photo of Andrew Shell" width="50" height="50">
+        <img class="circle u-photo" itemprop="image" itemscope itemtype="https://schema.org/ImageObject" src="img/profile-pic.png" alt="Photo of Andrew Shell" style="width: 500px">
       </div>
       <div>
         <p>Hi!, I'm <a class="p-name u-url u-uid" rel="me" href="{{ metadata.url }}" itemprop="name"><span class="p-given-name" itemprop="givenName">{{ metadata.author.givenName }}</span> <span class="p-family-name" itemprop="familyName">{{ metadata.author.familyName }}</span></a> a <span class="p-job-title" itemprop="jobTitle">{{ metadata.author.jobTitle }}</span> from <span class="adr"><span class="p-locality">{{ metadata.author.locality }}</span>, <abbr class="p-region" title="{{ metadata.author.region }}">{{ metadata.author.regionAbbr }}</abbr></span>.</p>
@@ -61,6 +61,8 @@ fullHeader: true
 {% endfor %}
 </ul>
 
+<!--
 ## Blogroll <small>([See River](https://feedland.com/newsproduct?username=andrewshell))</small>
 
 <blog-roll opmlurl="https://feedland.com/opml?screenname=andrewshell&catname=blogroll"></blog-roll>
+-->
