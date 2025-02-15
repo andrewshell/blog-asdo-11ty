@@ -57,11 +57,10 @@
   --color-base: rgb(245 243 243);
   --color-base-2: rgb(247 248 249);
   --color-base-3: rgb(255, 255, 255);
-  --color-body: #fdfcfb;
-  --color-primary: #b33900;
+  --color-body: #FDFCFB;
+  --color-primary: #B33900;
+  --color-secondary: #007AB3;
   --color-text: #240b00;
-  --color-text-light: #7f2600;
-  --color-heading: #240b00;
 }
 
 /* HTML elements */
@@ -144,7 +143,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: var(--color-heading);
+	color: var(--color-text);
   font-family: var(--font-heading);
   font-weight: var(--fontWeight-bold);
   margin-top: var(--spacing-12);
@@ -178,7 +177,7 @@ h6 {
   font-size: var(--fontSize-1);
 }
 
-h1 > a {
+header a, header a:visited {
   color: inherit;
   text-decoration: none;
 }
@@ -250,10 +249,10 @@ li *:last-child {
 }
 
 blockquote {
-  color: var(--color-text-light);
+  color: var(--color-secondary);
   margin: var(--spacing-8) var(--spacing-8) var(--spacing-8) var(--spacing-0);
   padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);
-  border-left: var(--spacing-1) solid var(--color-primary);
+  border-left: var(--spacing-1) solid var(--color-secondary);
   font-size: var(--fontSize-2);
   font-style: italic;
 }
@@ -280,12 +279,11 @@ table thead tr th {
 
 /* Link */
 
-a {
+a, a:visited {
   color: var(--color-primary);
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
   text-decoration: none;
   background-color: var(--color-primary);
   color: var(--color-body);
