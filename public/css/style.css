@@ -178,8 +178,14 @@ h6 {
 }
 
 header a, header a:visited {
-  color: inherit;
+  color: var(--color-text);
   text-decoration: none;
+}
+
+header a:hover, header a:focus {
+  text-decoration: none;
+  background-color: var(--color-primary);
+  color: var(--color-body);
 }
 
 h2 > a,
