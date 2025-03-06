@@ -16,6 +16,13 @@ eleventyExcludeFromCollections: true
   <lastBuildDate>{{ collections.essays | getNewestCollectionItemDate | dateToRfc822 }}</lastBuildDate>
   <cloud domain="rpc.rsscloud.io" port="5337" path="/pleaseNotify" registerProcedure="" protocol="http-post"/>
   <atom:link href="{{ metadata.url }}rss.xml" rel="self" type="application/rss+xml"/>
+  <image>
+  	<url>{{ metadata.url }}apple-touch-icon.png</url>
+  	<title>Andrew Shell's Headshot</title>
+  	<link>{{ metadata.url }}</link>
+  	<height>180</height>
+  	<width>180</width>
+  </image>
   <source:cloud>https://rpc.rsscloud.io/pleaseNotify</source:cloud>
   <source:account service="twitter">andrewshell</source:account>
   <source:account service="github">andrewshell</source:account>
@@ -32,6 +39,9 @@ eleventyExcludeFromCollections: true
     <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
     <content:encoded>{{ post.content | transformWithHtmlBase(absolutePostUrl, post.url) }}</content:encoded>
     <source:markdown>{{ post.rawInput }}</source:markdown>
+    {% if post.data.enclosure %}
+    <enclosure url="{{ post.data.enclosure.url | htmlBaseUrl(metadata.url) }}" length="{{ post.data.enclosure.size }}" type="{{ post.data.enclosure.type }}" />
+    {% endif %}
   </item>
 {%- endfor %}
 </channel>

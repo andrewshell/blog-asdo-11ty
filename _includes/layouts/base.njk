@@ -8,10 +8,19 @@
   {% if published === false %}<meta name="robots" content="noindex"/>{% endif %}
   {% set absolutePostUrl %}{{ page.url | htmlBaseUrl(metadata.url) }}{% endset %}
 
+  {% if canonical_href %}
+  <link rel="canonical" href="{{ canonical_href }}" />
+  {% else %}
+  <link rel=“canonical” href=“{{ absolutePostUrl }}” />
+  {% endif %}
+
   <link rel="alternate" href="/rss.xml" type="application/rss+xml" title="{{ metadata.title }}">
 
   <meta name="generator" content="{{ eleventy.generator }}">
-  {#- favicons 'public/img/gatsby-icon.png', appleIconBgColor='#fff' -#}
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
 
   {%- css %}{% include "public/css/normalize.css" %}{% endcss %}
   {%- css %}{% include "public/css/style.css" %}{% endcss %}
@@ -20,7 +29,6 @@
   <link rel="stylesheet" href="{% getBundleFileUrl "css" %}">
   <link rel="webmention" href="https://webmention.io/blog.andrewshell.org/webmention" />
   <link rel="alternate" type="application/activity+json" href="https://fed.brid.gy/r/{{ page.url | htmlBaseUrl(metadata.url) | encodeURIComponent}}">
-  <link rel=“canonical” href=“{{ absolutePostUrl }}” />
   <!-- <script src="/js/blog-roll.js"></script> -->
   {% if metadata.production %}
   <script defer src="https://cloud.umami.is/script.js" data-website-id="ad25b1ce-ffdd-4f98-8dc8-cea81b233a1a"></script>

@@ -4,6 +4,9 @@ layout: layouts/base.njk
 <article class="blog-post h-entry" itemscope itemtype="{{ itemtype or 'https://schema.org/BlogPosting' }}">
 <header>
 	<h1 class="p-name" itemprop="headline">{{ title }}</h1>
+{% if enclosure %}
+<audio controls><source src="{{ enclosure.url }}" type="audio/mpeg">Your browser does not support the audio tag.</audio>
+{% endif %}
 </header>
 <section class="e-content" itemprop="articleBody">
 {{ content | safe }}

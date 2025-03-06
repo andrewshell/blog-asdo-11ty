@@ -33,7 +33,8 @@ fullHeader: true
     I love meeting new people, and I reply to every email, so [say hello](/contact/).
 
     Go to [the search page](/search/) to search for any word or phrase.
-    
+
+		Subscribe to [Midlife Momentum](https://andrewshell.substack.com/), my Substack newsletter.
   </div>
 </div>
 
