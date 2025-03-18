@@ -76,15 +76,11 @@ I envision creating top-level projects around each question I come up with. That
 
 I haven’t come up with 12 favorite problems yet (only 5), but here’s what I have so far:
 
-How do I focus on the work that matters most?
-
-How can I uncover and influence the hidden systems shaping my life?
-
-How can I build invisible bridges that multiply the value of what’s already there?
-
-How do I maximize the applied value of what I learn?
-
-How do I design a meaningful life with momentum and alignment?
+1. How do I focus on the work that matters most?
+2. How can I uncover and influence the hidden systems shaping my life?
+3. How can I build invisible bridges that multiply the value of what’s already there?
+4. How do I maximize the applied value of what I learn?
+5. How do I design a meaningful life with momentum and alignment?
 
 ## Next Steps
 
