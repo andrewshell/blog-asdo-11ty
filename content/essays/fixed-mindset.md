@@ -53,3 +53,5 @@ One recommendation is setting aside several hours as a practice block, spend tha
 I'll need to figure out something I can practice in this way. Figuring this out is a challenge as I've avoided hard practice for so long. But if I want to move forward, this seems like the place to start.
 
 What's one uncomfortable truth you've been avoiding, and what would happen if you faced it today?
+
+[This essay was originally published on my Substack newsletter.]({{ canonical_href }})
