@@ -10,6 +10,9 @@ layout: layouts/base.njk
 </header>
 <section class="e-content" itemprop="articleBody">
 {{ content | safe }}
+{% if canonical_href %} 
+<p><a href="{{ canonical_href }}">This essay was originally published on my Substack newsletter.</a></p>
+{% endif %}
 <p>
 {%- set absolutePostUrl %}{{ page.url | htmlBaseUrl(metadata.url) }}{% endset %}
 <a href="{{ absolutePostUrl }}" class="u-url" rel="me" itemprop="url"><time class="small dt-published" itemprop="datePublished" datetime="{{ created | htmlDateString }}" }>Published {{ created | readableDate('DDD') }}</time></a>

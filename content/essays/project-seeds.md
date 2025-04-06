@@ -115,5 +115,3 @@ This is good enough for now. The process I’ve been through has left me feeling
 I hope this process of “showing, not telling” was helpful. I don’t want this newsletter to be a boring repository of theory, but rather a snapshot of the processes I’m going through as I try to become a more active participant in my life.
 
 Curiosity is amazing and should absolutely be cultivated, but in a deliberate way. When you filter it through reflection, link it to deeper questions, and track it with intention, it becomes fuel for meaningful progress. This isn’t about killing wonder. It’s about harnessing it, turning drift into direction, exploration into momentum, and curiosity into meaningful creation.
-
-[This essay was originally published on my Substack newsletter.]({{ canonical_href }})

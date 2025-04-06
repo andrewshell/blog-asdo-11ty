@@ -54,5 +54,3 @@ Mid-life crisis? Maybe. I don't see any sports cars or young models in my future
 I’m planning to write about what I'm going through. The challenges I’m facing and the experiments I’m running. I'm not sure if anyone will read it or find it interesting. Hopefully, it will be more action and less navel-gazing.
 
 If this sounds interesting, shoot me a message and let me know what you think.
-
-[This essay was originally published on my Substack newsletter.]({{ canonical_href }})

@@ -52,5 +52,3 @@ So, I will investigate options for all of these. I know spending time away from 
 ## Feedback
 
 Would you consider disconnecting and spending time in nature with nothing but your thoughts and a notebook? Do you have experience with reversing burnout? Please [contact me](/contact/).
-
-[This essay was originally published on my Substack newsletter.]({{ canonical_href }})

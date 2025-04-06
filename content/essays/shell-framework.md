@@ -96,5 +96,3 @@ Over the next few weeks, I’ll keep adding projects as they come up. I know the
 ## Feedback
 
 What do you think? Does this help you? Any suggestions for tweaking it? Please comment and let me know.
-
-[This essay was originally published on my Substack newsletter.]({{ canonical_href }})

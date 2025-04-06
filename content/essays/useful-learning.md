@@ -89,5 +89,3 @@ Even if you don’t plan to create your own one pagerr, I think it will be very 
 I haven’t created my first one pagerr yet. Perhaps next week, I’ll share a plan and explain the pieces more closely.
 
 If you want to ensure you don’t miss my plan, [please subscribe](https://andrewshell.substack.com/). I’d also appreciate it if you shared this article with someone who might appreciate it.
-
-[This essay was originally published on my Substack newsletter.]({{ canonical_href }})
