@@ -2,7 +2,7 @@
 title: "How I’m Trying to Learn Before It’s Too Late"
 canonical_href: "https://andrewshell.substack.com/p/how-im-trying-to-learn-before-its"
 date: 2025-04-08T11:00:00.000Z
-published: false
+published: true
 created: 2025-04-08T11:00:00.000Z
 enclosure:
   url: /uploads/2025/04/better-learning.mp3
