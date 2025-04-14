@@ -11,7 +11,7 @@ layout: layouts/base.njk
 <section class="e-content" itemprop="articleBody">
 {{ content | safe }}
 {% if canonical_href %} 
-<p><a href="{{ canonical_href }}">This essay was originally published on my Substack newsletter.</a></p>
+<p><a href="{{ canonical_href }}">This essay was originally published on {{ canonical_name | default("my Substack newsletter") }}.</a></p>
 {% endif %}
 <p>
 {%- set absolutePostUrl %}{{ page.url | htmlBaseUrl(metadata.url) }}{% endset %}

@@ -4,7 +4,7 @@
 	</div>
 
 	<div>
-		<p>Written by <a href="{{ metadata.url }}" rel="author me" class="p-name u-url" itemprop="name"><strong><span class="p-given-name" itemprop="givenName">{{ metadata.author.givenName }}</span> <span class="p-family-name" itemprop="familyName">{{ metadata.author.familyName }}</span></strong></a>, a <span class="p-job-title" itemprop="jobTitle">{{ metadata.author.jobTitle }}</span> from <span class="p-locality" itemprop="homeLocation">{{ metadata.author.homeLocation }}</span>.<br /></p>
+		<p>Written by <a href="{{ metadata.url }}" rel="author me" class="p-name u-url" itemprop="name"><strong><span class="p-given-name" itemprop="givenName">{{ metadata.author.givenName }}</span> <span class="p-family-name" itemprop="familyName">{{ metadata.author.familyName }}</span></strong></a>, a <span class="p-job-title" itemprop="jobTitle">{{ metadata.author.jobTitle }}</span> from <span class="adr"><span class="p-locality">{{ metadata.author.locality }}</span>, <abbr class="p-region" title="{{ metadata.author.region }}">{{ metadata.author.regionAbbr }}</abbr></span>.<br /></p>
 		<ul class="hlist">
 			<li><a href="/about/">About</a></li>
 			<li><a href="/contact/">Contact</a></li>
