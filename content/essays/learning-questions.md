@@ -2,7 +2,7 @@
 title: "Why I Treat My Questions Like a Learning Compass"
 canonical_href: "https://andrewshell.substack.com/p/why-i-treat-my-questions-like-a-learning"
 date: 2025-04-15T11:00:00.000Z
-published: false
+published: true
 created: 2025-04-15T11:00:00.000Z
 enclosure:
   url: /uploads/2025/04/learning-questions.mp3
