@@ -32,7 +32,7 @@ For instance, one project I listed was “Read On The Shortness of Life by Senec
 
 I’ve been a subscriber to Ryan Holiday’s newsletter for quite some time, and what little I know of stoic philosophy seems to resonate with me. I also have an interest in reading classic literature to deepen my understanding of the world and life in general.
 
-I actually don’t remember how On The Shortness of Life got on my radar and why I chose it over Meditations or Letters From a Stoic. I think it was because there was a newer translation that is supposidly more accessable and it’s fairly short. I thought it would be a good place to start.
+I actually don’t remember how On The Shortness of Life got on my radar and why I chose it over Meditations or Letters From a Stoic. I think it was because there was a newer translation that is supposedly more accessible and it’s fairly short. I thought it would be a good place to start.
 
 But what am I specifically trying to learn? What is the actual learning project that would require reading this book to complete? What would the deliverable be?
 
