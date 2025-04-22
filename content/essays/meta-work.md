@@ -2,7 +2,7 @@
 title: "How Preparing Became My Biggest Distraction"
 canonical_href: "https://andrewshell.substack.com/p/how-preparing-became-my-biggest-distraction"
 date: 2025-04-22T11:00:00.000Z
-published: false
+published: true
 created: 2025-04-22T11:00:00.000Z
 enclosure:
   url: /uploads/2025/04/meta-work.mp3
