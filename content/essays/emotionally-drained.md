@@ -2,7 +2,7 @@
 title: "I Didn’t Realize Growth Could Leave Me This Exhausted"
 canonical_href: "https://andrewshell.substack.com/p/i-didnt-realize-growth-could-leave"
 date: 2025-04-28T11:00:00.000Z
-published: false
+published: true
 created: 2025-04-28T11:00:00.000Z
 enclosure:
   url: /uploads/2025/04/emotionally-drained.mp3
