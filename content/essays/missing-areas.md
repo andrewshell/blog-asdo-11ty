@@ -2,7 +2,7 @@
 title: "How the Most Important Parts of My Life Never Made It to My Journal"
 canonical_href: "https://andrewshell.substack.com/p/how-i-discovered-the-most-important"
 date: 2025-05-13T11:00:00.000Z
-published: false
+published: true
 created: 2025-05-13T11:00:00.000Z
 enclosure:
   url: /uploads/2025/05/missing-areas.mp3
