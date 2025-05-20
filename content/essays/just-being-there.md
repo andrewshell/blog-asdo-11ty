@@ -2,7 +2,7 @@
 title: "The Secret To Better Parenting Is Being Nearby, Not Being Perfect"
 canonical_href: "https://andrewshell.substack.com/p/the-secret-to-better-parenting-is"
 date: 2025-05-19T11:00:00.000Z
-published: false
+published: true
 created: 2025-05-19T11:00:00.000Z
 enclosure:
   url: /uploads/2025/05/just-being-there.mp3
