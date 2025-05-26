@@ -3,4 +3,5 @@ export default {
 		"essays"
 	],
 	"layout": "layouts/essay.njk",
+	"permalink": "/essays/{{ page.fileSlug | removeDate }}/",
 };
