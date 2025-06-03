@@ -2,7 +2,7 @@
 title: "When Everything Important Becomes Nothing Important"
 canonical_href: "https://andrewshell.substack.com/p/when-everything-important-becomes"
 date: 2025-05-27T11:00:00.000Z
-published: false
+published: true
 created: 2025-05-27T11:00:00.000Z
 enclosure:
   url: /uploads/2025/05/time-blocks.mp3
