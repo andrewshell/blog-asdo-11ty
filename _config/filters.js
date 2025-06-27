@@ -141,4 +141,9 @@ export default function (eleventyConfig) {
       return content.slice(0, minItems);
     }
   });
+
+  // Get current year
+  eleventyConfig.addFilter('currentYear', function () {
+    return new Date().getFullYear();
+  });
 }
