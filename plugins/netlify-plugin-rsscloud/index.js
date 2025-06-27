@@ -6,18 +6,17 @@ const {
 
 export default {
   async onSuccess({ utils, constants, inputs }) {
-    const feedUrl = inputs.feedUrl || RSSCLOUD_FEED_URL;
+    const _feedUrl = inputs.feedUrl || RSSCLOUD_FEED_URL;
     const pingUrl = inputs.pingUrl || RSSCLOUD_PING_URL;
 
-    if (constants.IS_LOCAL || CONTEXT !== "production") {
+    if (constants.IS_LOCAL || CONTEXT !== 'production') {
       console.log(
-        "Don't ping rsscloud server because this isn't a production build"
+        'Don\'t ping rsscloud server because this isn\'t a production build',
       );
       return;
     }
 
     try {
-      const url = new URL(pingUrl);
 
       const response = await fetch(pingUrl, {
         method: 'POST',
@@ -25,9 +24,9 @@ export default {
           'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
         },
         body: new URLSearchParams({
-            'url': pingUrl,
+          'url': pingUrl,
         })
-        .toString()
+          .toString(),
       });
 
       if (response.status === 200) {

@@ -1,0 +1,20 @@
+# Build outputs
+_site/
+dist/
+node_modules/
+
+# Content files (don't auto-format content)
+content/**/*.md
+content/**/*.html
+
+# Generated files
+*.min.js
+*.min.css
+
+# Cache
+.cache/
+.netlify/
+
+# OS files
+.DS_Store
+Thumbs.db
