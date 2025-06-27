@@ -2,4 +2,37 @@
 layout: layouts/base.njk
 ---
 
-{{ content | safe }}
+<div class="h-entry">
+  <span style="display: none;" class="p-name">Andrew Shell's Weblog</span>
+  <div class="e-content">
+    <div style="display: flex; align-items: center; gap: var(--spacing-4); margin-bottom: var(--spacing-4);" class="h-card" itemscope itemtype="https://schema.org/Person">
+      <div>
+        <img class="circle u-photo" itemprop="image" itemscope itemtype="https://schema.org/ImageObject" src="img/profile-pic.png" alt="Photo of Andrew Shell" style="width: 500px">
+      </div>
+      <div>
+        <p>Hi!, I'm <a class="p-name u-url u-uid" rel="me" href="{{ metadata.url }}" itemprop="name"><span class="p-given-name" itemprop="givenName">{{ metadata.author.givenName }}</span> <span class="p-family-name" itemprop="familyName">{{ metadata.author.familyName }}</span></a> a <span class="p-job-title" itemprop="jobTitle">{{ metadata.author.jobTitle }}</span> from <span class="adr"><span class="p-locality">{{ metadata.author.locality }}</span>, <abbr class="p-region" title="{{ metadata.author.region }}">{{ metadata.author.regionAbbr }}</abbr></span>.</p>
+        <p style="margin: 0;" class="p-note">
+            I'm a <a href="{{ metadata.url }}essays/a-brief-history-of-me-programming/">software developer</a>, 
+            <a href="{{ metadata.url }}ship-30-for-30-october-2021-cohort/">writer</a>, and 
+            <a href="{{ metadata.url }}essays/teaching-is-an-unfair-advantage/">community builder</a> passionate about 
+            <a href="{{ metadata.url }}notes/rsscloud-server/">open-source technology</a> and 
+            <a href="https://feeds.fedwikiriver.com/">collaboration</a>.
+        </p>
+      </div>
+    </div>
+
+    {{ content | safe }}
+
+    {% set allContent = collections | unifiedContent %}
+    {% set recentContent = allContent | recentContent(5) %}
+
+    <div class="feed">
+      {% for item in recentContent %}
+        {% include "feeditem.njk" %}
+        {% if not loop.last %}<hr class="feed-separator">{% endif %}
+      {% endfor %}
+    </div>
+
+    <p><a href="/essays/">See all essays →</a> | <a href="/notes/">See all notes →</a> | <a href="/search/">Search →</a></p>
+  </div>
+</div>

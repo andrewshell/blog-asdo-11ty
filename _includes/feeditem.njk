@@ -1,0 +1,37 @@
+{%- set absolutePostUrl %}{{ item.url | htmlBaseUrl(metadata.url) }}{% endset -%}
+<article class="feed-item h-entry" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="feed-content">
+    {% if item.data.title %}
+      <h3 class="feed-title p-name" itemprop="headline">
+        <a href="{{ item.url }}" class="u-url" itemprop="url">{{ item.data.title }}</a>
+      </h3>
+    {% endif %}
+    
+    <div class="feed-excerpt e-content" itemprop="articleBody">
+      {% if item.data.tags and "updates" in item.data.tags %}
+        {{ item.content | safe }}
+      {% else %}
+        <p>
+        {{ item.content | truncate(280) }}
+        <a href="{{ item.url }}" class="read-more" rel="nofollow">Read more →</a>
+        </p>
+      {% endif %}
+    </div>
+    
+    <div class="feed-meta">
+      <p><a href="{{ item.url }}" class="read-more" rel="nofollow">
+        <time class="feed-date dt-published" itemprop="datePublished" datetime="{{ item.date | htmlDateString }}">
+          {{ item.date | readableDate("DDD") }}
+        </time>
+        
+        {%- if item.data.tags -%}
+          {%- for tag in item.data.tags -%}
+            {%- if tag != "posts" and tag != "all" -%}
+              <span class="feed-tag p-category">{{ tag }}</span>
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+      </a></p>
+    </div>
+  </div>
+</article>

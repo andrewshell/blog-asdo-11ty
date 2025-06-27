@@ -92,4 +92,53 @@ export default function (eleventyConfig) {
       );
     },
   );
+
+  // Create unified collection of all content (essays, updates)
+  eleventyConfig.addFilter('unifiedContent', function (collections) {
+    const allContent = [
+      ...(collections.essays || []),
+      ...(collections.updates || []),
+    ];
+
+    // Sort by date, newest first
+    return allContent.sort((a, b) => new Date(b.date) - new Date(a.date));
+  });
+
+  // Truncate content to specified length with ellipsis
+  eleventyConfig.addFilter('truncate', function (content, length = 280) {
+    if (!content || typeof content !== 'string') return '';
+
+    // Strip HTML tags first
+    const stripped = content.replace(/<[^>]*>/g, '');
+
+    if (stripped.length <= length) return stripped;
+
+    // Find the last space within the limit to avoid cutting words
+    const truncated = stripped.substring(0, length);
+    const lastSpace = truncated.lastIndexOf(' ');
+
+    return (lastSpace > 0 ? truncated.substring(0, lastSpace) : truncated) + '...';
+  });
+
+  // Get recent content: minimum 5 items or all items from current month, whichever is greater
+  eleventyConfig.addFilter('recentContent', function (content, minItems = 5) {
+    if (!content || !Array.isArray(content)) return [];
+
+    const now = new Date();
+    const currentYear = now.getFullYear();
+    const currentMonth = now.getMonth();
+
+    // Get items from current month
+    const currentMonthItems = content.filter(item => {
+      const itemDate = new Date(item.date);
+      return itemDate.getFullYear() === currentYear && itemDate.getMonth() === currentMonth;
+    });
+
+    // Return either current month items or minimum items, whichever is greater
+    if (currentMonthItems.length >= minItems) {
+      return currentMonthItems;
+    } else {
+      return content.slice(0, minItems);
+    }
+  });
 }

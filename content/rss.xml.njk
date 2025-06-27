@@ -10,10 +10,10 @@ eleventyExcludeFromCollections: true
   <title>{{ metadata.title }}</title>
   <link>{{ metadata.url | addPathPrefixToFullUrl }}</link>
   <description>{{ metadata.description }}</description>
-  <pubDate>{{ collections.essays | getNewestCollectionItemDate | dateToRfc822 }}</pubDate>
+  <pubDate>{{ collections | unifiedContent | getNewestCollectionItemDate | dateToRfc822 }}</pubDate>
   <generator>{{ eleventy.generator }}</generator>
   <docs>https://cyber.harvard.edu/rss/rss.html</docs>
-  <lastBuildDate>{{ collections.essays | getNewestCollectionItemDate | dateToRfc822 }}</lastBuildDate>
+  <lastBuildDate>{{ collections | unifiedContent | getNewestCollectionItemDate | dateToRfc822 }}</lastBuildDate>
   <cloud domain="rpc.rsscloud.io" port="5337" path="/pleaseNotify" registerProcedure="" protocol="http-post"/>
   <atom:link href="{{ metadata.url }}rss.xml" rel="self" type="application/rss+xml"/>
   <image>
@@ -26,13 +26,14 @@ eleventyExcludeFromCollections: true
   <source:cloud>https://rpc.rsscloud.io/pleaseNotify</source:cloud>
   <source:account service="twitter">andrewshell</source:account>
   <source:account service="github">andrewshell</source:account>
-{%- set postsCount = collections.essays | length -%}
+{%- set allContent = collections | unifiedContent -%}
+{%- set postsCount = allContent | length -%}
 {%- set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) -%}
-{%- set postslist = collections.essays | head(-1 * numberOfLatestPostsToShow) -%}
-{%- for post in postslist | reverse -%}
+{%- set postslist = allContent | head(numberOfLatestPostsToShow) -%}
+{%- for post in postslist -%}
   {%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.url) }}{% endset %}
   <item>
-    <title>{{ post.data.title }}</title>
+    <title>{{ post.data.title or "Update from " + post.date | readableDate("DDD") }}</title>
     <description>{{ post.content | striptags(true) | transformWithHtmlBase(absolutePostUrl, post.url) | truncate(280) }}</description>
     <link>{{ absolutePostUrl }}</link>
     <guid isPermaLink="true">{{ absolutePostUrl }}</guid>
