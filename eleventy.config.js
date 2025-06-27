@@ -35,7 +35,7 @@ export default async function (eleventyConfig) {
   // Run Eleventy when these files change:
   // https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
 
-  eleventyConfig.amendLibrary('md', (mdLib) => mdLib.use(markdownItFootnote));
+  eleventyConfig.amendLibrary('md', mdLib => mdLib.use(markdownItFootnote));
 
   // Watch content images for the image pipeline.
   eleventyConfig.addWatchTarget('content/**/*.{svg,webp,png,jpeg}');
@@ -93,12 +93,15 @@ export default async function (eleventyConfig) {
     return new Date().toISOString();
   });
 
-  eleventyConfig.addShortcode('youtube', (videoURL) => {
+  eleventyConfig.addShortcode('youtube', videoURL => {
     try {
       const url = new URL(videoURL);
       // Validate it's a YouTube URL and extract video ID
       let id;
-      if (url.hostname === 'www.youtube.com' || url.hostname === 'youtube.com') {
+      if (
+        url.hostname === 'www.youtube.com' ||
+        url.hostname === 'youtube.com'
+      ) {
         id = url.searchParams.get('v');
       } else if (url.hostname === 'youtu.be') {
         id = url.pathname.slice(1);
@@ -113,12 +116,15 @@ export default async function (eleventyConfig) {
       return `<div class="embedVideo"><iframe src="https://www.youtube-nocookie.com/embed/${id}" title="YouTube video player" frameborder="0" allowfullscreen></iframe></div>
 `;
     } catch (error) {
-      console.error(`[youtube shortcode] Invalid URL: ${videoURL}`, error.message);
+      console.error(
+        `[youtube shortcode] Invalid URL: ${videoURL}`,
+        error.message,
+      );
       return `<!-- Invalid YouTube URL: ${videoURL} -->`;
     }
   });
 
-  eleventyConfig.addShortcode('vimeo', (videoURL) => {
+  eleventyConfig.addShortcode('vimeo', videoURL => {
     try {
       const url = new URL(videoURL);
       // Validate it's a Vimeo URL and extract video ID
@@ -143,7 +149,10 @@ export default async function (eleventyConfig) {
       return `<div class="embedVideo"><iframe src="https://player.vimeo.com/video/${id}" title="Vimeo video player" frameborder="0" allowfullscreen></iframe></div>
 `;
     } catch (error) {
-      console.error(`[vimeo shortcode] Invalid URL: ${videoURL}`, error.message);
+      console.error(
+        `[vimeo shortcode] Invalid URL: ${videoURL}`,
+        error.message,
+      );
       return `<!-- Invalid Vimeo URL: ${videoURL} -->`;
     }
   });
@@ -163,7 +172,10 @@ export default async function (eleventyConfig) {
       }
       return `## ${data.title}\n\n${content}`;
     } catch (error) {
-      console.error(`[embed shortcode] Error reading file ${file}:`, error.message);
+      console.error(
+        `[embed shortcode] Error reading file ${file}:`,
+        error.message,
+      );
       return `<!-- Error embedding file: ${file} -->`;
     }
   });

@@ -32,11 +32,11 @@ function eleventyComputedExcludeFromCollections() {
 export default function (eleventyConfig) {
   eleventyConfig.addGlobalData(
     'eleventyComputed.permalink',
-    eleventyComputedPermalink
+    eleventyComputedPermalink,
   );
   eleventyConfig.addGlobalData(
     'eleventyComputed.eleventyExcludeFromCollections',
-    eleventyComputedExcludeFromCollections
+    eleventyComputedExcludeFromCollections,
   );
 
   let logged = false;

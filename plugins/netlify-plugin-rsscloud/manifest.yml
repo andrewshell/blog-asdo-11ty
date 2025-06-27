@@ -1,6 +1,6 @@
 name: netlify-plugin-rsscloud
 inputs:
   - name: feedUrl
-    description: "Absolute url to your rss feed"
+    description: 'Absolute url to your rss feed'
   - name: pingUrl
-    description: "Absolute url to your rsscloud server ping path"
+    description: 'Absolute url to your rsscloud server ping path'

@@ -3,6 +3,17 @@ import js from '@eslint/js';
 export default [
   js.configs.recommended,
   {
+    ignores: [
+      '_site/**',
+      'dist/**',
+      'node_modules/**',
+      'content/**',
+      '**/*.min.js',
+      '.cache/**',
+      '.netlify/**',
+    ],
+  },
+  {
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',
@@ -26,9 +37,9 @@ export default [
     },
     rules: {
       // Stylistic rules
-      'indent': ['error', 2],
-      'quotes': ['error', 'single'],
-      'semi': ['error', 'always'],
+      indent: ['error', 2],
+      quotes: ['error', 'single'],
+      semi: ['error', 'always'],
       'comma-dangle': ['error', 'always-multiline'],
       'no-trailing-spaces': 'error',
       'eol-last': 'error',
@@ -44,15 +55,6 @@ export default [
       'no-implied-eval': 'error',
       'no-new-func': 'error',
     },
-    ignores: [
-      '_site/**/*',
-      'dist/**/*', 
-      'node_modules/**/*',
-      'content/**/*',
-      '**/*.min.js',
-      '.cache/**/*',
-      '.netlify/**/*',
-    ],
   },
   {
     files: ['**/*.mjs'],

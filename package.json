@@ -1,55 +1,55 @@
 {
-	"name": "blog-asdo-11ty",
-	"version": "3.0.0",
-	"description": "Andrew Shell's 11ty Weblog",
-	"type": "module",
-	"scripts": {
-		"build": "npx @11ty/eleventy",
-		"build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
-		"start": "npx @11ty/eleventy --serve --quiet",
-		"debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
-		"debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
-		"benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
-		"lint": "eslint .",
-		"lint:fix": "eslint . --fix",
-		"format": "prettier --write .",
-		"format:check": "prettier --check ."
-	},
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/andrewshell/blog-asdo-11ty.git"
-	},
-	"author": {
-		"name": "Andrew Shell",
-		"email": "andrew@andrewshell.org",
-		"url": "https://blog.andrewshell.org/"
-	},
-	"license": "MIT",
-	"engines": {
-		"node": ">=20"
-	},
-	"bugs": {
-		"url": "https://github.com/andrewshell/blog-asdo-11ty/issues"
-	},
-	"homepage": "https://blog.andrewshell.org/",
-	"devDependencies": {
-		"@11ty/eleventy": "^3.0.0",
-		"@11ty/eleventy-img": "^5.0.0",
-		"@11ty/eleventy-navigation": "^0.3.5",
-		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-		"@eslint/js": "^9.29.0",
-		"cross-env": "^7.0.3",
-		"eslint": "^9.29.0",
-		"lunr": "^2.3.9",
-		"lunr-languages": "^1.14.0",
-		"luxon": "^3.5.0",
-		"netlify-plugin-webmentions": "^1.1.1",
-		"prettier": "^3.6.2",
-		"zod": "^3.23.8",
-		"zod-validation-error": "^3.4.0"
-	},
-	"dependencies": {
-		"gray-matter": "^4.0.3",
-		"markdown-it-footnote": "^4.0.0"
-	}
+  "name": "blog-asdo-11ty",
+  "version": "3.0.0",
+  "description": "Andrew Shell's 11ty Weblog",
+  "type": "module",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve --quiet",
+    "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
+    "debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
+    "benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrewshell/blog-asdo-11ty.git"
+  },
+  "author": {
+    "name": "Andrew Shell",
+    "email": "andrew@andrewshell.org",
+    "url": "https://blog.andrewshell.org/"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "bugs": {
+    "url": "https://github.com/andrewshell/blog-asdo-11ty/issues"
+  },
+  "homepage": "https://blog.andrewshell.org/",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-img": "^5.0.0",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@eslint/js": "^9.29.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^9.29.0",
+    "lunr": "^2.3.9",
+    "lunr-languages": "^1.14.0",
+    "luxon": "^3.5.0",
+    "netlify-plugin-webmentions": "^1.1.1",
+    "prettier": "^3.6.2",
+    "zod": "^3.23.8",
+    "zod-validation-error": "^3.4.0"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "markdown-it-footnote": "^4.0.0"
+  }
 }

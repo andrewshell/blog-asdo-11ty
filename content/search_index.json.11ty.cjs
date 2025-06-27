@@ -1,13 +1,10 @@
 const { DateTime } = require('luxon');
 const lunr = require('lunr');
 require('lunr-languages/lunr.stemmer.support')(lunr);
-const { truncate, safe } = require('nunjucks/src/filters');
+const { truncate } = require('nunjucks/src/filters');
 
 function stripLinks(md) {
-  return md.replaceAll(
-    new RegExp('\\[([^\\]]+)\\]\\([^\\)]+\\)', 'ig'),
-    '$1',
-  );
+  return md.replaceAll(new RegExp('\\[([^\\]]+)\\]\\([^\\)]+\\)', 'ig'), '$1');
 }
 
 class SearchIndex {

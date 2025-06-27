@@ -1,7 +1,7 @@
 /* CSS Custom Properties Definitions */
 
 :root {
-  --maxWidth-none: "none";
+  --maxWidth-none: 'none';
   --maxWidth-xs: 20rem;
   --maxWidth-sm: 24rem;
   --maxWidth-md: 28rem;
@@ -10,9 +10,9 @@
   --maxWidth-2xl: 42rem;
   --maxWidth-3xl: 48rem;
   --maxWidth-4xl: 56rem;
-  --maxWidth-full: "100%";
+  --maxWidth-full: '100%';
   --maxWidth-wrapper: var(--maxWidth-2xl);
-  --spacing-px: "1px";
+  --spacing-px: '1px';
   --spacing-0: 0;
   --spacing-1: 0.25rem;
   --spacing-2: 0.5rem;
@@ -27,9 +27,13 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
-  --fontFamily-serif: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
-  --fontFamily-mono: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  --fontFamily-sans:
+    -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto;
+  --fontFamily-serif:
+    'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
+  --fontFamily-mono:
+    ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas,
+    'DejaVu Sans Mono', monospace;
   --content-letter-spacing: -0.01em;
   --head-nav-gap: 3.2rem;
   --font-body: var(--fontFamily-serif);
@@ -50,16 +54,16 @@
   --fontSize-1: 1rem;
   --fontSize-2: 1.15rem;
   --fontSize-3: 1.31rem;
-  --fontSize-4: 1.50rem;
+  --fontSize-4: 1.5rem;
   --fontSize-5: 1.72rem;
   --fontSize-6: 1.97rem;
   --fontSize-7: 2.25rem;
   --color-base: rgb(245 243 243);
   --color-base-2: rgb(247 248 249);
   --color-base-3: rgb(255, 255, 255);
-  --color-body: #FDFCFB;
-  --color-primary: #B33900;
-  --color-secondary: #007AB3;
+  --color-body: #fdfcfb;
+  --color-primary: #b33900;
+  --color-secondary: #007ab3;
   --color-text: #240b00;
 }
 
@@ -84,7 +88,7 @@
 }
 
 .bg-base-grad {
-  background-image: linear-gradient(180deg,var(--base) 20%,var(--base-3) 40%);
+  background-image: linear-gradient(180deg, var(--base) 20%, var(--base-3) 40%);
 }
 
 html {
@@ -95,7 +99,7 @@ html {
 }
 
 body {
-	background-color: var(--color-body);
+  background-color: var(--color-body);
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);
@@ -107,8 +111,9 @@ footer {
   font-family: var(--fontFamily-sans);
 }
 
-nav, .bio {
-	font-family: var(--fontFamily-sans);
+nav,
+.bio {
+  font-family: var(--fontFamily-sans);
 }
 
 hr {
@@ -143,7 +148,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: var(--color-text);
+  color: var(--color-text);
   font-family: var(--font-heading);
   font-weight: var(--fontWeight-bold);
   margin-top: var(--spacing-12);
@@ -177,12 +182,14 @@ h6 {
   font-size: var(--fontSize-1);
 }
 
-header a, header a:visited {
+header a,
+header a:visited {
   color: var(--color-text);
   text-decoration: none;
 }
 
-header a:hover, header a:focus {
+header a:hover,
+header a:focus {
   text-decoration: none;
   background-color: var(--color-primary);
   color: var(--color-body);
@@ -207,7 +214,8 @@ p {
   padding: var(--spacing-0);
 }
 
-ul, ol {
+ul,
+ol {
   margin-left: var(--spacing-4);
   margin-right: var(--spacing-0);
   padding: var(--spacing-0);
@@ -285,11 +293,13 @@ table thead tr th {
 
 /* Link */
 
-a, a:visited {
+a,
+a:visited {
   color: var(--color-primary);
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
   background-color: var(--color-primary);
   color: var(--color-body);
@@ -303,7 +313,7 @@ a:hover, a:focus {
   padding: var(--spacing-10) var(--spacing-5);
 }
 
-.global-wrapper[data-is-root-path="true"] .bio {
+.global-wrapper[data-is-root-path='true'] .bio {
   margin-bottom: var(--spacing-20);
 }
 
@@ -368,7 +378,7 @@ a:hover, a:focus {
 }
 
 .bio p {
-	margin-bottom: var(--spacing-0);
+  margin-bottom: var(--spacing-0);
 }
 
 .bio-avatar {
@@ -384,7 +394,7 @@ a:hover, a:focus {
 }
 
 .bio-avatar picture img {
-	display: block;
+  display: block;
   height: 50px;
   width: 50px;
 
@@ -436,11 +446,11 @@ a:hover, a:focus {
   position: relative;
   height: 0;
   overflow: hidden;
-  margin-bottom: 1.0725rem
+  margin-bottom: 1.0725rem;
 }
 
 .embedVideo iframe {
-  border:0;
+  border: 0;
   position: absolute;
   top: 0;
   left: 0;
@@ -463,7 +473,8 @@ a:hover, a:focus {
   flex: 1 0;
 }
 
-small, .small {
+small,
+.small {
   font-size: var(--fontSize-0);
 }
 
@@ -479,13 +490,15 @@ small, .small {
 /* Media queries */
 
 @media (max-width: 42rem) {
-	.bio, .post-list-item {
-	  flex-direction: column;
-	}
-	.bio-avatar, .post-list-item > a {
-		margin-right: var(--spacing-0);
+  .bio,
+  .post-list-item {
+    flex-direction: column;
+  }
+  .bio-avatar,
+  .post-list-item > a {
+    margin-right: var(--spacing-0);
     margin-bottom: var(--spacing-4);
-	}
+  }
   blockquote {
     padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4);
     margin-left: var(--spacing-0);
