@@ -21,8 +21,13 @@ JavaScript | Typescript | Node.js | PHP | Amazon Web Services (AWS) | MySQL | Mo
 
 ## Work History
 
+### PetPlace, Remote
+_Senior Web Engineer, 5/2025 – Present_
+
+* Plan an implement full-stack React Router 7 application
+
 ### Johnson Health Tech, Cottage Grove, WI
-_Senior Web Engineer, 10/2019 – Present_
+_Senior Web Engineer, 10/2019 – 5/2025_
 
 * Develop and maintain backend API applications using Node.js, Express, Typescript, and MongoDB.
 * Design and implement API integrations with third-party partners for login and workout assignment services.
