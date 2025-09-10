@@ -11,6 +11,8 @@ Several years ago I came across the following video. It was a keynote from a Rub
 
 {% youtube "https://www.youtube.com/watch?v=WpkDN78P884" %}
 
+[![UML Diagram](img/architecture-uml-2x.png)](/uploads/2015/12/architecture-uml.pdf)
+
 Watching this opened my eyes. The idea that the framework is a delivery mechanism and not your app was completely new to me. I had been working on an app that I built using [Kohana](https://kohanaframework.org/) which was getting really hard to maintain.
 
 I had never worked at a company with senior developers who talked about best practices or strategies for architecting applications. The idea of writing your application separate from the framework and interacting with it through use cases was foreign to me.
