@@ -1,0 +1,81 @@
+---
+permalink: /export.xml
+layout: false
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+  xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+  <title>{{ metadata.title }}</title>
+  <link>{{ metadata.url | addPathPrefixToFullUrl }}</link>
+  <description>{{ metadata.description }}</description>
+  <language>{{ metadata.language }}</language>
+  <wp:wxr_version>1.2</wp:wxr_version>
+  <wp:author>
+    <wp:author_login><![CDATA[{{ metadata.author.name | lower | replace(" ", "") }}]]></wp:author_login>
+    <wp:author_email><![CDATA[{{ metadata.author.email }}]]></wp:author_email>
+    <wp:author_display_name><![CDATA[{{ metadata.author.name }}]]></wp:author_display_name>
+    <wp:author_first_name><![CDATA[{{ metadata.author.givenName }}]]></wp:author_first_name>
+    <wp:author_last_name><![CDATA[{{ metadata.author.familyName }}]]></wp:author_last_name>
+  </wp:author>
+{%- set allItems = [] -%}
+{%- for post in collections.essays -%}
+  {%- set _ = allItems.push({post: post, category: "Essays", postType: "post"}) -%}
+{%- endfor -%}
+{%- for post in collections.notes -%}
+  {%- set _ = allItems.push({post: post, category: "Notes", postType: "page"}) -%}
+{%- endfor -%}
+{%- if collections.updates -%}
+{%- for post in collections.updates -%}
+  {%- set _ = allItems.push({post: post, category: "Updates", postType: "post"}) -%}
+{%- endfor -%}
+{%- endif -%}
+{%- for item in allItems -%}
+  {%- set post = item.post -%}
+  {%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.url) }}{% endset %}
+  <item>
+    <title>{{ post.data.title or "Update from " + post.date | readableDate("DDD") }}</title>
+    <link>{{ absolutePostUrl }}</link>
+    <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+    <dc:creator><![CDATA[{{ metadata.author.name }}]]></dc:creator>
+    <guid isPermaLink="true">{{ absolutePostUrl }}</guid>
+    <content:encoded><![CDATA[{% if item.category == "Essays" %}{{ post.content | transformWithHtmlBase(absolutePostUrl, post.url) | fixVideoEmbeds | fixImageUrls | fixImageSize | insertMore | safe }}{% else %}{{ post.content | transformWithHtmlBase(absolutePostUrl, post.url) | fixVideoEmbeds | fixImageUrls | fixImageSize | safe }}{% endif %}]]></content:encoded>
+    <excerpt:encoded><![CDATA[{{ post.content | striptags(true) | truncate(280) }}]]></excerpt:encoded>
+    <wp:post_date><![CDATA[{{ post.date | dateToWxr }}]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[{{ post.date | dateToWxr }}]]></wp:post_date_gmt>
+    <wp:post_name><![CDATA[{{ post.fileSlug | removeDate }}]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_type><![CDATA[{{ item.postType }}]]></wp:post_type>
+    <category domain="category" nicename="{{ item.category | lower }}"><![CDATA[{{ item.category }}]]></category>
+  </item>
+{%- endfor -%}
+{%- set seenImages = [] -%}
+{%- for item in allItems -%}
+  {%- set post = item.post -%}
+  {%- for imgUrl in post.content | extractAttachments(metadata.url, post.url) -%}
+    {%- if imgUrl not in seenImages -%}
+      {%- set _ = seenImages.push(imgUrl) -%}
+      {%- set imgFilename = imgUrl | basename -%}
+  <item>
+    <title>{{ imgFilename }}</title>
+    <link>{{ imgUrl }}</link>
+    <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+    <dc:creator><![CDATA[{{ metadata.author.name }}]]></dc:creator>
+    <guid isPermaLink="false">{{ imgUrl }}</guid>
+    <wp:post_date><![CDATA[{{ post.date | dateToWxr }}]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[{{ post.date | dateToWxr }}]]></wp:post_date_gmt>
+    <wp:post_name><![CDATA[{{ imgFilename }}]]></wp:post_name>
+    <wp:status><![CDATA[inherit]]></wp:status>
+    <wp:post_type><![CDATA[attachment]]></wp:post_type>
+    <wp:attachment_url><![CDATA[{{ imgUrl }}]]></wp:attachment_url>
+  </item>
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor %}
+</channel>
+</rss>

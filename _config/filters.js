@@ -51,6 +51,10 @@ export default function (eleventyConfig) {
     );
   });
 
+  eleventyConfig.addFilter('dateToWxr', dateObj => {
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-MM-dd HH:mm:ss');
+  });
+
   eleventyConfig.addFilter('dateToRfc822', value => {
     const date = new Date(value);
     const options = {
@@ -140,6 +144,103 @@ export default function (eleventyConfig) {
     } else {
       return content.slice(0, minItems);
     }
+  });
+
+  // Replace video embed iframes with original URLs for WordPress auto-embed
+  eleventyConfig.addFilter('fixVideoEmbeds', function (content) {
+    if (!content) return content;
+    return content.replace(
+      /<div class="embedVideo"><iframe src="([^"]+)"[^>]*><\/iframe><\/div>/g,
+      (_match, url) => {
+        // Convert youtube-nocookie embed URL back to standard watch URL
+        const ytMatch = url.match(
+          /youtube-nocookie\.com\/embed\/([^?]+)/,
+        );
+        if (ytMatch) {
+          return '\nhttps://www.youtube.com/watch?v=' + ytMatch[1] + '\n';
+        }
+        // Vimeo embed URLs are already in the right format
+        return '\n' + url + '\n';
+      },
+    );
+  });
+
+  // Add width="100%" to all img tags for proper sizing in WordPress
+  eleventyConfig.addFilter('fixImageSize', function (content) {
+    if (!content) return content;
+    return content.replace(/<img /g, '<img width="100%" ');
+  });
+
+  // Fix image URLs in content that were incorrectly resolved by transformWithHtmlBase
+  // e.g. /essays/some-slug/img/foo.png -> /essays/img/foo.png
+  eleventyConfig.addFilter('fixImageUrls', function (content) {
+    if (!content) return content;
+    return content.replace(
+      /(<img[^>]+src=["'])([^"']+)(["'])/g,
+      (_match, before, url, after) => {
+        // Fix URLs like https://base/essays/slug/img/file -> https://base/essays/img/file
+        const fixed = url.replace(
+          /^((?:https?:\/\/[^/]+)?\/[^/]+)\/[^/]+\/(img\/)/,
+          '$1/$2',
+        );
+        return before + fixed + after;
+      },
+    );
+  });
+
+  // Insert <!--more--> after the first paragraph
+  eleventyConfig.addFilter('insertMore', function (content) {
+    if (!content) return content;
+    const idx = content.indexOf('</p>');
+    if (idx === -1) return content;
+    const insertAt = idx + 4;
+    return content.slice(0, insertAt) + '\n<!--more-->' + content.slice(insertAt);
+  });
+
+  // Extract attachment URLs (images and linked files) from HTML content
+  eleventyConfig.addFilter('extractAttachments', function (content, baseUrl, postUrl) {
+    if (!content) return [];
+    const str = typeof content === 'object' && content.val ? content.val : String(content);
+    const urls = new Set();
+    const base = baseUrl ? baseUrl.replace(/\/$/, '') : '';
+    const fileExts = /\.(png|jpg|jpeg|gif|svg|webp|avif|pdf|mp3|mp4|zip|doc|docx)$/i;
+
+    // Extract img src URLs
+    const imgRegex = /<img[^>]+src=["']([^"']+)["']/g;
+    let match;
+    while ((match = imgRegex.exec(str)) !== null) {
+      const url = match[1];
+      if (url.startsWith('http')) {
+        urls.add(url);
+      } else if (url.startsWith('/')) {
+        urls.add(base + url);
+      } else if (postUrl) {
+        const parts = postUrl.split('/').filter(Boolean);
+        const topDir = parts.length > 0 ? '/' + parts[0] + '/' : '/';
+        urls.add(base + topDir + url);
+      }
+    }
+
+    // Extract href URLs that point to files (not web pages)
+    const hrefRegex = /<a[^>]+href=["']([^"']+)["']/g;
+    while ((match = hrefRegex.exec(str)) !== null) {
+      const url = match[1];
+      if (fileExts.test(url)) {
+        if (url.startsWith('http')) {
+          urls.add(url);
+        } else if (url.startsWith('/')) {
+          urls.add(base + url);
+        }
+      }
+    }
+
+    return [...urls];
+  });
+
+  // Get filename from a URL/path
+  eleventyConfig.addFilter('basename', function (url) {
+    if (!url) return '';
+    return url.split('/').pop();
   });
 
   // Get current year
