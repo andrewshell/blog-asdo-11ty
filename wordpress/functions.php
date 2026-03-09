@@ -147,5 +147,38 @@ function asdo_feed_link($url, $feed) {
 }
 add_filter('feed_link', 'asdo_feed_link', 10, 2);
 
+// Shortcode: [embed_post slug="post-slug"]
+// Embeds the content of a post inline, optionally with its title as an h2.
+// Mirrors the 11ty {% embed %} shortcode used on the /now page.
+function asdo_embed_post_shortcode($atts) {
+    $atts = shortcode_atts(array(
+        'slug' => '',
+    ), $atts, 'embed_post');
+
+    if (empty($atts['slug'])) {
+        return '<!-- embed_post: no slug provided -->';
+    }
+
+    $posts = get_posts(array(
+        'name'           => $atts['slug'],
+        'post_type'      => 'post',
+        'post_status'    => 'publish',
+        'posts_per_page' => 1,
+    ));
+
+    if (empty($posts)) {
+        return '<!-- embed_post: post not found: ' . esc_html($atts['slug']) . ' -->';
+    }
+
+    $post = $posts[0];
+    $content = apply_filters('the_content', $post->post_content);
+    $output = '';
+
+    $output .= $content;
+
+    return $output;
+}
+add_shortcode('embed_post', 'asdo_embed_post_shortcode');
+
 // Include custom fields
 require_once get_template_directory() . '/inc/custom-fields.php';
